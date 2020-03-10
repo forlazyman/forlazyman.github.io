@@ -1,0 +1,563 @@
+
+    <!doctype html>
+<html lang="en" data-dpr="1" style="font-size: 34px;">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta content="yes" name="apple-mobile-web-app-capable"> 
+  <meta content="yes" name="apple-touch-fullscreen"> 
+  <meta content="telephone=no,email=no" name="format-detection"> 
+  <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"> 
+  <title>伯克森悖论</title> 
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+  <script src="../js/main.js"></script>
+
+  <script type="text/javascript" id="viewport">
+        /* eslint-disable */
+        var APPVersion=0;!function(J,I){function H(){var a=E.getBoundingClientRect().width;if(J.navigator.appVersion.match(/iphone/gi)&&a<500){a=a*B}a/B>540&&(a=540*B);var d=a/10;E.style.fontSize=d+"px",z.rem=J.rem=d}var G,F=J.document,E=F.documentElement,D=F.querySelector('meta[name="viewport"]'),C=F.querySelector('meta[name="flexible"]'),B=0,A=0,z=I.flexible||(I.flexible={});if(D){console.warn("将根据已有的meta标签来设置缩放比例");var y=D.getAttribute("content").match(/initial\-scale=([\d\.]+)/);y&&(A=parseFloat(y[1]),B=parseInt(1/A))}else{if(C){var x=C.getAttribute("content");if(x){var w=x.match(/initial\-dpr=([\d\.]+)/),v=x.match(/maximum\-dpr=([\d\.]+)/);w&&(B=parseFloat(w[1]),A=parseFloat((1/B).toFixed(2))),v&&(B=parseFloat(v[1]),A=parseFloat((1/B).toFixed(2)))}}}if(!B&&!A){var u=(J.navigator.appVersion.match(/android/gi),J.navigator.appVersion.match(/iphone/gi)),t=J.devicePixelRatio;B=u?t>=3&&(!B||B>=3)?3:t>=2&&(!B||B>=2)?2:1:1,A=1/B}if(E.setAttribute("data-dpr",B),!D){if(D=F.createElement("meta"),D.setAttribute("name","viewport"),D.setAttribute("content","initial-scale="+A+", maximum-scale="+A+", minimum-scale="+A+", user-scalable=no"),E.firstElementChild){E.firstElementChild.appendChild(D)}else{var s=F.createElement("div");s.appendChild(D),F.write(s.innerHTML)}}J.addEventListener("resize",function(){clearTimeout(G),G=setTimeout(H,300)},!1),J.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(G),G=setTimeout(H,300))},!1),"complete"===F.readyState?F.body.style.fontSize=12*B+"px":F.addEventListener("DOMContentLoaded",function(){F.body.style.fontSize=12*B+"px"},!1),H(),z.dpr=J.dpr=B,z.refreshRem=H,z.rem2px=function(d){var c=parseFloat(d)*this.rem;return"string"==typeof d&&d.match(/rem$/)&&(c+="px"),c},z.px2rem=function(d){var c=parseFloat(d)/this.rem;return"string"==typeof d&&d.match(/px$/)&&(c+="rem"),c}}(window,window.lib||(window.lib={}));
+    </script> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-iget-rush-node/dist/css/course.513f06c0faf6793849ce8f64a0627f0d.css"> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-editor/dist/preview.20aa73124b557d5b072d.css"> 
+ </head> 
+ <body style="font-size: 14px;"> 
+    <img style="max-width: 100%" src="https://piccdn.igetget.com/img/202002/29/202002292141278731527614.jpeg" alt="">
+  <div class="preview"> 
+   <main id="article-main" data-type="22"> 
+    <article class="article" id="preview-article"> 
+     <h1 class="title name-slFosOL50ZH3FiY08C0iemh10biJsJ102Np3xhSoYKeQEt0uOIABk5WrZbt8KMZa">伯克森悖论</h1> 
+     <div class="author"> 
+            <img data-type="author" src="https://piccdn.igetget.com/img/202002/29/202002292204266526316645.jpeg"> 
+      <p>万维钢</p> 
+          <span class="time">2020-03-10</span> 
+     </div> 
+     <div class="line"></div> 
+     <div class="article-body"> 
+                <div id="1556543749421" class="player-v2"> 
+       <div class="player-wrap"> 
+        <button class="i-playing"></button> 
+        <div class="progress-group"> 
+         <div class="audio-title">
+           伯克森悖论 
+         </div> 
+         <input id="range25936" type="range" min="0" max="100" value="0" data-current="0:00" data-max="13:07" data-total="787"> 
+        </div> 
+        <audio id="player25936" title="block.audio.title" src="http://igetoss.cdn.igetget.com/aac/202002/29/48000_202002292106369213869522.m4a" preload="" cover="伯克森悖论" cover-img="伯克森悖论"></audio> 
+
+       </div> 
+       <div class="player-tips">
+         | 转述：怀沙 | 
+       </div> 
+      </div>
+          <div class="text">
+       <p><p>这一讲咱们说一个不怎么著名，但是应用场景很广的统计学现象，叫“伯克森悖论（Berkson’s Paradox）”。你可能没听说过这个名词，但是你肯定听说过下面这样的说法 —— </p><p>关蓉蓉是一位青年女性，有过几次恋爱经历但是都没成。这一天，朋友给她介绍了一位各方面条件都很好的男子。可是关蓉蓉一看照片就拒绝了。关蓉蓉说：“我想清楚了，我要找一位性格好的暖男，可是这个人太帅了。以我自己的经验和对周围人的观察而论，长得帅的男人性格都很差。”</p><p>秦奋是研究所的业务骨干，能力一流但是有点木讷。这一次所里评职称，秦奋给全所作了个报告，但是发挥的不是很好。所长徐治功说：“我们用人要用长板，不能因为报告没讲好就让秦奋落选。以我这么多年的经验而论，不善言辞恰恰是智商高的特征。”</p><p>大学生邓豫突然对文学产生了兴趣，他决心发奋读书，通过经历虚构的故事迅速领悟人生的智慧。他向一位老师请教应该读哪些人的作品。老师说：“你应该多读一些小众的作家。以我读过这么多书的经验而论，像村上春树这种特别流行的都没啥深度。”</p><p><font>伯克森悖论是说，哪怕上面这些人的经验都是真的，他们从经验中总结出来的结论，也很可能是错的。</font></p><p> </p><p>理解这个悖论能消除你的一些偏见。咱们先说几个常见的，再说一个高级的应用。</p></p>
+      </div>
+                <div class="text">
+       <p><p>我们要借助“相关性”这个统计概念。经济学家曾经做过很多次的统计，长得漂亮的人的收入会更高一些。那么我们可以说，“漂亮”和“收入高”这两个特性之间存在一个“正相关”。相关性只是一种大致的关系，有些长得不漂亮的人收入也很高，但是在统计意义上，以社会总体而论，有这么一个趋势。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202002/29/202002291518115026293615.png">
+      </figure>
+              <div class="text">
+       <p><p>像智商和学习成绩，性格外向和受到关注，这些都是正相关。反过来说，身高和体操之间可能存在一个“负相关”，因为身高太高的人不容易做出高难度的体操动作。</p><p>那么关蓉蓉说的就是，“长得帅”和“性格好”之间，存在一个负相关。你在直觉上可能认为她说的有道理。你可能设想，长得帅的男子从小被宠着，肯定惯坏了；而长得不帅的男子从小受打击，有利于磨炼好性格。</p><p> </p><p><font>但是你这个设想没道理。</font></p></p>
+      </div>
+                <div class="text">
+       <p><p>我们干脆假设，长得帅不帅跟性格好不好完全没关系。你看看在这样一个世界里，关蓉蓉会观察到什么。</p><p> </p><p>下面这张图 [1] 的横坐标代表长得帅，纵坐标代表性格好。图中每一个点代表一个青年男子。这些点的位置完全没有任何规律，相关系数 = 0。&nbsp;</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202002/29/202002291519266137111381.png">
+      </figure>
+              <div class="text">
+       <p><p>如果关蓉蓉考察所有这些男子，她一定不会认为长得帅的人性格不好。但关蓉蓉看到的不是这张图。长得特别丑或者性格特别差的人根本就不会进入她的视野。关蓉蓉考虑的对象、关蓉蓉关注的案例，都是长相和性格至少要有一定水平的人，也就是</p><p>长相 + 性格 &gt; 某个阈值</p><p> </p><p>所以关蓉蓉看到的只是图中右上角那个三角区中的人 ——</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202002/29/202002291520016620371667.png">
+      </figure>
+              <div class="text">
+       <p><p>这些人突然有了个三角形的趋势！因为三角形斜边上的两个角的存在，长得越帅的人似乎越容易性格比较差；性格越好的人似乎越容易长得不帅。性格和长相之间出现一个取舍。这正是负相关。</p><p>因为关蓉蓉只能看到这个三角形，所以她据此推测，一定有一种力量在摧毁帅哥的性格，也许他们从小被惯坏了。</p><p>可是这些点都是我们设计的！你一开始已经知道，这些点代表的性格和长相没关系！我们根本没安排什么摧毁性格的神秘力量。</p><p><b>关蓉蓉的统计不全面。</b>要想进入关蓉蓉的法眼，长相和性格都不能太低。有些人长相只能算说得过去，但是靠性格特别好也入选了；有些人性格属于勉强还行，主要是凭长相入选 —— 因为这两种人的存在，使得关蓉蓉感觉长相好的人受到了性格的摧残，关蓉蓉决心远离长相好的人。</p><p>可事实上，如果你选定图中长相得高分的一列点 —— 比如只看“长相 = 0.9” 的人 —— 你会发现性格出现在三角区中红色线段上任何一点的可能性是完全一样的。看到别人长得帅就认为他性格不好，就会错过长得又帅、性格又好的人。</p><p> </p><p>当然我们设计的这些点并不能代表真实世界。真实世界中也许真的有“长得帅的人被惯坏了”这个可能性，也许没有 —— 但是我们证明了，关蓉蓉的观测<b><font>*并不足以推出*</font></b>那样的结论，关蓉蓉对帅哥的歧视<b><font>*没道理*</font></b>。</p></p>
+      </div>
+                <div class="text">
+       <p><p>伯克森悖论的常见形式，就是如果你对两个特性有一个总体的阈值要求 —— 这两个特性哪怕没关系，甚至哪怕原本可能还是正相关 —— 在你考察的那个范围内，也能让你感觉它们有负的相关性。</p><p>为什么很多人觉得学术水平高的人都不善言辞？跟关蓉蓉选男朋友是同样的道理。一个人要想能进入学术界，业务能力和说话能力都得有才行，而且这两个能力能互相弥补。既然已经进入了研究所，那就必然有的人水平高而不善言辞，有的人能说但是水平不算太高。但你不能说既然这个人讲话能力一般，他水平就肯定极高 —— 也可能他两项加起来也只是勉强过线而已。</p><p>一个作家要被人所知，要么他的作品特别有深度，让评论家喜欢，要么他的作品特别通俗，让大众喜欢 —— 但这并不意味着流行的就肯定没深度，更不意味着作家只要降低深度就能流行。事实上有很多号称的严肃文学作品，虽然不流行，但是也没深度。</p><p> </p><p>像这样的例子有很多。很多人认为漂亮的女生都不聪明，颜值高的演员都没演技，有特长的人必定有明显短板，家里条件好的大学生必定不用功，这些都是伯克森悖论导致的偏见。</p></p>
+      </div>
+                <div class="text">
+       <p><p><b>伯克森悖论和人们熟悉的“幸存者偏差”都属于“选择偏差”，出错的根本原因都是你统计的数据不够全面。</b>在统计研究中，你稍不小心，就会犯伯克森悖论的错误。</p><p>有一个真实的例子是这样的 [2]。有人统计了因为出车祸而被送进医院急诊室的摩托车手，发现戴头盔的人所受的伤，反而比不戴头盔的人更重。难道说因为戴头盔的人开车更大胆，所以更容易受重伤吗？不一定。</p><p>事实是很多戴头盔的人因为头盔的保护，而只受了轻伤，根本就无需进急诊室。你考察的其实是“身体受到的保护”和“身体受到的伤害”这两个因素 —— 保护必须足够小，伤害必须足够大，才能让这个人进急诊室 —— 这跟关蓉蓉关注的“长相 + 性格”是一个道理，所以你看到了不戴头盔和受重伤的假的负相关。</p><p>我听到一个有意思的例子来自中国的金融业 [3]。如果你在银行贷款信息中比较国有企业和民营企业，你会发现民企的效率比国企高。有的学者就把这个结论当真了。但事实上“能拿到银行贷款”是个很强的阈值，企业的“效率”和“风险担保”这两个因素必须都很好才行。国企有国家的隐性担保而民企没有，所以民企的效率必须得高才能拿到贷款 —— 那个学者没有统计那些拿不到贷款的民企。</p><p> </p><p>最后咱们再说一个有点不容易看出来的例子：高分低能。</p></p>
+      </div>
+                <div class="text">
+       <p><p>Google 是个非常善于使用统计方法的公司，经常弄个“机器学习”之类。大概是 2015 年，Google 把机器学习用在了自己身上，它想看看从哪些因素能判断一个员工是不是个能干的好员工。Google 经常会招一些各大编程竞赛的获奖者。而机器学习发现，在编程竞赛中得过奖，恰恰是一个说明这个员工工作能力*不行*的因素。</p><p>这不就是咱们中国人常说的“高分低能”吗？Google 自己也没想明白这是为什么 [4]，它猜测可能是因为竞赛优胜者更善于快速解决问题，未必适合长期的项目。</p><p>但是伯克森悖论可以完美解释这个现象，高分低能很可能只是错觉。</p><p> </p><p>一个科技博客的博主，埃里克·伯恩哈德森（Erik Bernhardsson），是这么分析的 [5]。如果你考察世界上所有的人，显然编程比赛成绩和实际编程能力是绝对的正相关，能在比赛中拿奖说明你必定是个编程高手。在理想情况下，Google 招人应该只看实际能力，而不管这个人是不是获奖者，那么它招到的人应该是下面这张图中红色的那些点 ——&nbsp;</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202002/29/202002291541115198157048.jpg">
+      </figure>
+              <div class="text">
+       <p><p>图中横坐标代表实际能力，纵坐标代表比赛成绩，每一个点代表一个程序员。Google 的理想招法是在实际能力的某一个阈值上竖着切一刀，只要右边那些点。而对这些红色点来说，比赛成绩和实际能力仍然是正相关。你不看比赛成绩招人也能招到很多比赛成绩好的人，因为比赛真的能反映水平，这没问题。</p><p> </p><p>那为什么 Google 招到的人中，比赛成绩和实际能力是负相关的呢？因为 Google 在招一个人之前没有办法精确知道这个人的实际能力，它不得不把比赛成绩作为一项重要参考指标，所以它招人其实是像下面这张图这样招的 ——&nbsp;</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202002/29/202002291550335373048778.jpg">
+      </figure>
+              <div class="text">
+       <p><p>就好像关蓉蓉考察潜在交往对象一样，Google 选择的是分布图中右上角的那些人。而对那些人来说，比赛成绩和实际能力有个假的负相关，典型的伯克森悖论。</p><p>出现这个现象的根本原因是能进 Google 的已经都是优秀程序员。你拿优秀的人和优秀的人比，因为其中有些人是靠比赛成绩突出而显得优秀，所以你会产生比赛成绩好反而能力弱的感觉。其实就算根本没有一个“比赛能力会削弱实际能力”的机制，仅仅是统计分布，就足以让你产生这个感觉了。</p><p> </p><p>所以“高分低能”是一个合法的感觉，但是是个偏见。当你面对一个成绩特别出色的人才的时候，不应该假设他实际能力不行。</p></p>
+      </div>
+                <div class="text">
+       <p><p>了解了伯克森悖论，下一次再听说涉及到能力、人品、长相、运气的各种“负相关”论断，你都应该保持戒心。</p><p>生活中有很多这样的民间智慧，比如什么“寒门出贵子”，什么“为富不仁”，什么“仗义每从屠狗辈，负心多是读书人”，什么“杀人放火金腰带，修桥铺路无尸骸”，都十分可疑。</p><p> </p><p><font>平庸的寒门子弟、遵纪守法的富人、没有英雄壮举的屠狗辈、忠诚的读书人和安享晚年的好心人，他们的新闻阈值太低，他们的事迹没有四海传扬。你必须把这些人都统计上，才能得出正确的结论。</font></p></p>
+      </div>
+              <div class="text">
+       <p><p><b>注释</b></p><p><b>[1] 图片来自 Chris Wallace, Berkson's paradox Or, the danger of conditioning on a collider.&nbsp;https://observablehq.com/@cjwallace/berksons-paradox&nbsp;Dec 5, 2019. 第二张图中的红色线段是我画的。</b></p><p><b>[2]&nbsp;J. D. Woodfine and D. A. Redelmeier,&nbsp;Berkson's paradox in medical care, Journal of Internal Medicine 16 March 2015.</b></p><p><b>[3] 可能出自“数据seminar”，《什么是「伯克森悖论」，这种现象在生活中有什么影响？》，https://www.zhihu.com/question/317966300/answer/968386116&nbsp;但原始出处已经不可考。</b></p><p><b>[4]&nbsp;Peter,&nbsp;Being good at programming competitions correlates negatively with being good on the job,&nbsp;https://catonmat.net/programming-competitions-work-performance</b></p><p><b>[5]&nbsp;Erik Bernhardsson,&nbsp;Norvig's claim that programming competitions correlate negatively with being good on the job,&nbsp;erikbern.com,&nbsp;2015-04-07.&nbsp;</b></p></p>
+      </div>
+                
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202002/29/202002291554092096514756.jpg">
+      </figure>
+        
+     </div> 
+    </article> 
+   </main> 
+  </div>  
+
+  
+<style>
+    .weui-tab {
+        height: 54px !important;
+    }
+    .ycolor {
+        color: #ffa42f;
+    }
+</style>
+  <div class="comments">
+    <div class="comments-color"></div>
+    <div class="comments-head">
+        <span>用户留言</span>
+    </div>
+    <ul class="comments-list" id="comments-list">
+
+                    <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.igetget.com/posts/avatar/2019-03-06/928271-1551840738.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">大印</span>
+                    <span class="comments-vote"><b>405赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    这是不是类似《为什么》里说的，在判断A和C的因果关系时，如果存在A=>B<=C这样碰撞关系，那么你去控制B，反而会的得出虚假的AC之间的因果关系。                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">正是！这是专业的说法。</dd>
+                    <dd class="comments-time">2020-03-01</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/113005-1506758683.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">戚志光</span>
+                    <span class="comments-vote"><b>94赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    伯克森悖论，绝对是值得记住的知识。
+我看了万老师举的例子，觉得和幸存者偏误有点像，但是还不太一样。
+两者在取样的特点上有差别，但是都有以偏概全的问题。
+万sir，您说过在高水平的竞争领域，大家的努力程度都很好，最终拼的还是天赋和运气。那这里会不会也存在伯克森悖论呢？                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">我想不是，努力、天赋和运气之间，并没有负相关的印象。</dd>
+                    <dd class="comments-time">2020-03-01</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/1822427-1493043202.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">刘一玮</span>
+                    <span class="comments-vote"><b>78赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    我们面对如此复杂的世界，大多数需要快速决策。双鸟在林，不如一鸟在手。如果一个因素是确定的，另一个因素是不确定的，我们的理性选择应该是加大确定因素的权重吧。比如，颜值好是确定的，性格好不好是不确定的，当然应该果断选入。万一找一个颜值差性格差的不是更惨?😂                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">这个精神只是说要再考察一下，值得再考察一下，应该再考察一下，再给个机会。。。</dd>
+                    <dd class="comments-time">2020-03-01</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/iget/avatar/default.png" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">漂移的射手</span>
+                    <span class="comments-vote"><b>48赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师好，我对“摩托车手保护必须足够小，伤害必须足够大，才能让这个人进急诊室 ”这里有疑惑：我觉得进急症室的直接考量只有车手受到的伤害。如果两个车手受到的伤害相同，那是否进急症室与保护多少就是无关的。保护多少先是影响伤害的多少，再影响是否能进急症室。那这么说这个例子与性格+长相的道理似乎不同。                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">严格地说应该是 保护小+事故冲击程度大，但是那篇论文没有统计事故冲击程度，所以。。。</dd>
+                    <dd class="comments-time">2020-03-01</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-02-29/1796815984400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">小破</span>
+                    <span class="comments-vote"><b>34赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    突然就想到一个事情，中国自古就有风水面相杂学，我小时候对这些感兴趣，那时很多人说不科学，但随着年龄的增长我却对相面有所感悟，包括我从一些书上看到，说相面也是有一些科学解释的，比如一个人从小长得仪表堂堂，周围的大人看到他，就会说这个小孩长得一表人才，将来肯定是个正直的人，说的人多了，慢慢的就会对小孩有潜移默化的作用，类似窈窕淑女效应。那么面相最早也是人们根据经验推测出来的，会不会也有伯克森悖论？但是人们越信这个结论，会影响越多的人，反而加强了这个结论，会不会陷入一个循环的增强回路？                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">需要证据！</dd>
+                    <dd class="comments-time">2020-03-01</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/954048-1529046724.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">老安</span>
+                    <span class="comments-vote"><b>112赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师好，我上中学时，就一直认为练体育的都是差学生，学习成绩好的体育都不怎么样，也就是说学习成绩与体育成绩负相关。今天才知道这是个伯克森悖论。
+因为学习成绩好的学生可能只是体育成绩一般，但跟练体育的特长生比起来自然差一截子。而体育特长生能招进来，肯定是凭借着体育加了分的，学习成绩垫底也很正常，跟成绩好的学生比起来自然悬殊很大。其实，这是招生政策导致的貌似相关而已，真正的学习和体育两项成绩只是两个无关的变量。                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/157892-1501472942.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">Allelujah 朱磊</span>
+                    <span class="comments-vote"><b>93赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    数据分析本身有几条可供参考的逻辑：
+
+1.通过数据得出的结论，无法将相关性推导为因果性；
+
+2.通过有限的数据，无法在多个因素间建立相关性；
+
+3.通过数据本身，无法确认相关性的方向。
+
+即使能够收集到全局样本，由此推导出的多个因素间的相关性也仅能作为参考，并不能直接证实因果性。
+
+也正因如此，我们在生活中的有限观察，充其量不过是局部的样本而已，连普遍意义上的相关性都没法准确构建，那些经验更多只是由幸存者偏差构建出的伯克森悖论。
+
+应对主观判断心存谦卑，常对客观世界心存敬畏。                </dd>
+                <dd class="comments-time">2020-02-29                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/1526368-1545985560.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">Stone</span>
+                    <span class="comments-vote"><b>81赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    伯克森悖论还有很多，比如农村的孩子更能吃苦，悠远宁静的乡村民风更淳朴，人群聚集成大城市以后生活成本更高
+
+媒体报道比较多的是白手起家的生意人，有过几起几落的经历，最终逆袭成功，这让他们更有故事性，有更多的反转，也更容易让人记住。事实上有更多的顺风顺水的生意人，媒体无法报导，也无从报导，那一定很乏味
+
+隧道比普通高速路要很容易出车祸，飞机比火车汽车更危险，历史上打胜仗的都是要靠奇谋巧计。事实上隧道里的车祸更容易让人记住，印象加深，我们逐渐都形成了隧道里更容易出货的认识偏差。
+
+报导飞机失事比火车，汽车更容易有人阅读，而平淡无奇的。历史上以少胜多的战役案例更容易被人拿来讲解，而事实上用常规方法，真正解决问题的战役更多。以多胜少的战役，靠实力碾压获胜的战役更多
+
+伯克森悖论在身边的案例还很多，知道了这个悖论以后，能帮助我们看到更多的真实，得出更正确的结论，做出更有价值的行为                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/11742343-1541611513.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">闪闪发光的妻子</span>
+                    <span class="comments-vote"><b>54赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    想起李文亮医生过世全民愤慨思痛潮，很多人都特别难过，觉得好人好像真的没有好报，用伯克森悖论来说，只是那些拥有好报的好人，不符合故事情节曲折性，所以没有被大肆传播，不代表好人真的没有好报。先不说“报”的说法是否存在，即使“好人无好报”真的成立，好人也不会因为无好报而改变初衷变成自己不喜欢的样子。
+
+这个世上，许多我们以为很有道理的思想指南，想引导我们认可一个理论的人，往往统计数据很难全面。我们以为是世间很多的定论指引我们，其实，真正的智者，带着批判的思维去学习去思考去接纳，包容两个完全不同的想法同时存在于我们的脑海，从来不是坏事。
+
+不要轻易交属自己的信任感给任何人，更不要轻易的被人动摇价值观，包括得到，包括万Sir。用最大的热忱欢迎精英日课归来，平静的湖水开始荡起波澜。
+
+闪闪发光的妻子：努力努力再努力！                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-03-05/17983f6244400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">露奇露奇</span>
+                    <span class="comments-vote"><b>47赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    从纯经验和思辩的角度，我也是反对“帅哥性格差，寒门出贵子、为富不仁”等这种说法的。
+
+帅哥一般会被友好对待，心理学告诉我们受到友好对待的人一般也会好好对待别人。
+
+寒门子弟发现天赋的机会更少，为了生计更容易陷入管窥效应的怪圈。
+
+富人不仁难道穷人就仁？那为啥人道灾难都是在最穷的时候发生？有钱说到底只是为个体增加了一些可选项，一些试错机会，甚至不开心的时候可以任性的向世界比个中指，其他什么也不能说明。
+
+当然，万老师总是给我们提供严密无可辩驳的数学逻辑，仿佛为漫画的勾线稿涂上阴影，整幅图瞬间生动立体起来。
+
+                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2019-11-29/1778038344400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">晓曦</span>
+                    <span class="comments-vote"><b>45赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师这堂课太精彩了。但关于进急诊室戴头盔的人受伤反倒比较重这点，除了因为戴头盔的人有的受伤比较轻根本不用进急诊室之外，还有一种可能性是- 不戴头盔的人更容易当场死亡因此也不会被送进急诊室。
+    
+     这个相关性被万老师成为“假”的，是因为你不能把它当成因果关系，而去选择不戴头盔。但这些相关性往往在预测模型中是有用的。比如，如果我们想在急诊室中建立一个人工智能预测模型，自动预测病人的伤情严重程度来进行分流和设立优先次序，那么病人戴不戴头盔也是一个重要的因子，可以考虑放到模型中。
+     
+     同样的，如果谷歌想设立一个模型看哪些员工更需要进行培训来进一步提高能力，那么这个模型中就可以考虑包括各大编程竞赛获奖这个因子，即使它和能力之间没有因果关系。但这些模型都必须持续演化。比如如果谷歌将来改变/提升了招聘方法和阈值，那么这个模型也要随之调整。                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.igetget.com/posts/avatar/2019-03-28/324361-1553707415.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">强Sean</span>
+                    <span class="comments-vote"><b>32赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    三个常见的例子:
+
+1.学习成绩较好的孩子，运动能力差，属于“书虫”；体育场上的“霸主”们，学习成绩一般都较差。
+
+2.社交能力强的人，专业素养低，因为人们容易认为他们把精力都放在搞关系；专业素养强的人，社交能力弱，因为人们容易认为他们只顾着埋头干活，不擅长表达。
+
+ 3.不少人认为，小鲜肉的演技都不怎么样。上次看演员类的综艺节目，连知名导演都对“小鲜肉”存在这种脸谱化的认知。
+
+最后提醒:眼见不一定为实，我们都该学点统计学。不知道万老师有没有开讲统计学的计划？                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-02-21/1793c38104400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">成洁getit</span>
+                    <span class="comments-vote"><b>29赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    作为一个混迹饭圈几十年的颜粉要喊：我家哥哥就是又帅又性格好！好的~这个也是伯克森悖论~^_^
+
+我觉得伯克森悖论里有相关性不能当作因果性的问题，甚至深入分析发现这个相关性也是“伪相关性”。觉得有些悲哀的是，这是很多时候都发生在我身上的判断和结论。比如工作中经常听到年轻同事抱怨：这次又让写往东好了，上周还大力表扬往西呢。殊不知领导两个看似矛盾的判断，出发点根本与“东”和“西”都无关。
+
+可能要甩锅一下媒体，或者更深层次的只关注新鲜事物的大脑，人咬狗才是新闻的段子在这个最浅层级可以轻易识别，一旦改头换面披上华丽外衣可能就被迷惑了。
+
+但我还想借此分享最近的一个小思考：脑中应该尽量多思考不同的案例多取样本来避免犯今天学习到的这个伯克森悖论，但表达观点和采取行动还是要有一个鲜明的判断，虽然它一定是针对情景的片面结论。就之前万老师指出的，这是一种承担责任。                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/13475403-1538210282.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">一杯白开水</span>
+                    <span class="comments-vote"><b>27赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    今天第一课收获很大。除了伯克森悖论，还验证了一个小技巧——当你要阐述某件事理的时候，合适的图更容易让人理解。
+
+中学的函数，一般就有2种解法，代数解法和几何解法。我至今都在推荐人们使用几何解法，也许并不会比代数解法更快，但是当你把函数在定义域内的整体趋势画出来后，不容易犯错，不容易漏答。
+
+还要感谢万老师第一季推荐的学点computing，也感谢万老师第二季推荐的黑客思维，给我的生活带来了很大的乐趣。
+
+认真地边听边读，太过怀念，很高兴重逢。                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/33484497-1518785458.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">刘溜溜</span>
+                    <span class="comments-vote"><b>27赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    所以是否可以将“伯克森悖论”理解为：一个人通过“幸存者偏差”挑选出了大样本当中的小样本，然后又再一次因为“幸存者偏差”，居然找到了两个要素之间的假的负相关，最终造成了一定的偏见，并且还认为自己发现了真理。
+
+我想了想自己，其实也经常会犯“伯克森悖论”这样的错误，而当时我一定不会意识到自己是犯错的，这样做确实挺节省思考时间和认知成本的。不过我现在也经常能意识到我自己犯这样的错误，会提醒自己是不是因为“幸存者偏差”而错过了真相。
+
+这应该是我的进步，而通过这节课，我又知道了“伯克森悖论”，今后就更能提醒自己，我所谓的真相真的是真相吗？同时，如果我发现别人犯了这样的错，我要么去提醒对方，要么就提醒自己别被诓进去了……                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-09-12/175e7e7404400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">骆羁骆骊</span>
+                    <span class="comments-vote"><b>26赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    我也曾经认为村上春树的作品没有深度，既看不到当下人的精神困境，也看不到民族性的思想结晶，至于世界性，好像差很多意思。
+我保持着这份看法，不知不觉地看了三遍《刺杀骑士团长》，对那一段主人公穿越理念的世界，念念不忘。不可否认，他写的很清楚，才显得没深度，这也是一种水准，是一种平静湖面下涌动的暗流。
+说实话，成为自己领域的村上春树，难道不是一种挑战吗？                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2019-12-16/177ddc4a84400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">爱丽娜</span>
+                    <span class="comments-vote"><b>23赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师借助“相关性”这个统计概念有效论证了"关蓉蓉的观测*并不足以推出*那样的结论，关蓉蓉对帅哥的歧视*没道理*"。这诱发了我的另类角度去反思~姑且称之为"相对性"的潜层心理障碍。
+
+关蓉蓉们之所以产生伯克森悖论这样的"帅哥歧视"，原因很可能远远不止缺乏统计学概念这么高大上。这种钻牛角尖的人，不要说让他们去客观统计一下，就是请求他们关注一下统计学数据都很难，因为他们缺少逻辑思维，甚至有科学障碍。形成他们特有的以偏概全(在他们自己，则是全知全能)认知模式的动力，应该不是数学理论，而是心理学。就是说他们会用自己的强硬偏执去校正世界呈现出的客观模样。与他们攀谈，往往会自讨没趣，最后大家不欢而散。
+
+这些振振有词的关蓉蓉们似乎存在着他们自认为不二真理的一刀切理论: 叉子哲学~见到好东西就恶评就打叉！见到美的就丑化就打叉！如此方能显出我的力量！
+
+打叉行为背后的原因是自我辩解，自我开脱和自我保护~一种更深层的伯克森悖论: 指鹿为马，树立权威。另一种版本的东施效颦，化了浓妆的无知者无畏。
+
+这些关蓉蓉们往往自己长得丑，起码是不智慧不漂亮，据此就简单粗暴的否定美女帅哥的价值，用以证明自身的价值~虽然我长得丑但我活得好，你长得美也没有用，反正我就是嫌弃你配不上我；既然你水平高，就一定木讷，不如我能言善辩；你那么有特长，一定有不可告人的短板，反正我就是不比你强也绝对不比你差多少……
+
+关蓉蓉们用一种莫须有的罪名强加给那些突出的杰出的胜出的优者，将其妖魔化，用这种通过打叉自我营造的假象，极大的安慰了自己脆弱的心灵，甚至推出了让自己满意的结论: 大家都说他们好，我才不稀罕呢。
+
+这些关蓉蓉们虽然没有大数据的支撑，却有着悖论浇灌的真理: 认可别人的美，等于是认可自己的丑；否认了别人的美，等于是否认了自己的丑。因此他们推出的结论实际与他人他事无关，反倒是与自我评价有关。高谈阔论的背后，是引起他人对自我关注的欲求。
+
+总结一下，正常人会关注统计学常识，努力推出不偏不倚的结论，比如说因为a和b，所以c。关蓉蓉们则蔑视统计学等科学常识，努力推出让人张口结舌的结论，比如说因为a和z，所以m。专门把风马牛不相及的二者，捆绑为必然关系。想想看，其实他们是可怜人。
+
+说到底，我是关蓉蓉同桌，拿她没办法…                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-03-09/17998961c4400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">呆子ing🥰</span>
+                    <span class="comments-vote"><b>22赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    就像我听过一句话“男生爱一个结婚的女子是深情，女生爱一个结婚的男子是自贱”不论男女生。
+因为这就是一个偏见，不然也没有那么多的校园暴力。
+（小学生视界，无意义的啰嗦一下。）                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/18136725-1531990901.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">牛牛的Annie</span>
+                    <span class="comments-vote"><b>21赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    看过一个说法，讲的是“一件事情之所以成为新闻，就是它不常发生。”
+
+如果我们只是靠着互联网上难辨真伪的信息来作为决策依据，做出错误判断的可能性自然会大大提升。
+
+发现没？我在说上面这些“难辨真伪”“做出错误判断”的时候，其实也是一种主观的臆断，是一种“选择偏差”。
+
+实际生活中，不管是考察一个人还是一件事，想办法多了解，扩大样本量是个很好的办法。但是，如果你足够清楚自己想要的是啥，找个长得帅脾气差，或者长得一般但脾气好的人，也没啥。
+
+毕竟，脾气好坏，长得美丑，都不能保证一定是自己的那棵菜，而且对自己足够好哇。
+
+多维度判断，尽早锁定目标，有时，也蛮好。                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-01-02/17834f6a84400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">吉林雀园</span>
+                    <span class="comments-vote"><b>21赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    还有一个很好的例子，就是说“读书无用”也是由于考察的阈值过小。如果把受教育多少做为横轴，收入多少做为纵轴，每个人都标记到这个坐标系内，大概会呈现一个和“高分低能”那个图差不多的图像。读书无用派看到的，往往是和自己收入水平相当的一条横线上的人的受教育程度，而忽视了受教育程度越高，人们收入水平越高的整体趋势。（当然，我的这个坐标图像和结论也是基于我现有认知水平的假设，没有做过具体调查，不一定正确，欢迎老师和同学们批评指正）。                </dd>
+                <dd class="comments-time">2020-03-01                </dd>
+                            </dl>
+
+        </li>
+        <li class="comments-footer">以上留言由 作者 筛选显示</li>
+    </ul>
+</div>
+ </body>
+</html>

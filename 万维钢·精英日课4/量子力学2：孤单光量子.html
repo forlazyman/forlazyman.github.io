@@ -1,0 +1,707 @@
+
+    <!doctype html>
+<html lang="en" data-dpr="1" style="font-size: 34px;">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta content="yes" name="apple-mobile-web-app-capable"> 
+  <meta content="yes" name="apple-touch-fullscreen"> 
+  <meta content="telephone=no,email=no" name="format-detection"> 
+  <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"> 
+  <title>量子力学2：孤单光量子</title> 
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+  <script src="../js/main.js"></script>
+
+  <script type="text/javascript" id="viewport">
+        /* eslint-disable */
+        var APPVersion=0;!function(J,I){function H(){var a=E.getBoundingClientRect().width;if(J.navigator.appVersion.match(/iphone/gi)&&a<500){a=a*B}a/B>540&&(a=540*B);var d=a/10;E.style.fontSize=d+"px",z.rem=J.rem=d}var G,F=J.document,E=F.documentElement,D=F.querySelector('meta[name="viewport"]'),C=F.querySelector('meta[name="flexible"]'),B=0,A=0,z=I.flexible||(I.flexible={});if(D){console.warn("将根据已有的meta标签来设置缩放比例");var y=D.getAttribute("content").match(/initial\-scale=([\d\.]+)/);y&&(A=parseFloat(y[1]),B=parseInt(1/A))}else{if(C){var x=C.getAttribute("content");if(x){var w=x.match(/initial\-dpr=([\d\.]+)/),v=x.match(/maximum\-dpr=([\d\.]+)/);w&&(B=parseFloat(w[1]),A=parseFloat((1/B).toFixed(2))),v&&(B=parseFloat(v[1]),A=parseFloat((1/B).toFixed(2)))}}}if(!B&&!A){var u=(J.navigator.appVersion.match(/android/gi),J.navigator.appVersion.match(/iphone/gi)),t=J.devicePixelRatio;B=u?t>=3&&(!B||B>=3)?3:t>=2&&(!B||B>=2)?2:1:1,A=1/B}if(E.setAttribute("data-dpr",B),!D){if(D=F.createElement("meta"),D.setAttribute("name","viewport"),D.setAttribute("content","initial-scale="+A+", maximum-scale="+A+", minimum-scale="+A+", user-scalable=no"),E.firstElementChild){E.firstElementChild.appendChild(D)}else{var s=F.createElement("div");s.appendChild(D),F.write(s.innerHTML)}}J.addEventListener("resize",function(){clearTimeout(G),G=setTimeout(H,300)},!1),J.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(G),G=setTimeout(H,300))},!1),"complete"===F.readyState?F.body.style.fontSize=12*B+"px":F.addEventListener("DOMContentLoaded",function(){F.body.style.fontSize=12*B+"px"},!1),H(),z.dpr=J.dpr=B,z.refreshRem=H,z.rem2px=function(d){var c=parseFloat(d)*this.rem;return"string"==typeof d&&d.match(/rem$/)&&(c+="px"),c},z.px2rem=function(d){var c=parseFloat(d)/this.rem;return"string"==typeof d&&d.match(/px$/)&&(c+="rem"),c}}(window,window.lib||(window.lib={}));
+    </script> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-iget-rush-node/dist/css/course.513f06c0faf6793849ce8f64a0627f0d.css"> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-editor/dist/preview.20aa73124b557d5b072d.css"> 
+ </head> 
+ <body style="font-size: 14px;"> 
+    <img style="max-width: 100%" src="https://piccdn.igetget.com/img/202003/09/202003092319432688976292.jpeg" alt="">
+  <div class="preview"> 
+   <main id="article-main" data-type="22"> 
+    <article class="article" id="preview-article"> 
+     <h1 class="title name-slFosOL50ZH3FiY08C0iemh10biJsJ102Np3xhSoYKeQEt0uOIABk5WrZbt8KMZa">量子力学2：孤单光量子</h1> 
+     <div class="author"> 
+            <img data-type="author" src="https://piccdn.igetget.com/img/202002/29/202002292204266526316645.jpeg"> 
+      <p>万维钢</p> 
+          <span class="time">2020-03-10</span> 
+     </div> 
+     <div class="line"></div> 
+     <div class="article-body"> 
+                <div id="1556543749421" class="player-v2"> 
+       <div class="player-wrap"> 
+        <button class="i-playing"></button> 
+        <div class="progress-group"> 
+         <div class="audio-title">
+           量子力学2：孤单光量子 
+         </div> 
+         <input id="range25936" type="range" min="0" max="100" value="0" data-current="0:00" data-max="13:07" data-total="787"> 
+        </div> 
+        <audio id="player25936" title="block.audio.title" src="http://igetoss.cdn.igetget.com/aac/202003/09/48000_202003092244423697096758.m4a" preload="" cover="量子力学2：孤单光量子" cover-img="量子力学2：孤单光量子"></audio> 
+
+       </div> 
+       <div class="player-tips">
+         | 转述：怀沙 | 
+       </div> 
+      </div>
+          <div class="text">
+       <p><p>十九世纪末到二十世纪初，世界各国普遍都在闹革命，用李鸿章的话来说叫“三千年未有之大变局”。这句话也适用于物理学的革命。<b><font>这场革命是经典物理学和现代物理学的分界线。</font></b></p><p>牛顿和伽利略这些早先的物理学家都做出过非常漂亮的工作，但是他们的手段非常有限，对世界的观察比较被动。他们仰望星空可以，做实验就都很粗糙，无非是弄个滑块啊斜面啊之类，没有什么科技感。</p><p>而十九世纪末的欧洲，因为工业革命成功，是一个蒸汽朋克的时代。物理学家有了比较精密的仪器，有了人造光源，特别是可以玩电了，这才像个做实验的样子。当时的数学工具也非常发达，微分方程、统计方法、包括非欧几何都已经很成熟了。</p><p>不过这时候的物理学还是牛顿的延续，还是经典物理学 —— 但是是很厉害的经典物理学。当时麦克斯韦的电动力学已经深入人心，人们已经知道分子和原子的存在，连热力学都是明明白白的。物理理论自带一种美感，而且公式和实验结果特别吻合，经典物理学是非常精确的科学。</p><p> </p><p>而物理学家看待世界的情绪，已经不再是好奇和敬畏了，而是统治：世间各种自然现象，现在我们的理论都能解释。</p></p>
+      </div>
+                <div class="text">
+       <p><p>比如说“光”。古人研究光只能靠生活常识和简单的思辨。人们早就知道视觉是因为光进入眼睛，而不是眼睛会发射光。人们知道光走直线，光可以互相交叉，光还能有能量，因为阳光照在身上暖洋洋的。牛顿还知道太阳光不是单纯的白色，可以分解成不同的颜色。可是光到底是什么东西呢？光的颜色是怎么来的呢？</p><p>麦克斯韦的电动力学出来以后，物理学家立即就知道了光就是电磁波，不同的颜色其实就是不同的波长和频率 [1]。无线电波、红外线、可见光、紫外线、X射线、γ射线……它们都是同一种东西，唯一的区别就是频率不一样。</p><p>（注意光的频率和波长的关系是 波长 x 频率 = 光速，所以我们说颜色就等于说频率，说频率就等于说波长。）</p><p>你看你会了这个知识，是不是有一种江山尽在掌握的感觉呢？</p><p> </p><p>我们这一讲的主人公马克斯·普朗克在1875年上大学的时候，他的老师劝他不要学物理 —— 因为物理学已经很成熟了，盛宴已过，没有多少留给你研究的空间了。</p></p>
+      </div>
+                <div class="text">
+       <p><p>科幻小说作家阿西莫夫有句名言，说科学史上最激动人心的话不是什么“尤里卡” —— 也就是“我发现了” —— 而是<font color="#e8731f">“这有点怪啊（that’s funny）”</font>。</p><p>1900年元旦这天，热力学之父、开尔文男爵威廉·汤姆森在一个演讲中说：“在已经基本建成的物理学大厦中，后辈物理学家只要做一些零碎的修补工作就行了……但是，在物理学晴朗的天空的远处，还有两朵小小的令人不安的乌云”。</p><p>也就是，这有点怪。</p><p> </p><p>这两朵乌云都和光有关。一个是光速为什么在各个方向都不变， 我们知道这导致爱因斯坦发现了狭义相对论。<font>另一个，是关于黑体辐射。</font></p></p>
+      </div>
+                <div class="text">
+       <p><p>中国大学课本总爱把“黑体”描写成特别抽象的东西，其实黑体很简单。所谓黑体，就是它不反射别的光，它发出的都是它自身的光。太阳、烧红的烙铁、黑暗中的人体，这些东西都可以近似为黑体。黑体发出的光是由它的热量导致的，也就是热辐射。</p><p> </p><p>物理学家发现，黑体热辐射的光谱，跟它具体是个什么东西没有关系，完全由温度决定。一块烙铁也好一块砖头也好，你看一眼它发光的颜色就知道他的温度是多少。发红光那就是温度还不算太高，蓝光就意味着温度很高。严格说来黑体辐射不会只发单一颜色的光，你看见是红色只不过是红色光的强度最高。给定一个温度，实验物理学家能够非常精确地告诉你黑体辐射光的颜色 —— 也就是频率 —— 的分布曲线，比如像下面这张图。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/09/202003092155487031743558.jpg">
+      </figure>
+              <div class="text">
+       <p><p>那请问，曲线为什么是这样的呢？</p><p>理论物理学家都是非常自负的，说你这个曲线这么标准，我一定能给你推导出来。当时热力学、统计物理已经非常发达了，物理学家可以精确地描写一堆气体的热运动，而黑体无非就是一块发热的固体呗？物理学家假设，黑体的光是来自其中的电子振动产生的电磁波，那我用统计力学一算便知。</p><p><b>谁也没想到，物理学在这里失败了。</b>没有一个理论能解释黑体的发光曲线，特别是在高频率 —— 也就是紫外线以外 —— 的地方，有的理论认为黑体发出的能量应该是无限大的，这显然不可能，人们把这个理论难题称为“紫外灾难”。</p><p> </p><p><font>这是经典物理学的终结，也是量子力学的开端。</font></p></p>
+      </div>
+                <div class="text">
+       <p><p>1900年的某一个下午，普朗克在自己家里和一位实验物理学家讨论了黑体辐射。实验物理学家把这个事儿给他讲明白就走了，晚上普朗克自己继续琢磨。普朗克换了一个思路。</p><p> </p><p>他想，我能不能先不管物理，能不能直接在数学上凑一个公式描写这条曲线呢？当晚普朗克有如神助，竟然真的凑出来了一个公式。他立即写明信片把公式告知了那个实验物理学家，并且在12天后当众宣读了论文。这真的是一个非常完美的公式。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/09/202003092200302384632987.jpg">
+      </figure>
+              <div class="text">
+       <p><p>可是从物理上来说，这个公式怎么解释呢？普朗克苦苦思索了几个月，最后发现只要满足一个物理假设，就可以推导出来这个公式。</p><p> </p><p><font color="#e8731f">这个假设是电子振动产生无线电波的能量不能是连续的，而应该是一份一份的</font>，就好像上台阶一样你每次必须走一整步，而不能走半步。普朗克规定每一份辐射能量的最小单位是由光的频率决定的：</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/09/202003092201262630473586.png">
+      </figure>
+              <div class="text">
+       <p><p>其中 f 是频率，h 是一个常数，我们现在称之为<font color="#e8731f">“普朗克常数”</font>，h = 6.626×10^(−34) 焦耳·秒。</p><p>有了这个假设，高频率辐射光的一份能量就很大了，那么根据热力学，它出现的概率就比较低，所以高能辐射就没有那么多，这就避免了紫外灾难。</p><p>普朗克凭借这个假设和那个公式拿到了1918年的诺贝尔物理学奖。但是普朗克并不知道那“一份一份的”能量，意味着什么。</p><p> </p><p>第一个把天机说破的还得是我佛爱因斯坦。这就引出了另一个实验，叫<font color="#e8731f">“光电效应”</font>。</p></p>
+      </div>
+                <div class="text">
+       <p><p>物理学家在实验中无意发现，如果你把一束光照射在金属板上，有时候金属板会往外发射电子。表面上看这是容易理解的，光毕竟是电磁波，电磁波的能量转化成电子的动能，电子就跑了。</p><p> </p><p>但奇怪的是，电子如何往外跑，和光的*强度*没有关系，只和光的颜色，也就是频率有关系。这就好比说，红色的光，不管多亮也不能让电子跑出来；你要用绿光，哪怕光线很弱电子也能跑；要是蓝光，电子不但能跑，而且跑出来的速度还很快。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/09/202003092202592839657883.png">
+      </figure>
+              <div class="text">
+       <p><p>这个现象无法用经典物理学解释。麦克斯韦的理论中电磁波的能量只跟强度有关，和频率没关系。电子为什么不能逐渐地从光波中积累能量，攒够了就跑呢？</p><p>1905年是“爱因斯坦奇迹年”，这一年爱因斯坦发表了六篇论文，其中一篇叫《关于光的产生和转变的一个启发性观点》，说的就是光电效应。爱因斯坦说，电子之所以非得遇到高频率的光才能跑，这是因为光是一份一份的。普朗克不是说了吗？光的一份能量 E = hf，频率越高能量越大，所以高频率的光的一份能量才足够大，才能打动电子。</p><p><b>请注意，相对于普朗克的假设来说，爱因斯坦提出了一个思维概念上的跃迁。</b>普朗克说的一份一份是黑体中电子受热振动的能量，而爱因斯坦说这跟光是不是从黑体中来的没关系 —— 只要是光，能量就是一份一份的。</p><p><b><font>爱因斯坦提出了“光量子”。</font></b></p><p> </p><p>爱因斯坦说光不是连续的一片波，而是由一个一个的光子组成的，每个光子的能量就是它的频率乘以普朗克常数。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/09/202003092204399862735834.png">
+      </figure>
+              <div class="text">
+       <p><p>爱因斯坦用这一个公式解释了光电效应，计算结果非常吻合。这篇论文给爱因斯坦带来了诺贝尔物理奖，这也是他一生之中得到的唯一一个诺贝尔奖。</p></p>
+      </div>
+                <div class="text">
+       <p><p><font color="#e8731f">普朗克和爱因斯坦的解题思路，叫做“量子化”。</font>量子化从此就是现代物理学的一大主题，物理学家们把什么东西都想给量子化，有人认为连引力、甚至连空间都是量子的。</p><p>什么是“量子”呢？比如你家有个4K高清电视，离远了看，你觉得电视画面非常柔顺。但是离近了看，你会发现屏幕上其实都是一个一个的光点，画面并不是连续的。量子化，就是分辨率是有限的，是不连续的，是一个一个的，是像整数一样可数的。这个世界有可能完全是量子的。</p><p> </p><p>我们平时为什么感觉不到世界是量子的呢？因为普朗克常数 h 是一个非常、非常小的数字，等于说分辨率太高了。</p></p>
+      </div>
+                <div class="text">
+       <p><p><b><font>黑体辐射和光电效应都是经典物理学解释不了的现象，普朗克先用凑数的方法给了个数学模型，爱因斯坦赋予了这个模型物理上的意义，物理学家就算正式发现了光子。</font></b>我们今天听起来这挺自然，好像是物理学家们是在亲切友好的气氛下达成共识，但当时的情况可并非如此。</p><p>爱因斯坦关于光电效应的想法是受到了普朗克的启发，那篇论文的编辑和审稿人又恰好都是普朗克，而且普朗克也让论文发表了，那你说普朗克是不是应该非常赞赏爱因斯坦的说法呢？</p><p>并没有。普朗克本人在此后很多年里，都无法接受光子这个概念。光量子不符合经典物理学，麦克斯韦方程解不出一份一份的能量。普朗克在很多年里都在寻找用经典物理学解释电子震动的方法，他失败了。</p><p>普朗克有一句名言说，<b>“新科学事实之所以胜出，并不是因为反对者都被说服了，而是因为反对者最终都死了……然后熟悉这个事实的新一代人长大了。”</b>可能你以前就听到过这句话，以为普朗克是那个传播新思想的人 —— 其实他不是。</p><p>那么爱因斯坦提出了光子的概念，他肯定是新思想的拥护者吧？其实也不是。爱因斯坦终其一生，都反对量子力学。</p><p><font>什么是革命呢，得是这个思想是如此之离经叛道，以至于连革命者本人都反对它，那才是真革命啊。</font></p><p> </p><p>不过话说回来，反对光子的人其实很有道理。有太强的证据表明光是一种波了。如果光是粒子，又怎么解释光的波动性呢？咱们后面再说。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/09/202003092206156851974619.jpg">
+      </figure>
+              <div class="text">
+       <p><p><b>注释</b></p><p><b>[1] 我们讲相对论的时候专门讨论过这个问题。</b></p><p><b>[2] 原话是 - A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it.&nbsp;</b></p></p>
+      </div>
+                
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/09/202003092206599119084119.jpg">
+      </figure>
+        
+     </div> 
+    </article> 
+   </main> 
+  </div>  
+
+  
+<style>
+    .weui-tab {
+        height: 54px !important;
+    }
+    .ycolor {
+        color: #ffa42f;
+    }
+</style>
+  <div class="comments">
+    <div class="comments-color"></div>
+    <div class="comments-head">
+        <span>用户留言</span>
+    </div>
+    <ul class="comments-list" id="comments-list">
+
+                    <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-03-01/1796e2e904400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">戚老师</span>
+                    <span class="comments-vote"><b>181赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    
+有一天我无意把得到的个性签名改成了“你好，结婚吗”
+就有朋友劝我说，得到上的小姐姐太少了，即使有也说不定已经有男朋友了，没有男朋友你们的距离也太远，留给你的机会不多了。
+结果有一天万老师翻了我的牌，还真就有几个小姐姐关注了我，其中还有一位和我聊的很投机，于是我跟朋友说“我等到了”
+聊了几天，我发现这个小姐姐很聪明，我平常的套路在她这都失效起不了作用了。
+另一个恋爱达人的朋友看我非常沮丧便教了几招终极套路，果然这个小姐姐答应和我网恋奔现。
+见面的那天晚上我们都喝了点小酒，她和我聊起了过往，借着酒劲居然还生米煮成了熟饭，从此我们陷入爱河。
+随着我对她的了解越来越深，我知道她不但是个音乐老师，平常休息还兼职模特，会说四种语言，还能做一手好菜。
+她的父母强烈反对她嫁到异地来，甚至不惜用断绝关系来威胁她，但是她已经死心塌地的爱上我了。
+所以后来她的母亲在往后的日子里总说：女儿嫁到外地并不是因为我们本地的没有适合她的男人，而是因为她的眼里只能看到戚老师了，现在他们的孩子已经长大了。
+ 
+                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">真的啊！</dd>
+                    <dd class="comments-time">2020-03-10</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/iget/avatar/default.png" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">胖头鱼</span>
+                    <span class="comments-vote"><b>57赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    我觉得有个问题可以说的更细一点，电子为什么不累计吸收多个低能光子攒够足够的能量飞出去呢？万老师事先申明说不打比方，对不起我还是要打个比方：好比一个人掉到坑里，坑一米深，那一个人要从坑里跳出来，必须一次蹦超过一米高，有人说可以连续蹦两个0.5米高，然而，当你第一次跳了0.5米高的时候，在半空中没处着力，没法再蹦第二个0.5米，很快就又落到了坑里                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">赞！</dd>
+                    <dd class="comments-time">2020-03-10</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-03-01/1796e2e904400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">戚老师</span>
+                    <span class="comments-vote"><b>45赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    哈哈。
+很惭愧的回答万老师不是真的。
+整条留言是对着您这篇文章大概抄下来的。
+嘻嘻。
+希望我佛万维钢请赐我一个女朋友。                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">哈哈哈，多么希望这是真的…</dd>
+                    <dd class="comments-time">2020-03-10</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/11261969-1538225974.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">石三</span>
+                    <span class="comments-vote"><b>27赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    还在苦苦思索如何更好地理解课程内容时，看到万老师说我佛爱因斯坦的时候，瞬间忍不住笑了😄
+
+能把这样枯燥烧脑的量子力学知识，用这样通俗易懂又幽默风趣的语言表达出来的科普作家，只有两个人能做到。
+一个是隔壁卓克老师，另一个就是我佛万老师了😝
+
+想请问万老师：
+既然爱因斯坦只用一个公式就解释了光电效应，这就给爱因斯坦带来了诺贝尔物理奖，也是他一生之中得到的唯一一个诺贝尔奖。
+
+我们都知道，不管是狭义相对论还是广义相对论，还有引力波和波粒二象性等其他发明发现，每一个都可以称得上是开天辟地的重量级发现。
+
+为什么诺贝尔奖给居里夫人都颁发了两次奖，但是为什么只给爱因斯坦颁发了一次呢？                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">因为诺贝尔奖偏好实验 - 有实验就是实锤！相对论的实验比较难做…尽管也很实锤。</dd>
+                    <dd class="comments-time">2020-03-10</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-08-22/175785c104400005.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">奔跑</span>
+                    <span class="comments-vote"><b>20赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师，有一个问题我还是比较模糊，我对中学的物理课的时候印象，光的强度好像是光子的数量，麦克斯韦方程说电磁波的能量只跟强度有关，和频率没有关系，根据这节课的内容，电子如何往外跑，只跟光的频率有关，我是不是可以理解成，光的能量只跟频率有关，跟强度没有关系？……我不确定下面这个问法对不对，如果一束光里有100个频率为f的光子，另一束光里有一万个频率为f的光子，那后一束光的能量，难道不是比前一束光的大吗？另外，光是一份一份的，低能量的一份不能打动电子，难道就不能积累了吗？就好像水滴石穿那样，一滴滴的水，积累起来打穿石头。还是说，如果不能打动电子，一份光的能量对电子的影响会瞬间消失，无法积累？                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">单个光子能量只跟频率有关；一大堆光子的总能量还跟数量有关 - 但是就光电效应而言，每次都是一个光子敲打一个电子，所以数量不能引起质变。</dd>
+                    <dd class="comments-time">2020-03-10</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/1613475-1493111808.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">李十三</span>
+                    <span class="comments-vote"><b>65赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    给万sir引用的阿西莫夫这句名言画个重点，重点得划在“有点”，而不是“怪”上。虽然很多物理定律都是从“怪”的地方突破并证明的，比如宇宙微波背景辐射，就是在接受人造卫星信号时，发现的奇怪的辐射信号。“有点怪”的地方容易产生突破，但是像量子力学这样处处都怪的，反倒不好突破😊。                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/509472-1544029320.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">悍那Hana</span>
+                    <span class="comments-vote"><b>42赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    联想到马斯洛对成熟心智和所谓“自我实现”的定义：
+
+“不忽视未知的东西，不否认或躲避，
+不力求制造假象好像它是已知的，
+不过早地组织它、分割它或对它归类，
+不强求确定、保险、明确和有条理；
+可以安于无秩序的、混沌的、模糊的、有疑问的、不确定的、近似的、不严格的状态…”
+
+一句话，心智成熟的人死忠于现实，是真正的勇敢，敢于摆脱确定的幻觉，敢于对峙公认的正确。
+
+怀揣不安，但强忍不安；从不安中试探，从不安中冒犯，从不安中颤巍着奠基下一步的心安。
+                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/954048-1529046724.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">老安</span>
+                    <span class="comments-vote"><b>41赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师曾经说：“真正的想象力，是戴着镣铐的想象力”。物理学是一门以实验为基础的自然科学，普朗克和爱因斯坦都不认同量子力学，是不是由于以往所做的实验都是以光的波动性为前提，而现在如果变为粒子性，就意味着原来做的实验可能都有问题，这样一来，整个物理学体系可能都会被撼动。请问万老师，是不是由于被这种“镣铐”的束缚，使这两位伟大的物理学家不认同量子力学呢？                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/157892-1501472942.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">Allelujah 朱磊</span>
+                    <span class="comments-vote"><b>34赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    爱因斯坦作为量子力学的开创者，反而终其一生都反对量子力学，是因为这一方向与其一生中最后的终极目标——「统一理论」相悖。
+
+普朗克同样作为量子力学的奠基人，反而一直坚持不接受光量子的概念，是因为这一理论无法与「经典物理学」相容。
+
+也就是说，有趣的是，正是因为过去物理学中精妙的算数与公式，以及对自然现象精确的解释与预言，导致了一代天才产生了傲慢与偏执，阻碍了革新的接纳与推进——
+
+助力创新者成功的理念，往往会转化为执念，成为尝试新的创新的阻碍。                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/13172735-1563927948.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">李盈</span>
+                    <span class="comments-vote"><b>22赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    上个世纪的这会儿，正是物理学的封神阶段，人们认为物理学已经学到头了。还好，量子力学出现了，为现代物理学又续了命，由此衍生出了各种理论，直到今天还让我们感到困惑。
+
+以往的科学观察，大多数都是通过学习和推导得出的结论，而普朗克的发现，竟然是拿数字凑出来的。这就好比是考试中的试答案，只要答案能让等式成立，那就算大功告成。
+
+虽然我们不会像上个世纪的人那样，觉得物理已经学到家了，然而有一点不可否认，那就是低垂的果实越来越少了。谁要再想取得普朗克这样的成就，恐怕机会是不多了。                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/150756131-1562498827.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">启航</span>
+                    <span class="comments-vote"><b>22赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    撕开表象皮囊的诡秘之主 —— 量子理论
+
+【混沌】——  茫然未知
+
+在十一维宇宙的，
+夹缝中，
+我遇见了你。
+如期而至，
+却不曾约定。
+
+你好像，
+还是旧时的样子。
+飘渺的身影，
+击碎了我，
+似曾相识的笃定。
+
+大梦一场后，
+撩起你额间的长发。
+反到吊诡的发现，
+往昔的境遇，
+已不是原来的轨迹。
+
+【面纱】——  揭开端倪
+
+你说你早已改变了，
+过去的脾气。
+拼凑出花样的皮囊，
+不过是，
+你哄人的把戏。
+
+别人猜测你是，
+大幻无形。
+而你却坚定的说，
+我有我的法则，
+和心中不变的永恒。
+
+一帧帧幻化的身影，
+放到时光机中，
+反复回放。
+有时你是薛定谔的猫，
+有时又变成崂山道士。
+
+【采撷】——  科学发现
+
+然而迷雾必将消散， 
+一切都不再遁形。
+物理学界出现了，
+一众闪耀的明星，
+果实低垂盛宴已至。
+
+不同的认识维度，
+不同的观察视角。
+只恨自己，
+设想不够大胆，
+逻辑不够神奇。
+
+此时是理论的先锋，
+彼时是保守派旗手。
+思想在交锋，
+神仙在打架，
+百家争鸣好不热闹。
+
+【迷茫】——  陷入困惑
+
+世纪更迭，
+千年已至。
+一个个传奇的大师，
+纷纷作古。
+对未知的探索，
+好像也遇到了瓶颈。
+
+该统一的还未曾统一，
+该澄清的还不能澄清。
+人类最聪明的大脑，
+又一次陷入沉思，
+好像又在酝酿，
+新的革命。
+
+科学已然不是，
+一个人的独角戏。
+动辄千万的成本，
+数十年的时间，
+也只能印证，
+前人的一个假说。
+
+【延伸】——  科技应用
+
+科学又一次回归平静，
+而科技却蓬勃发展。
+第三次产业革命，
+如火如荼的进行。
+而无处不在的却是，
+你的身影。
+
+你是这个世界的，
+底层逻辑。
+因为你的存在，
+和对你性情的熟悉。
+人类第一次感受到了，
+毁灭的力量。
+也第一次认识到了，
+信息的本质。
+
+佛陀说：
+一叶一菩提，
+一花一世界。
+也许真的存在，
+无数个平行宇宙，
+等着我们去，
+发现和旅行。
+而量子理论你，
+则是我前行的，
+重要依据。
+
+【尾声】——  展望回忆
+
+我们已经走在，
+第一宇宙文明的关口。
+人类从来没有，
+如此的接近，
+宇宙的终极真理。
+也许它够颠覆，
+也许它很诡秘。
+但无论走到何时何地，
+我们都要记得，
+数理、实践和守恒。
+因为它们是我们，
+永恒的坐标，
+和走向伟大的动力。
+
+仅以此文，
+致敬伟大的先驱们！
+感谢他们为这个世界，
+所做的一切。
+他们是：
+牛顿、麦克斯韦，
+爱因斯坦、玻尔，
+薛定谔、海森堡，
+狄拉克、泡利，
+德布罗意、费曼，
+杨振宁等等……
+他们每一个人都是人类，
+探索未知世界的，
+重要坐标。
+让我的得以站在，
+巨人的肩膀上奋力前行。
+
+爱因斯坦说，
+上帝不可捉摸，
+但并无恶意。                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-03-05/17983f6244400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">露奇露奇</span>
+                    <span class="comments-vote"><b>21赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    1. 爱因斯坦居然不是因为相对论获得诺贝尔奖的。
+
+2. 爱因斯坦比我想的更厉害了，在明明否定一个理论的前提下，还偏偏发现了这个理论的关键线索。
+
+3. “量子力学”里的“量子”原来是一份能量单位，而之所以叫“量子力学”，是用研究微观量子之间的互相作用，代替宏观视角的传统力学，解释世界。
+
+4. 今天对1043的意义才第一次有了实感😑                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-07-28/174f2aa184400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">Vinchent</span>
+                    <span class="comments-vote"><b>20赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    正好今天在陈嘉映老师的《哲学•科学•常识》一书中看到下面一段话，作为本讲的一个注脚：
+
+- - - -
+人们常说，不是真理证明了自己，而是反对者死绝了。这话可以从进步论来理解：真理必胜，真理之一时受挫，是因为坚持谬见反对真理的人在阻挠，这些人死光了，真理终于畅行于世。然而，为什么是反对真理的人死光了而不是支持真理的人死光了呢？尤其重要的是，这里所谓反对“真理”的人，不是指那些为了保住权威、利益、权力而争的人。他们也是为了真理而争。我们必须重新把这话理解为：一种真理畅行于世了，另一种真理，随着一个时代的消亡被遗忘了。“笛卡儿主义者相信……科学绝不能把无法理解的事实当作自己的基础。然而，牛顿的科学却正是用无法理解的吸引力和排斥力而取得节节胜利的，而且是那样成功！但胜利者不仅造就了历史，他们还书写了历史。对于那些已征服之物，他们少有仁慈之心。”
+- - - -                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/1232911-1563070269.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">包子哥</span>
+                    <span class="comments-vote"><b>20赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    精英日课的老朋友们都知道，精英日课最早的时候每晚更新的时间是10点43分，为什么呢？
+
+这就跟今天文章里提到的这位老爷子普朗克有关系，10∧（-43）秒，传说中的时间的最小颗粒度，就叫普朗克时间。
+
+但是，用普朗克这位老爷子的名字命名的，还有普朗克长度与普朗克常数等等，大家有兴趣可以去搜索一下。
+
+有意思的是，除了刚刚提到的那些以普朗克老爷子的名字命名的概念以外，普朗克最有名的一句话就是今天课程中提到的“新科学事实之所以胜出，并不是因为反对者都被说服了，而是因为反对者最终都死了……然后熟悉这个事实的新一代人长大了。”这句话了。
+
+好像是一代又一代上演的勇者斗恶龙的故事一般，总有年轻人敢于跳脱于框架之外提出令人匪夷所思的假设，而这些假设其后被逐一验证，将原本打败了权威的年轻人推到了权威的位置。
+
+长江后浪推前浪，前浪死在沙滩上……
+
+而本节课程中出现的普朗克与爱因斯坦，后来会如何被量子力学的后起之秀们拍死在沙滩上呢，且听下回分解！                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-02-08/178f8108c4400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">伪装</span>
+                    <span class="comments-vote"><b>13赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    什么是革命呢，得是这个思想是如此之离经叛道，以至于连革命者本人都反对它，那才是真革命啊。
+瞬间想起了杀得人头滚滚的法国大革命，革命者革了皇帝的命，革了贵族的命，革了官僚的命，革了小民的命，革了不知道谁的命，最后连革命者的命一同革了，这可是真真的真革命啊！
+难怪说法国资产阶级革命才是真正彻底的革命，能把革命者自己的命都革一遍，能不彻底吗？
+话说，为何学量子力学还弄明白了历史问题，万大，你确定不是在讲历史？                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-02-29/17968f4904400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">邓普莱特</span>
+                    <span class="comments-vote"><b>12赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师，有些细节想要弄清楚。关于金属板会被不同频率的光子有不同的反应，是金属板本身就有的能量与其产生作用，还是光子无论面对金属板还是木板都会根据自身的频率发生相同的作用？                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">木板没有自由电子容易被打出来。原则上一切原子的电子都能用光电效应打。</dd>
+                    <dd class="comments-time">2020-03-10</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-03-10/17999f4c44400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">Hong  Sy</span>
+                    <span class="comments-vote"><b>12赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    请问下万老师，当波按照一份一份的量子态就能算出黑体辐射，怎样理解，原理是什么？隐隐约约感觉搞不清楚这件事会影响接下来学习！希望能看到万老师指点…感谢                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">那个数学很难，而且不影响后续理解。</dd>
+                    <dd class="comments-time">2020-03-10</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/113005-1506758683.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">戚志光</span>
+                    <span class="comments-vote"><b>10赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    我去搜索了一下普朗克公式，不得不说普朗克的数学功底还真的挺厉害的，看着一条曲线，就推导出了一组公式出来。
+静下心来反复看着普朗克公式的表达式，我真的感受到了这公式的美感。辐射率，频率，波长，黑体的温度，普朗克常数，光速，玻尔兹曼常数，这些变量和常量和谐的组合在一起，就可以完美描述一个之前无法解释的物理现象，真的令人赞叹。                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/11239576-1535827045.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">赵德强</span>
+                    <span class="comments-vote"><b>9赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    如果普朗克和爱因斯坦放弃执念，普朗克接受光子这个理念，顺着爱因斯坦的思路继续研究，是否能有更进一步的成就呢；或者爱因斯坦接受量子力学，他是否能推到量子力学大力发展呢？当然，放弃执念根本就不是他们两个的性格，正如项羽如果过了江，也就不是项羽了！                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/33484497-1518785458.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">刘溜溜</span>
+                    <span class="comments-vote"><b>8赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    当人们觉得自己掌握了先进的科学武器，遇到什么问题时都能用科学去掰掰手腕的时候，人们总是有一股“骄傲”劲存在的，觉得科学和理性战胜了蒙昧，我们可以解释一切现象。
+
+但是当一些科学家发现，原来当时他们所掌握的最先进的科学依旧无法解释一些现象的时候，我想有一部分人会觉得崩溃吧，明明不是那些个什么无法用理性和科学解释的“人生的意义”，怎么科学就连“黑体的发光曲线”这个问题都没法解释了呢？
+
+经典物理学无法解释黑体辐射和光电效应，既然如此，要做的并不是哀怨怎么经典物理学行不通了，或者自认为自己的实力不到家，进而走火入魔。新问题就需要新的思考方式，再让新的思考方式引导我们去试着找到全新的答案。这中间一定会伴随着自身的痛苦和外界的质疑或猛烈的抨击，没关系，可以继续研究等待一个爆炸式的新结论让人哑口无言，如果做不到这样也无所谓，边做研究边熬下去，等待那个颠覆众人认知的成果。                </dd>
+                <dd class="comments-time">2020-03-10                </dd>
+                            </dl>
+
+        </li>
+        <li class="comments-footer">以上留言由 作者 筛选显示</li>
+    </ul>
+</div>
+ </body>
+</html>
