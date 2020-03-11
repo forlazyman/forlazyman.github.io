@@ -1,4 +1,4 @@
-# forlazyman.github.io
+# 懒人体验群共享课程
 
 ## 公众号：懒人找资源
 ![公众号二维码](https://s2.ax1x.com/2020/03/11/8koRzR.jpg)
