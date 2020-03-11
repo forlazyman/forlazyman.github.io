@@ -8,6 +8,7 @@
  
 <details>
 <summary>刘擎西方现代思想40讲</summary><pre>
+
 [00发刊词：理解现代世界有什么用？.html](https://forlazyman.github.io/%E5%88%98%E6%93%8E%E8%A5%BF%E6%96%B9%E7%8E%B0%E4%BB%A3%E6%80%9D%E6%83%B340%E8%AE%B2/00发刊词：理解现代世界有什么用？.html)
 [01古今之变：古代和现代到底哪里不一样？.html](https://forlazyman.github.io/%E5%88%98%E6%93%8E%E8%A5%BF%E6%96%B9%E7%8E%B0%E4%BB%A3%E6%80%9D%E6%83%B340%E8%AE%B2/01古今之变：古代和现代到底哪里不一样？.html)
 [02路标：为什么说韦伯是现代思想的成年？.html](https://forlazyman.github.io/%E5%88%98%E6%93%8E%E8%A5%BF%E6%96%B9%E7%8E%B0%E4%BB%A3%E6%80%9D%E6%83%B340%E8%AE%B2/02路标：为什么说韦伯是现代思想的成年？.html)
