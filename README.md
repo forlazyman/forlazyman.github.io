@@ -177,6 +177,9 @@
 ***
 ## 顾衡私家好书榜
 
+[发刊词-书山有路，让我当你的拐杖.html](https://forlazyman.github.io/顾衡私家好书榜/发刊词-书山有路，让我当你的拐杖.html)
+
+
 [《人口浪潮》1：生孩子跟国家有什么关系？.html](https://forlazyman.github.io/顾衡私家好书榜/《人口浪潮》1：生孩子跟国家有什么关系？.html)
 
 
@@ -280,9 +283,6 @@
 
 
 [书单1-这五本书，推荐给你.html](https://forlazyman.github.io/顾衡私家好书榜/书单1-这五本书，推荐给你.html)
-
-
-[发刊词-书山有路，让我当你的拐杖.html](https://forlazyman.github.io/顾衡私家好书榜/发刊词-书山有路，让我当你的拐杖.html)
 
 
 [罗胖推荐-最后一位压箱底的大神，介绍给你.html](https://forlazyman.github.io/顾衡私家好书榜/罗胖推荐-最后一位压箱底的大神，介绍给你.html)
