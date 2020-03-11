@@ -1,19 +1,21 @@
 # forlazyman.github.io
 
 ## 公众号：懒人找资源
-[懒人找资源](!https://s2.ax1x.com/2020/03/11/8koRzR.jpg)
+[公众号二维码](!https://s2.ax1x.com/2020/03/11/8koRzR.jpg)
 
 
 ### 以下内容仅供体验群成员查看学习
 
 ***
-### 分类目录
+## 分类目录
 
 * [刘擎西方现代思想40讲](#刘擎西方现代思想40讲)
 
 * [刘润商业通识30讲](#刘润商业通识30讲)
 
 * [万维钢精英日课4](#万维钢精英日课4)
+
+* [徐凯文心理创伤8讲](#徐凯文心理创伤8讲)
 
 ***
 
@@ -136,6 +138,37 @@
 
 
 [问答：伯克森悖论和幸存者偏差的区别是什么？.html](https://forlazyman.github.io/万维钢精英日课4/问答：伯克森悖论和幸存者偏差的区别是什么？.html)
+
+## [返回分类目录](#分类目录)
+***
+
+## 徐凯文心理创伤8讲
+
+[发刊词：我们都需要一次穿越心理创伤的旅程.html](https://forlazyman.github.io/徐凯文心理创伤8讲/发刊词：我们都需要一次穿越心理创伤的旅程.html)
+
+
+[01什么是心理创伤？.html](https://forlazyman.github.io/徐凯文心理创伤8讲/01什么是心理创伤？.html)
+
+
+[02经历创伤，谁更容易走出来？.html](https://forlazyman.github.io/徐凯文心理创伤8讲/02经历创伤，谁更容易走出来？.html)
+
+
+[03创伤对我们的长期影响是什么？.html](https://forlazyman.github.io/徐凯文心理创伤8讲/03创伤对我们的长期影响是什么？.html)
+
+
+[04为什么别人的创伤也能伤害我们？.html](https://forlazyman.github.io/徐凯文心理创伤8讲/04为什么别人的创伤也能伤害我们？.html)
+
+
+[05亲人离世，如何走出哀伤？.html](https://forlazyman.github.io/徐凯文心理创伤8讲/05亲人离世，如何走出哀伤？.html)
+
+
+[06面对创伤，怎么能获得帮助？.html](https://forlazyman.github.io/徐凯文心理创伤8讲/06面对创伤，怎么能获得帮助？.html)
+
+
+[07如何实现创伤后成长？.html](https://forlazyman.github.io/徐凯文心理创伤8讲/07如何实现创伤后成长？.html)
+
+
+[08如何跟有创伤的人相处？.html](https://forlazyman.github.io/徐凯文心理创伤8讲/08如何跟有创伤的人相处？.html)
 
 ## [返回分类目录](#分类目录)
 ***
