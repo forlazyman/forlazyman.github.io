@@ -1,0 +1,3549 @@
+
+
+    <!doctype html>
+
+<html lang="en" data-dpr="1" style="font-size: 34px;">
+
+ <head> 
+
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+  <meta content="yes" name="apple-mobile-web-app-capable"> 
+
+  <meta content="yes" name="apple-touch-fullscreen"> 
+
+  <meta content="telephone=no,email=no" name="format-detection"> 
+
+  <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"> 
+
+  <title>05｜交易成本（购后）：中国的物流真的比美国更快吗？</title> 
+
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+
+  <script src="../js/main.js"></script>
+
+
+
+  <script type="text/javascript" id="viewport">
+
+        /* eslint-disable */
+
+        var APPVersion=0;!function(J,I){function H(){var a=E.getBoundingClientRect().width;if(J.navigator.appVersion.match(/iphone/gi)&&a<500){a=a*B}a/B>540&&(a=540*B);var d=a/10;E.style.fontSize=d+"px",z.rem=J.rem=d}var G,F=J.document,E=F.documentElement,D=F.querySelector('meta[name="viewport"]'),C=F.querySelector('meta[name="flexible"]'),B=0,A=0,z=I.flexible||(I.flexible={});if(D){console.warn("将根据已有的meta标签来设置缩放比例");var y=D.getAttribute("content").match(/initial\-scale=([\d\.]+)/);y&&(A=parseFloat(y[1]),B=parseInt(1/A))}else{if(C){var x=C.getAttribute("content");if(x){var w=x.match(/initial\-dpr=([\d\.]+)/),v=x.match(/maximum\-dpr=([\d\.]+)/);w&&(B=parseFloat(w[1]),A=parseFloat((1/B).toFixed(2))),v&&(B=parseFloat(v[1]),A=parseFloat((1/B).toFixed(2)))}}}if(!B&&!A){var u=(J.navigator.appVersion.match(/android/gi),J.navigator.appVersion.match(/iphone/gi)),t=J.devicePixelRatio;B=u?t>=3&&(!B||B>=3)?3:t>=2&&(!B||B>=2)?2:1:1,A=1/B}if(E.setAttribute("data-dpr",B),!D){if(D=F.createElement("meta"),D.setAttribute("name","viewport"),D.setAttribute("content","initial-scale="+A+", maximum-scale="+A+", minimum-scale="+A+", user-scalable=no"),E.firstElementChild){E.firstElementChild.appendChild(D)}else{var s=F.createElement("div");s.appendChild(D),F.write(s.innerHTML)}}J.addEventListener("resize",function(){clearTimeout(G),G=setTimeout(H,300)},!1),J.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(G),G=setTimeout(H,300))},!1),"complete"===F.readyState?F.body.style.fontSize=12*B+"px":F.addEventListener("DOMContentLoaded",function(){F.body.style.fontSize=12*B+"px"},!1),H(),z.dpr=J.dpr=B,z.refreshRem=H,z.rem2px=function(d){var c=parseFloat(d)*this.rem;return"string"==typeof d&&d.match(/rem$/)&&(c+="px"),c},z.px2rem=function(d){var c=parseFloat(d)/this.rem;return"string"==typeof d&&d.match(/px$/)&&(c+="rem"),c}}(window,window.lib||(window.lib={}));
+
+    </script> 
+
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-iget-rush-node/dist/css/course.513f06c0faf6793849ce8f64a0627f0d.css"> 
+
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-editor/dist/preview.20aa73124b557d5b072d.css"> 
+
+ </head> 
+
+
+<style>
+    body {
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:12px;
+      margin:0;
+    }
+    #main {
+      height:1800px;
+      padding-top:90px;
+      text-align:center;
+    }
+    #fullbg {
+      background-color:gray;
+      left:0;
+      opacity:0.8;
+      position:absolute;
+      top:0;
+      z-index:3;
+      filter:alpha(opacity=80);
+      -moz-opacity:0.5;
+      -khtml-opacity:0.5;
+    }
+    #dialog {
+      background-color:#fff;
+      height:330px;
+      left:50%;
+      margin:-200px 0 0 -200px;
+      padding:1px;
+      position:fixed !important; /* 浮动对话框 */
+      position:absolute;
+      top:50%;
+      width:300px;
+      z-index:5;
+      border-radius:5px;
+      display:none;
+    }
+    #dialog p {
+      margin:0 0 12px;
+      height:24px;
+      line-height:24px;
+
+    }
+    #dialog p.close {
+      text-align:right;
+      padding-right:10px;
+    }
+    #dialog p.close a {
+      color:#000;
+      text-decoration:none;
+      font-size: 16px;
+    }
+    .code-img {
+      width: 250px;
+      margin: -10px auto 0 auto;
+      padding: 10px;
+    }
+    .code-img img {
+      width: 240px;
+    }
+  </style>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      showBg();
+    });
+  </script>
+  <script type="text/javascript">
+    //显示灰色 jQuery 遮罩层
+    function showBg() {
+      var bh = $("body").height();
+      var bw = $("body").width();
+      $("#fullbg").css({
+        height:bh,
+        width:bw,
+        display:"block"
+      });
+      $("#dialog").show();
+    }
+    //关闭灰色 jQuery 遮罩
+    function closeBg() {
+      $("#fullbg,#dialog").hide();
+    }
+  </script>
+</head>
+ <body  style="font-size: 14px;max-width: 600px;margin: 0 auto;"> 
+
+  <div id="fullbg"></div>
+  <div id="dialog">
+    <p class="close"><a href="#" rel="external nofollow" onclick="closeBg();">X</a></p>
+    <div class="code-img"> <img id="ewmsrc"  src="https://s2.ax1x.com/2020/03/11/8EWrIH.jpg"/></div>
+  </div>
+
+    <img style="max-width: 100%" src="https://piccdn.igetget.com/img/202003/10/202003101118349594650294.jpeg" alt="">
+
+  <div class="preview"> 
+
+   <main id="article-main" data-type="22"> 
+
+    <article class="article" id="preview-article"> 
+
+     <h1 class="title name-slFosOL50ZH3FiY08C0iemh10biJsJ102Np3xhSoYKeQEt0uOIABk5WrZbt8KMZa">05｜交易成本（购后）：中国的物流真的比美国更快吗？</h1> 
+
+     <div class="author"> 
+
+            <img data-type="author" src="https://piccdn.igetget.com/img/202003/08/202003081715468257765636.jpeg"> 
+
+      <p>刘润</p> 
+
+          <span class="time">2020-03-11</span> 
+
+     </div> 
+
+     <div class="line"></div> 
+
+     <div class="article-body"> 
+
+                <div id="1556543749421" class="player-v2"> 
+
+       <div class="player-wrap"> 
+
+        <button class="i-playing"></button> 
+
+        <div class="progress-group"> 
+
+         <div class="audio-title">
+
+           05｜交易成本（购后）：中国的物流真的比美国更快吗？ 
+
+         </div> 
+
+         <input id="range25936" type="range" min="0" max="100" value="0" data-current="0:00" data-max="13:07" data-total="787"> 
+
+        </div> 
+
+        <audio id="player25936" title="block.audio.title" src="http://igetoss.cdn.igetget.com/aac/202003/10/48000_202003101119306633338455.m4a" preload="" cover="05｜交易成本（购后）：中国的物流真的比美国更快吗？" cover-img="05｜交易成本（购后）：中国的物流真的比美国更快吗？"></audio> 
+
+
+
+       </div> 
+
+       <div class="player-tips">
+
+         建议WiFi环境下播放 
+
+       </div> 
+
+      </div>
+
+          <div class="text">
+
+       <p><p>商人们为了促成交易，克服“信息不对称、信用不传递”这两大交易阻力，必须付出代价。这个代价，就是“交易成本”。</p><p>这些代价必然存在，但也必须降低。</p><p>商业进化的方向，就是从“交易成本=∞”，向“交易成本=0”前进的方向。</p><p>前面两讲，我们讲了三类七项交易成本中的两类：</p><p><ul><li>第一类“购前”，包括“搜寻成本、比较成本、测试成本”，三项交易成本；</li><li>第二类“购中”：包括“协商成本、付款成本”，两项交易成本。</li></ul></p><p> </p><p>这一讲，我们接着讲第三类交易成本：购后。购后交易成本包括：运输成本，和售后成本。</p></p>
+
+      </div>
+
+                <div class="text">
+
+       <p><p>提问，你觉得现在是中国物流行业的效率高，还是美国物流行业的效率高？</p><p>很多人会觉得，当然是中国高啊！</p><p>2020年大年初一的早上，我在深圳大中华喜来登酒店和施展老师一起吃早饭，用手机在京东买了一本施展老师的新书《溢出》，然后立刻奔赴机场，飞回上海。下午回到上海的家时，这本《溢出》已经比我先进门，躺在我家的桌上了。</p><p>所以很多人会觉得：中国物流业的效率太高了。</p><p>但是，这其实是一个误解。</p><p>中国物流与采购联合会会长何黎明，在一次演讲中说，<b>“我国物流效率，仅相当于美国80年代”</b>。</p><p>啊？为什么？</p><p>要看一个国家物流行业的效率，一个关键指标是“社会物流总成本”在GDP里的占比。这个占比意味着，每创造10000元的社会财富，需要1000元钱还是100元钱，才能送到消费者手中。</p><p>那么，各个国家的“社会物流总成本”在GDP里的占比，到底是多少呢？</p><p>美国“社会物流成本”在GDP里的占比，大约是8%。日本是11%，要高一些。东南亚更高，平均是27%。</p><p>那中国呢？大约15%，将近是美国的2倍。</p><p>当然，这个数字，也和一个国家GDP的结构有关系。比如制造业大国，几乎一定比服务业大国的物流负担重。但是，这个占比依然在很大程度上，反映了一个国家物流行业的效率水平。</p><p>那么，为什么中国“社会物流总成本”和你想象的完全不一样，比美国高这么多呢？</p><p><b>社会物流，大概包括三种成本：运输费用、保管费用、管理费用。</b></p><p>在运输费用方面，中国目前的运输，主要还是依靠高成本的公路运输，成本更低的铁路运输和水路运输，占比很小。</p><p>中国多种方式（水路、铁路、公路、航路）的联合运输，只占4%~5%左右，而发达国家已经达到20%。我们的成本当然高。</p><p>那保管成本呢？保管成本，和商品的库存周期关系非常大。中国传统商业的生产计划性总体较差，一件商品在仓库里放1年才卖出去，和放1个月就卖出去，保管成本能差到12倍。</p><p>第三是管理费用。</p><p>你猜猜看，在中国，一盒棉签从工厂里生产出来，一直运到你家门口的夫妻老婆店，最后被你买走，一共被“搬运”了多少次？</p><p>大概5~8次。</p><p>从工厂搬运到品牌商仓库，再搬运到总代理仓库，再搬运到城市代理仓库，再搬运到批发市场，再搬运到夫妻老婆店。</p><p>每一次搬运，都会产生新的成本负担。而这些成本，是因为对交易流程的低效管理导致的。</p><p>那能不能减少搬运的次数？比如降到4次、3次，甚至降到2次？</p><p>有可能。</p><p>名创优品的棉签，从工厂出来后，会被直接运送到它在全国的7个大仓库，然后根据终端的销售数据，从7个大仓库，直接运送到需要补货的门店。这样，一盒棉签，在名创优品只需要搬运2次。</p><p>算上自建仓库的成本后，减少搬运次数这一件事，在大多数情况下，依然能够降低运输成本。</p><p>再举个例子。</p><p>你是一家品牌商，打算在京东、小米有品上卖东西，你甚至可以不建立自己的仓库，而是选择它们的“一件代发”服务。</p><p>什么意思？</p><p>货品从工厂出来，直接存入京东统一的仓库里。你是品牌商，或者经销商，你卖出一件商品，并不需要把货品搬到自己家，再从家里发货。京东帮你直接从统一的仓库发货。</p><p>这种“物权流转货不动”的模式，又减少了一次运输成本。</p><p>商人们在想尽一切办法，通过降低“运输成本”的方式，提升交易效率。</p><p>中国的“最后一公里”物流效率很高。但是，主干物流效率太低。</p><p>2013年，阿里巴巴成立了菜鸟网络。马云说，他的目标是让中国任何城市之间的电商快递，实现24小时内必达，全球范围内实现72小时必达。</p><p>怎么做？通过对大数据的分析，在用户还没有下单之前，就作出更准确的销售预测，调动多种方式联动的物流资源，实现提前配送，从而改善主干物流效率。</p><p> </p><p><b>这一切的努力，都是在降低运输成本，哪怕只是一点点。管它呢。进一寸有一寸的欢喜。</b></p></p>
+
+      </div>
+
+                <div class="text">
+
+       <p><p>梁宁老师曾经讲过一个关于“育婴箱”的故事。</p><p>19世纪70年代，妇产科医生斯蒂芬·塔尼受小鸡孵化器的启发，发明了人类使用的“育婴箱”。这个伟大的发明，让美国婴儿的死亡率下降了75%。</p><p>育婴箱是一个非常天才而伟大的发明。但是，这么伟大的东西，并没有在非洲带来婴儿死亡率的下降。</p><p>为什么？</p><p>因为斯蒂芬的育婴箱结构非常复杂，容易出现故障。出现故障后，需要专业人员和专业配件才能维修。而这些在基础条件落后的地方很难获得。所以，育婴箱很难大面积推广。</p><p>也就是说，斯蒂芬的育婴箱“售后成本”太高。你能捐10000个育婴箱，但你很难捐一整套昂贵而复杂的售后服务体系。</p><p>怎么办？</p><p>一位美国大学生，天才式地改进了斯蒂芬的育婴箱。这款育婴箱用旧汽车的前灯来供暖，用汽车仪表盘的风扇来保持空气循环，用车门的蜂鸣器和信号灯当报警系统，并且用摩托车电池供电。</p><p><b>这款育婴箱，就被称作NeoNurture育婴箱。</b></p><p>我说这是一个“天才的改进”。可是，这个发明到底“天才”在什么地方？</p><p>这个发明的“天才”之处，不是因为这些配件便宜，而是因为它利用成熟的汽车配件制造育婴箱，因此完全不用搭建一套独立的售后体系。育婴箱如果坏了，一个汽车修理工，就能修好它。</p><p>NeoNurture育婴箱的天才之处，是它创造性地降低了“售后成本”。</p><p>有一次，华为前轮值CEO费敏老师给我讲了一个故事。</p><p>他说，他们家空调坏了，于是请人上门来修。修理工人满头大汗，弄了一个上午，还是没修好，最后说先回去一趟再来。</p><p>费敏老师在华为时，负责整个华为的研发体系。他说，华为是不会这么设计产品的。华为如果做空调，一定会把空调“模块化”。</p><p>空调坏了，有人上门来修。最重要的“售后成本”是那块电路板，还是修理工人上门的时间？</p><p>大概率是上门修理的时间。</p><p>所以，如果从最开始就想明白了这个问题，进行模块化设计，维修工人上门后，就可以直接拔走坏掉的模块，换上新的，走人。这样的售后成本，是最低的。</p><p>为什么？</p><p><b>因为所有的售后成本，最终都会加到商品价格里，导致不必要的高价带来的交易阻力。</b></p><p> </p><p><font>创造性地降低售后成本，就是降低交易成本，提升商业效率。</font></p></p>
+
+      </div>
+
+               <div class="author"> 
+
+      <img data-type="author" src="https://piccdn.igetget.com/img/202003/08/202003081715468257765636.jpeg"> <div style="margin-top: 30px;font-size: 16px;color: #666">刘润</div>
+
+     </div> 
+
+      <div class="text">
+
+       <p><p>这一讲，我们讲了购后的两种交易成本：</p><p><ul><li>运输成本，也就是为了物理上完成商品的交付，所必须付出的运输、保管、管理成本；</li><li>售后成本，也就是为了保障承诺的正常使用，所必须付出的服务成本。</li></ul></p><p>好了。这一讲，就讲到这里。</p><p>到此为止，我们已经讲完了三类七项的交易成本：</p><p><ul><li>购前：搜寻成本、比较成本、测试成本；</li><li>购中：协商成本、付款成本；</li><li>购后：运输成本、售后成本。</li></ul></p><p>有人说，要想教一只鹦鹉成为经济学家，只需要教它学会一个词：供需关系。</p><p>套用这个句式，要想教这只鹦鹉同时成为商业大咖，你只需要再教它学会第二个词：交易成本。并且记住：</p><p><font>商业进化的方向，就是从“交易成本=∞”，向“交易成本= 0”前进的方向。</font></p><p>告诉这只鹦鹉，要想取得商业的成功，知道存在这七项交易成本很重要，更重要的，是找到降低它们的方法。</p><p>下一讲，是这一模块的小结。我会给你举三个例子，看看在真实的商业世界中，人们是如何通过降低交易成本，来获得商业成功的。我们下一讲，接着聊。希望你把这三讲内容转发给你做生意的朋友们，帮他们认清成本，缩减成本。</p><p>今天我给你留一道思考题：</p><p>你的公司，有没有降低了这七项交易成本中的哪一项，或者哪几项？还是并没有？</p><p>想清楚这个问题，你就能对自己的公司是正在一路高歌猛进，还是始终不温不火的原因，有个大概的判断了。</p></p>
+
+      </div>
+
+                      
+
+      <figure>
+
+       <img src="https://piccdn.igetget.com/img/202003/10/202003101133056985328567.jpg">
+
+      </figure>
+
+              
+
+      <figure>
+
+       <img src="https://piccdn.igetget.com/img/202003/10/202003101133149229984432.jpg">
+
+      </figure>
+
+        
+
+     </div> 
+
+    </article> 
+
+   </main> 
+
+  </div>  
+
+
+
+  
+
+<style>
+
+    .weui-tab {
+
+        height: 54px !important;
+
+    }
+
+    .ycolor {
+
+        color: #ffa42f;
+
+    }
+
+</style>
+
+  <div class="comments">
+
+    <div class="comments-color"></div>
+
+    <div class="comments-head">
+
+        <span>用户留言</span>
+
+    </div>
+
+    <ul class="comments-list" id="comments-list">
+
+
+
+                    <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/32954779-1563839882.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">斜阳</span>
+
+                    <span class="comments-vote"><b>31赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    关于中国物流成本高，和我们的日常感知不同，这是因为我们只看到了C端物流的发达，没有看到背后整体仓干配的复杂，以及更深层的，因为中国地理和文化差异格局导致的多层级分销体系，针对这两点，目前以降低交易成本为目的的演化方向是：
+
+仓干配层面，用交易数据带动末端的“配”，再利用“配”带动“仓干”的基础设施改革，整体进行拉动式变革，从C端反向倒逼B端和整个S端，实现S2B2C全链条效率提升。
+
+分销网络层面，执行“逻辑仓分散，物理仓集成”的管理方式，也就是“短链经济”，把供应链的三流（信息流，资金流，物流）进行拆分解耦，传统经销体系只保留资金流能力，品牌商控制全链条信息流，物流交给专业第三方物流平台。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">逻辑仓分散，物理仓集中。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/34525209-1495116392.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">心铭</span>
+
+                    <span class="comments-vote"><b>23赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    润总好，
+       我们公司是建筑公司，但是现在增加一个新业，制作了软件，让互联网给建筑赋能。从这几天的学习来看，公司的这个举措，如果做好了，肯定是成功的。
+        之前的建筑业，施工班组找活，需要各处打听，那里有活，然后上门采访，并且还不知道活的质量。这就是售前的搜索成本，现在我们这个软件，上面汇集了我们筛选过的活的信息，省去了他们搜索成本。对于给活的一方，我们软件上有施工班组的业绩记录，包括正在施工的记录，还有以往对施工班组的评价，这样省去了给活一方的搜索成本以及比较成本。
+        从以上来看，售前是有价值的，售中，售后我们还要努力。在付款成本方面，我们也有在尝试，通过软件的数据流，就可以提供信用评价，这样就可以放心给施工班组垫资，付款及时，工人积极性高，从而降低他们的成本。我想也是降低付款成本。
+
+       公司做的事情，我觉得还是有价值的，之前润总说过一句话，新零售就是更高效的零售，我想说我们做的就是新建筑。我相信公司会更好。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">用7类成本眼镜去看，就能看清楚对错的计算了。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/513144-1511189946.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">任光辉-游戏化管理</span>
+
+                    <span class="comments-vote"><b>23赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    运输成本，保管成本，管理成本。
+
+这个里面有一个商品周转率，一个商品从进入仓库、摆上柜台、到卖给用户需要的时间，商品周转时间越快，周转率越高，资金周转的就高效。
+
+努力提高货品的周转效率，从品类选择开始，到品牌选择，再到具体商品进货数量的敲定，都考验着我们的管理能力。需要从数据出发，拥有数据之眼，看清世界的底牌。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">没错。看清世界的底牌。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/36328591-1516452417.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">佛祖门徒</span>
+
+                    <span class="comments-vote"><b>14赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    降低交易成本一直都是公司始终在努力做的事。在发展过程中，会力争在产品覆盖到的几个行业中优先选择有代表性的客户，打造标杆性的项目。一方面，在行业内的痛点解决方案上树立口碑，降低其他客户的搜寻、比较成本；另一方面，对应不同体量的客户，有针对性更强的产品版本，并且有相应的代表性客户提供使用反馈，降低其他客户的测试成本。
+此外，产品是模块化的，并且架构在云上，绝大多数问题都不用去现场，只要通过远程就可以进行精准定位，并且在较短的时间内解决，降低了售后成本。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">标杆客户，就是降低协商成本的重要方法。连那么大的公司都买了，应该可以放心了。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/33484497-1518785458.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">刘溜溜</span>
+
+                    <span class="comments-vote"><b>12赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    购后的交易成本对企业还有顾客来说同样重要。
+
+如果一家企业能够自己通过各种方法减少交易成本，那就可以更多让利给顾客，使顾客能够在你这里买到相对便宜的好货，提升他们的复购率。即便不让利给消费者，那也可以提高自己的利润空间。
+
+对于顾客而言，如果一家企业能够减少交易成本，他们能获得的除了价格上的优惠之外，也能够有机会获得更好的购物体验。这些同样是对企业本身有利的。
+
+这几讲当中提到的七项交易成本，可以说是在商业世界必须要面对的。做得好，有利于自己的发展，做得不好，可能就会在残酷的商业竞争中被淘汰。并且，这七项交易成本的存在可能也会是新的商机，可以成为自己的主攻点。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">准备好，先强攻一点，拿下。就可以获得优势。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/185568-1493044528.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">Shirley_王淅 </span>
+
+                    <span class="comments-vote"><b>24赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    第一次实时跟课，前面因为工作关系，都是完整上线后很久后才开始学习。
+
+联想到几年前，上海市在发展规划中自我定位要成为“4大中心”，其中一个是“航运中心”，不仅是海运，也包括内河航运，具体是提升长江的运输能力，以上海为龙头带动沿江节点城市整体的运输效率，目的就是降低物流成本。因此看来，中国的经济政策制定，总体上还是有的放矢的。
+
+另外想请教润总，交易双方都有人力成本，人的因素会影响交易的所有环节，这次课程是会放到哪个模块讲呢？忍不住问，是因为这次疫情更加暴露了人力对经营模式的影响。谢谢。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/1870307-1543391025.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">雪域</span>
+
+                    <span class="comments-vote"><b>12赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    交易成本：为克服信息不对称和信用不传递而付出的时间和金钱。比如购前的搜寻成本，比较成本和测试成本，购中的协商成本和付款成本，购后的运输成本和售后成本。
+
+我以前的公司，是一家韩国企业。公司在2010年左右开始在外地建立分公司，主要就是为了降低运输成本和售后成本。
+
+分公司所在地分两种情况，一种是在人力资源丰富和物流发达的地方，比如临沂，一个县城就有一百多万人，物流运输非常发达。另一种情况是在客户工厂附近，供货和售后非常方便。
+
+后来一想，公司的主要客户也是大型的韩国电子企业，而这些韩国客户比较愿意用同是韩系的供货商，这其实也是降低了搜寻成本和比较成本。
+
+由于韩国企业有相同或相似的付款习惯和交流方式，用韩国企业供货还降低了协商成本。
+
+                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">在一段时间里，韩国，或者是海外公司的身份，都可以用来降低购前成本。不一定是韩国做得好，而是我们自己不争气。最后，国内公司都要起个洋名：达芬奇，马可波罗等。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-01-02/17834f6a84400000.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">吉林雀园</span>
+
+                    <span class="comments-vote"><b>11赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我在某宝开花店，模式是自产自销，正好梳理一下，我是这样做的
+购前：
+搜寻成本，我申请了企业店铺，运用多品种包对版的方式打造“专业花友店”，专业产生信任，进一步降低比较成本和测试成本。
+购中：选择正规的电商平台，本身就可以降低付款成本，在花友圈打造自己的品牌，可以降低协商成本，增加复购率。
+购后：运输对我来说是硬伤，农村交通不便，运输成本高，是我必须“接受”的难题。最后最重要的是售后成本，我在花友圈收集和总结大家最常见的问题，然后制作客服模板，在得到学习同理心，深入了解自己和花友的内心，寻找直击问题本质的方法。
+今年是创业第二年，我会持续学习，增加成功概率，加油💪                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">可以研究一下会员制。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/32954779-1563839882.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">斜阳</span>
+
+                    <span class="comments-vote"><b>10赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我太太所在的体育用品公司正在准备启动网红计划来降低交易成本，定期会使用最火的那两位网红之一进行爆发式营销。这既是面对疫情的自救，也是面向未来的全新尝试，此举会大大降低售前和售中，甚至售后的交易成本，通过一个点的信任和信息，击穿全链条，努力摆脱掉对传统渠道依赖的大包袱，我的个人判断是，不久的将来，随着人们工作生活方式被重构，在大众日用品和耐用品层面，个体化的大V网红会以全新的流量运营方式大部分代替传统经销体系。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">这要看，网红们会不会被利益迷惑，不断伤害自己的品牌，降低信任。如果这样，将会越来越差。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-08-14/1755003984400003.jpg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">阿虎</span>
+
+                    <span class="comments-vote"><b>10赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    日本的配送有分当面交给客人的宅急便和不需要客人签收，可以直接放到客人家里邮箱的メール便。在我做手机保护膜的时候，商家已经很多了。最早我是采用价格竞争策略进入市场，质量不仅要保证，价格还要更低。在运输方面，投放到邮箱里的配送方式还分为三档，1CM，2CM，3CM的价格都不一样。我就找东莞的工厂帮我批量生产0.9CM的包装盒。加上配送时信封的厚度，整体厚度控制在了1CM以内。然后把这些省下来的成本都让利给了顾客。
+       当然，我的公司现在也活了下来。早期的引流产品让我们积累了很多回头客，在后续开发出的新产品里，价格虽然更高了，但是由于信任已经建立起来，客人无需再货比三家了。新产品的整体销售额也超过引流产品了。
+       最后，感谢润总的「五商」，让我可以在竞争中存活下来分享我的案例。「商业通识」必定能给更多的人带来帮助，降低公司成本，提高运行效率。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-09-07/175ce49f44400005.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">二希·Hebe</span>
+
+                    <span class="comments-vote"><b>10赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我想起2个运输成本的例子。🌰
+
+1⃣️以前做跨境电商的时候，京东下完订单，我们会把货直接发到他们的保税仓。
+京东保税仓的好处太多了：
+1. 仓租便宜。平摊到每个货品的边际成本很低。
+2. 国际物流便宜。大货可以直接集装箱运回，大大节省物流费用。
+2. 先下单，再清关。用户下完订单之后，把产品订单、支付单、物流单快速整合，大大缩短清关时间，达到分钟级的清关时效。
+3. 货品保真。必须是国外注册的公司才有资格进驻，而且审批非常严格。
+4. 收货时间短。因为货品本身就在海关，再加清关快，京东的国内物流更快，货品到顾客手里时间被大大缩短。
+
+相比于直邮，保税仓的存在，大大降低了运输成本。
+
+2⃣️隔壁贾伟老师在设计课程里举过一个例子，让我印象特别深刻。
+就是IKEA那个2块9的马克杯。现在看起来像个漏斗的那个，还有一个小杯把，只能伸一根手指。
+这是一个特别经典的设计，它的销量特别好。但不是因为颜值，而是因为它的设计大大节约了物流成本。
+这个马克杯经过3次改良。从第一次的一个集装箱货盘上只能摆800个，到现在的能摆2000个。运输效率提高一倍以上，物流费用节省60%。
+
+好的产品，都是会帮用户省钱的。
+
+                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.igetget.com/posts/avatar/2019-05-20/221333933-1558350005.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">露酱</span>
+
+                    <span class="comments-vote"><b>8赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我的行业是房地产销售行业，发布的房源渠道有自家的网络，安居客，58同城（这两个网络现在合并了），自家的网络要求必须要真实房源，甚至一度提出过不是真实房源要罚款，邀请消费者监督。但是这个模式在实践过程中遇到很多阻力，因为真实房源所以价格高，投资价值比虚假房源的吸客量低。但是我想公司的最终考量是为了减少售前交易成本，创立品牌，建立信任成本，而过程中的阻力是减少交易成本的必然代价。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">不能在宏观上理解战略，很难在微观上克服困难。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/83797644-1504708930.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">亲爱的小卟</span>
+
+                    <span class="comments-vote"><b>7赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    2020年，我在自己的家乡五线城市做软件研发。 降低七种交易成本，我会这样做：
+
+1：搜寻成本，通过租赁公交站牌、广场广告位来降低个体户、个人等小客户的搜寻成本，通过加入工商联、中小企业组织等联盟来降低政府、大公司等大客户的搜寻成本。
+
+2：比较成本：通过展示成功案例，提高客户对我们技术能力的信任，降低与其他公司的技术比较成本。主动告知猪八戒等外包网站的访问渠道和参考价格，来降低价格比较成本。
+
+3：测试成本：有点软肋，不过在展示成功案例的时候，可以让客户亲自试试软件的操作，以及反馈以往客户对我们的评价，利用从众效应来提高客户对我们的信任。
+
+4：协商成本：五线城市人的圈子很小，随便街上来一个人，聊聊都能找到一个共同认识的人，或许两人还有亲戚关系，这种概率都很大。个人和公司的社会信誉，有天然的优势。当然签订合同，事后惩罚是肯定要做的。
+
+付款成本、运输成本、以及售后成本我觉得在本地，这都是天然的优势，违约后的社会名誉，法律方面的惩罚，以及面谈、上门服务，出现问题远程能立马解决。一点愚见。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">效果如何？期待你的后继分享。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/150832691-1512950361.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">吉米</span>
+
+                    <span class="comments-vote"><b>7赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    自己的公司是在京东商城销售数码产品相关的办公配件，比如平板保护套、键盘、鼠标、电容笔等。
+
+1.购前
+
+（1）搜索成本方面，我们会尽量优化产品的数据和排名，排名尽量靠前，降低客户的搜索成本，使顾客可以容易找到我们。
+
+（2）比较成本方面，我们会在页面里面做对比图，对比我们的产品和市场上的产品有什么不同，我们的优势是什么。
+
+（3）测试成本，京东平台是七天无理由退换货，我们在页面的承诺是30天无理由退换货，一年换新，来降低和打消消费者的疑虑。
+
+2.购中
+
+（1）协商成本 ，依托京东平台，消费者购物有保障，相对来说消费者没有这方面的顾虑，如果我们不履行承诺，平台也会处罚我们。
+
+（2）支付成本 ，支付成本方面消费者有京东这个平台做中介，购物无忧，消费者付款的金额还是在平台上面的。
+
+
+3.购后
+
+（1）运输成本方面 ，我们入了京东仓库，全国八大仓发货，一般都可以隔日达，部分地区可以当日达，虽然运输成本比较高，我们平均一票运费要11元左右，大大高于普通快递的2元，3元。
+
+但是消费者的体验很好，特别是这次疫情期间，在其他快递停摆的情况下，我们的业绩增长了几倍，就是因为我们在京东仓库里面储存了大量的货物，又能很快地运送到消费者手上。
+
+（2）售后成本，售后方面也是很方便的，消费者可以在后台选择京东快递上门取件，只要把货物交给京东快递员就好，退换货也是非常方便。
+
+所以按照交易成本分析，我们是有进行优化的，目前比较大的问题就是，因为京东物流快递费用高，加上京东平台抽取的扣点比较高，所以我们的整体售价会比友商平台高不少，这也带来了交易阻力。
+
+学习完这几节课，对自己的启发就是可以从顾客的体验感，还有提升产品的品质，降低不良率这些纬度来提升顾客的购买体验，从而让消费者虽然买到贵的东西，但是依然觉得还是比较超值的。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">不断重新审视这7种成本，看看还能从哪里抠出几块钱。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/224973104-1563596662.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">张萌</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我从事零售业，在18线小城市经营连锁超市。超市行业的交易成本体现在：售前，搜寻成本、比较成本、测试成本。每年参加大型行业会议，春季糖酒会、秋季糖酒会，中国国际食品展销会，美妆博览会，日用品博览会等大型会议，在展销会上，集中搜寻各种商品，现场试吃试饮试用比较，比较材质、用料、样式、价格，选择引进性价比最高的商品。商品引进本城市后，顾客通过卖场商品展示获得信息，市场比较后进行付款。顾客带回，超市提供售后服务。
+
+传统超市运营在售前的交易成本过重，搜寻比较测试的成本有降低空间，例如利用互联网线上采购平台，获取商品信息，通过大数据商品排序，精准捕捉市场需求，依据需求采货，提高资金使用率，提升周转率。售中的协商付款成本降低，要求我们打造自己的品牌，用品牌信任度降低顾客信用风险。售后运输问题，思考是否联合工厂实现“一件代发”，降低产品在多次运输中产生的费用，砍掉中间环节，变“商品集合地”为“信息分发平台”。售后问题第一时间解决，最大限度降低顾客时间/精力/金钱成本。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">变商品聚集地，为信息发布地。赞。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/12645883-1493054385.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">董坤</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    电商公司之所以能部分取代传统零售业，其主要原因就是他系统地降低了课程中所介绍的7大成本。
+
+如果你是一家产品零售公司，早期登录电商平台开店，就会感觉到这些优势：比如下单页面降低了搜索、比较成本，沟通软件（如旺旺）降低了协商成本、支付软件降低了支付成本、菜鸟网络以及只换不修降低了售后的运输和维修成本。
+
+一些较为有特色的电商平台，试图从降低测试成本入手，比如网易严选。在电商竞争激烈的时刻，以严选为主题，降低消费者对产品信息验证的成本。
+
+从这个过程中可以看出，一家公司针对交易成本的优化，有个明显的顺序：首先要针对售前成本进行优化，接下来马上就是售中成本，最后在考虑优化售后成本。
+
+同时，我们也看到，随着入住电商平台的商家越来越多，电商模式对公司的售前成本支付要求又大幅度提高了。新入住店家面对海量的商品信息，要想让消费者能搜到自己的产品，并不容易。
+
+现在仍然具有优势的公司，无非是两种：1，传统的大品牌公司。品牌的力量可以让消费者直接搜索其产品。2，早期加入电商平台，不断优化积累的品牌。长期来看，公司要尽力完善自己的品牌，意义就在于此。
+
+另外，网红带货，实际上也是利用个人品牌降低当下的搜索成本和比较成本。看透了这点，我曾给一家宠物食品公司建议：他们可以想办法打造一直“网红狗”，然后训练这只狗来选择它自己的食物和用品实现带货。
+
+这也是为了不断降低搜索和比较成本。针对售前成本的研究，是创业公司要做的工作。营销策划的很大一部分工作也是在解决这个问题。
+
+学习润总的课程，你会对各种成本，特别是售前成本理解的更深刻，找出更好的办法来。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">有趣的策略：网红狗带货。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/116712211-1529738016.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">🌴武汉秦涛</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    零售的人货场决定了物流成为交易无法回避的环节，而物流降本的确是一门有着丰富可深挖的学问，之前曾经负责过公司的行销规划业务，和内部物流部门协作较多，分享几点素材：
+1.区域建分仓是可以降低成本的，但前提是区域的消化量和周转速度足够高，否则租赁成本和人工成本反而会增加最后的物流成本，因此我们只在权重业务量的核心区域建仓，同时如果生意量不能保障的时候还会撤仓。
+2.整车物流成本低于零单。因此我们会对客户的订单量做管理，对于需求量小的客户会限制下单次数，以达到最佳物流效率，当然对订单精准度要求也会提高。
+3.内部协同。为保证物流效率，每次客户订单除了货品外会集合其他市场部门的品牌赠品及宣传物资等。
+4.原来我们在区域会养车和司机，最近几年基本全部转包给第三方了。
+5.不同时节的物流成本不一样，以春节前后为最高。因此节前物流统筹特别重要，很多区域会停止。
+6.物流的保管损耗责任需要做好流程，否则出现损坏就只有自己买单了，当然物流费用的结算周期也是一种杠杆。
+                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">举个例子，有些产品就相对更适合线下零售，不太适合电商。比如便宜的床垫。因为整车物流送到门店，比一个个发往全国要便宜。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/18087334-1541080844.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">托尼在厦门</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    作为一家B2B公司，售后：物流费用是最少的，从工厂到客户，服务费用也是比较少的，基本当地都有售后服务工程师。
+     拿一家做矿泉水的客户来说，他们从广东生产到福建销售，每年的物流费用7000-8000万元，这还是海运费用，整个物流环节和消费管理费用占到整个售价的50%-60%，想想就觉的可怕，如果是纯净水的话，24入箱的纯利仅为1-2元。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">我们不生产水。我们只是……</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/90286048-1505214308.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">山峰</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    网红直播带货模式的火爆，有两个关键，一个是网红的人格趣味性，增加吸粉的效率；另一个更关键就是专业能力，即“选品能力”和“优惠”。毕竟购物本身就是一个理性行为，商品不好，消费者上了一次当，没人愿意去上第二次，最终网络直播带货就变成了网络直播，粉丝光看不买。从交易成本的角度看，网红的专业能力，降低了消费者的搜寻成本、比较成本、测试成本。基于粉丝对网红的信任，又降低了消费者与厂家的协商成本。伴随着网红直播带货模式的演进——不断向货源靠近，厂家将直接与消费者进行连接，省略了代理商这个中间环节，毫无疑问会带来运输成本的降低。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/1618398-1503028365.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">青岛潘飞达</span>
+
+                    <span class="comments-vote"><b>5赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    按照这七项交易成本，梳理一下公司的情况，我们公司叫青岛云世纪，是做无人机应用软件开发的，很多人都知道大疆、亿航、极飞，他们都是做硬件研发、制造的，而我们是基于他们的主流机型做深度应用开发，用软件赋能硬件，为各行业提供无人机+的解决方案，以及飞行服务。但是却一直不温不火，很难找到突破口。真希望润总有一天能针对无人机行业进行一个深度分析，给我们提供一些启示。
+今天先通过这一模块做一个分析看看：
+1、搜寻成本。我们现在主要做的是企业服务或政府服务，基本上靠销售人员打电话或通过一些渠道找客户，公司成立时间不长、行业又新，没什么品牌，所以客户很难找到我们。但是如果客户找到我们想了解无人机行业情况或者帮他们出方案，我们有这个自信，只要是跟无人机有关的，都可以提供咨询或方案，我们服务了很多客户都是这样，但并不收费，然后他们直接去找厂家或者报价更低的人去了，但这算不算降低了客户的搜寻成本呢？
+2、比较成本。我们只是在提供咨询或方案的时候做一些简单的比较，但出发点是基于我们的成本利润考虑的，所以有时候也不是完全客观。
+3、测试成本。这一块空白。
+4、协商成本。公司没什么品牌，只是在行业内有一些小声誉，因为公司在青岛，所以基本上所有的品牌商想进青岛都首选我们合作，因为我们既有销售又有软件研发，还有当地的资源关系，又跟他们的主营业务没冲突。而与客户之间的协商成本就会很高，因为在他们那你没有品牌和声誉，所以要经常去做售前、做咨询、提供方案、提供报价等等，浪费了大量的时间成本。
+5、付款成本。这一块空白，也没给客户降低付款成本。
+6、运输成本。我们自己是做软件和服务解决方案的，不存在运输成本。
+7、售后成本。这一块单从软件和飞行服务上去分析可以忽略不计，但如果是做一个项目，成本就会大，因为要经常维护客户关系，是不是合同规定的售后我们都去做，尽量满足客户需要。对于客户来说因为我们本质上提供的都是服务，所以他只要结果就好了，也没有维修、更换等成本。
+以上是我对云世纪公司的分析，很粗浅，也不够细致，但是我们确实是陷入了泥潭，感觉一身武艺使不出来，业务惨淡到让人窒息，这里面有多种原因，有行业发展的、战略选择的，以及技术能力的等等，希望润总能赐教！                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">你已经走出了重要的一步。看看能在哪一点上，先做提升？</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+        <li class="comments-footer">以上留言由 作者 筛选显示</li>
+
+    </ul>
+
+</div>
+
+ </body>
+
+</html>
+
+
+
+    <!doctype html>
+
+<html lang="en" data-dpr="1" style="font-size: 34px;">
+
+ <head> 
+
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+  <meta content="yes" name="apple-mobile-web-app-capable"> 
+
+  <meta content="yes" name="apple-touch-fullscreen"> 
+
+  <meta content="telephone=no,email=no" name="format-detection"> 
+
+  <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"> 
+
+  <title>05｜交易成本（购后）：中国的物流真的比美国更快吗？</title> 
+
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+
+  <script src="../js/main.js"></script>
+
+
+
+  <script type="text/javascript" id="viewport">
+
+        /* eslint-disable */
+
+        var APPVersion=0;!function(J,I){function H(){var a=E.getBoundingClientRect().width;if(J.navigator.appVersion.match(/iphone/gi)&&a<500){a=a*B}a/B>540&&(a=540*B);var d=a/10;E.style.fontSize=d+"px",z.rem=J.rem=d}var G,F=J.document,E=F.documentElement,D=F.querySelector('meta[name="viewport"]'),C=F.querySelector('meta[name="flexible"]'),B=0,A=0,z=I.flexible||(I.flexible={});if(D){console.warn("将根据已有的meta标签来设置缩放比例");var y=D.getAttribute("content").match(/initial\-scale=([\d\.]+)/);y&&(A=parseFloat(y[1]),B=parseInt(1/A))}else{if(C){var x=C.getAttribute("content");if(x){var w=x.match(/initial\-dpr=([\d\.]+)/),v=x.match(/maximum\-dpr=([\d\.]+)/);w&&(B=parseFloat(w[1]),A=parseFloat((1/B).toFixed(2))),v&&(B=parseFloat(v[1]),A=parseFloat((1/B).toFixed(2)))}}}if(!B&&!A){var u=(J.navigator.appVersion.match(/android/gi),J.navigator.appVersion.match(/iphone/gi)),t=J.devicePixelRatio;B=u?t>=3&&(!B||B>=3)?3:t>=2&&(!B||B>=2)?2:1:1,A=1/B}if(E.setAttribute("data-dpr",B),!D){if(D=F.createElement("meta"),D.setAttribute("name","viewport"),D.setAttribute("content","initial-scale="+A+", maximum-scale="+A+", minimum-scale="+A+", user-scalable=no"),E.firstElementChild){E.firstElementChild.appendChild(D)}else{var s=F.createElement("div");s.appendChild(D),F.write(s.innerHTML)}}J.addEventListener("resize",function(){clearTimeout(G),G=setTimeout(H,300)},!1),J.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(G),G=setTimeout(H,300))},!1),"complete"===F.readyState?F.body.style.fontSize=12*B+"px":F.addEventListener("DOMContentLoaded",function(){F.body.style.fontSize=12*B+"px"},!1),H(),z.dpr=J.dpr=B,z.refreshRem=H,z.rem2px=function(d){var c=parseFloat(d)*this.rem;return"string"==typeof d&&d.match(/rem$/)&&(c+="px"),c},z.px2rem=function(d){var c=parseFloat(d)/this.rem;return"string"==typeof d&&d.match(/px$/)&&(c+="rem"),c}}(window,window.lib||(window.lib={}));
+
+    </script> 
+
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-iget-rush-node/dist/css/course.513f06c0faf6793849ce8f64a0627f0d.css"> 
+
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-editor/dist/preview.20aa73124b557d5b072d.css"> 
+
+ </head> 
+
+
+<style>
+    body {
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:12px;
+      margin:0;
+    }
+    #main {
+      height:1800px;
+      padding-top:90px;
+      text-align:center;
+    }
+    #fullbg {
+      background-color:gray;
+      left:0;
+      opacity:0.8;
+      position:absolute;
+      top:0;
+      z-index:3;
+      filter:alpha(opacity=80);
+      -moz-opacity:0.5;
+      -khtml-opacity:0.5;
+    }
+    #dialog {
+      background-color:#fff;
+      height:330px;
+      left:50%;
+      margin:-200px 0 0 -200px;
+      padding:1px;
+      position:fixed !important; /* 浮动对话框 */
+      position:absolute;
+      top:50%;
+      width:300px;
+      z-index:5;
+      border-radius:5px;
+      display:none;
+    }
+    #dialog p {
+      margin:0 0 12px;
+      height:24px;
+      line-height:24px;
+
+    }
+    #dialog p.close {
+      text-align:right;
+      padding-right:10px;
+    }
+    #dialog p.close a {
+      color:#000;
+      text-decoration:none;
+      font-size: 16px;
+    }
+    .code-img {
+      width: 250px;
+      margin: -10px auto 0 auto;
+      padding: 10px;
+    }
+    .code-img img {
+      width: 240px;
+    }
+  </style>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      showBg();
+    });
+  </script>
+  <script type="text/javascript">
+    //显示灰色 jQuery 遮罩层
+    function showBg() {
+      var bh = $("body").height();
+      var bw = $("body").width();
+      $("#fullbg").css({
+        height:bh,
+        width:bw,
+        display:"block"
+      });
+      $("#dialog").show();
+    }
+    //关闭灰色 jQuery 遮罩
+    function closeBg() {
+      $("#fullbg,#dialog").hide();
+    }
+  </script>
+</head>
+ <body  style="font-size: 14px;max-width: 600px;margin: 0 auto;"> 
+
+  <div id="fullbg"></div>
+  <div id="dialog">
+    <p class="close"><a href="#" rel="external nofollow" onclick="closeBg();">X</a></p>
+    <div class="code-img"> <img id="ewmsrc"  src="https://s2.ax1x.com/2020/03/11/8EWrIH.jpg"/></div>
+  </div>
+
+    <img style="max-width: 100%" src="https://piccdn.igetget.com/img/202003/10/202003101118349594650294.jpeg" alt="">
+
+  <div class="preview"> 
+
+   <main id="article-main" data-type="22"> 
+
+    <article class="article" id="preview-article"> 
+
+     <h1 class="title name-slFosOL50ZH3FiY08C0iemh10biJsJ102Np3xhSoYKeQEt0uOIABk5WrZbt8KMZa">05｜交易成本（购后）：中国的物流真的比美国更快吗？</h1> 
+
+     <div class="author"> 
+
+            <img data-type="author" src="https://piccdn.igetget.com/img/202003/08/202003081715468257765636.jpeg"> 
+
+      <p>刘润</p> 
+
+          <span class="time">2020-03-11</span> 
+
+     </div> 
+
+     <div class="line"></div> 
+
+     <div class="article-body"> 
+
+                <div id="1556543749421" class="player-v2"> 
+
+       <div class="player-wrap"> 
+
+        <button class="i-playing"></button> 
+
+        <div class="progress-group"> 
+
+         <div class="audio-title">
+
+           05｜交易成本（购后）：中国的物流真的比美国更快吗？ 
+
+         </div> 
+
+         <input id="range25936" type="range" min="0" max="100" value="0" data-current="0:00" data-max="13:07" data-total="787"> 
+
+        </div> 
+
+        <audio id="player25936" title="block.audio.title" src="http://igetoss.cdn.igetget.com/aac/202003/10/48000_202003101119306633338455.m4a" preload="" cover="05｜交易成本（购后）：中国的物流真的比美国更快吗？" cover-img="05｜交易成本（购后）：中国的物流真的比美国更快吗？"></audio> 
+
+
+
+       </div> 
+
+       <div class="player-tips">
+
+         建议WiFi环境下播放 
+
+       </div> 
+
+      </div>
+
+          <div class="text">
+
+       <p><p>商人们为了促成交易，克服“信息不对称、信用不传递”这两大交易阻力，必须付出代价。这个代价，就是“交易成本”。</p><p>这些代价必然存在，但也必须降低。</p><p>商业进化的方向，就是从“交易成本=∞”，向“交易成本=0”前进的方向。</p><p>前面两讲，我们讲了三类七项交易成本中的两类：</p><p><ul><li>第一类“购前”，包括“搜寻成本、比较成本、测试成本”，三项交易成本；</li><li>第二类“购中”：包括“协商成本、付款成本”，两项交易成本。</li></ul></p><p> </p><p>这一讲，我们接着讲第三类交易成本：购后。购后交易成本包括：运输成本，和售后成本。</p></p>
+
+      </div>
+
+                <div class="text">
+
+       <p><p>提问，你觉得现在是中国物流行业的效率高，还是美国物流行业的效率高？</p><p>很多人会觉得，当然是中国高啊！</p><p>2020年大年初一的早上，我在深圳大中华喜来登酒店和施展老师一起吃早饭，用手机在京东买了一本施展老师的新书《溢出》，然后立刻奔赴机场，飞回上海。下午回到上海的家时，这本《溢出》已经比我先进门，躺在我家的桌上了。</p><p>所以很多人会觉得：中国物流业的效率太高了。</p><p>但是，这其实是一个误解。</p><p>中国物流与采购联合会会长何黎明，在一次演讲中说，<b>“我国物流效率，仅相当于美国80年代”</b>。</p><p>啊？为什么？</p><p>要看一个国家物流行业的效率，一个关键指标是“社会物流总成本”在GDP里的占比。这个占比意味着，每创造10000元的社会财富，需要1000元钱还是100元钱，才能送到消费者手中。</p><p>那么，各个国家的“社会物流总成本”在GDP里的占比，到底是多少呢？</p><p>美国“社会物流成本”在GDP里的占比，大约是8%。日本是11%，要高一些。东南亚更高，平均是27%。</p><p>那中国呢？大约15%，将近是美国的2倍。</p><p>当然，这个数字，也和一个国家GDP的结构有关系。比如制造业大国，几乎一定比服务业大国的物流负担重。但是，这个占比依然在很大程度上，反映了一个国家物流行业的效率水平。</p><p>那么，为什么中国“社会物流总成本”和你想象的完全不一样，比美国高这么多呢？</p><p><b>社会物流，大概包括三种成本：运输费用、保管费用、管理费用。</b></p><p>在运输费用方面，中国目前的运输，主要还是依靠高成本的公路运输，成本更低的铁路运输和水路运输，占比很小。</p><p>中国多种方式（水路、铁路、公路、航路）的联合运输，只占4%~5%左右，而发达国家已经达到20%。我们的成本当然高。</p><p>那保管成本呢？保管成本，和商品的库存周期关系非常大。中国传统商业的生产计划性总体较差，一件商品在仓库里放1年才卖出去，和放1个月就卖出去，保管成本能差到12倍。</p><p>第三是管理费用。</p><p>你猜猜看，在中国，一盒棉签从工厂里生产出来，一直运到你家门口的夫妻老婆店，最后被你买走，一共被“搬运”了多少次？</p><p>大概5~8次。</p><p>从工厂搬运到品牌商仓库，再搬运到总代理仓库，再搬运到城市代理仓库，再搬运到批发市场，再搬运到夫妻老婆店。</p><p>每一次搬运，都会产生新的成本负担。而这些成本，是因为对交易流程的低效管理导致的。</p><p>那能不能减少搬运的次数？比如降到4次、3次，甚至降到2次？</p><p>有可能。</p><p>名创优品的棉签，从工厂出来后，会被直接运送到它在全国的7个大仓库，然后根据终端的销售数据，从7个大仓库，直接运送到需要补货的门店。这样，一盒棉签，在名创优品只需要搬运2次。</p><p>算上自建仓库的成本后，减少搬运次数这一件事，在大多数情况下，依然能够降低运输成本。</p><p>再举个例子。</p><p>你是一家品牌商，打算在京东、小米有品上卖东西，你甚至可以不建立自己的仓库，而是选择它们的“一件代发”服务。</p><p>什么意思？</p><p>货品从工厂出来，直接存入京东统一的仓库里。你是品牌商，或者经销商，你卖出一件商品，并不需要把货品搬到自己家，再从家里发货。京东帮你直接从统一的仓库发货。</p><p>这种“物权流转货不动”的模式，又减少了一次运输成本。</p><p>商人们在想尽一切办法，通过降低“运输成本”的方式，提升交易效率。</p><p>中国的“最后一公里”物流效率很高。但是，主干物流效率太低。</p><p>2013年，阿里巴巴成立了菜鸟网络。马云说，他的目标是让中国任何城市之间的电商快递，实现24小时内必达，全球范围内实现72小时必达。</p><p>怎么做？通过对大数据的分析，在用户还没有下单之前，就作出更准确的销售预测，调动多种方式联动的物流资源，实现提前配送，从而改善主干物流效率。</p><p> </p><p><b>这一切的努力，都是在降低运输成本，哪怕只是一点点。管它呢。进一寸有一寸的欢喜。</b></p></p>
+
+      </div>
+
+                <div class="text">
+
+       <p><p>梁宁老师曾经讲过一个关于“育婴箱”的故事。</p><p>19世纪70年代，妇产科医生斯蒂芬·塔尼受小鸡孵化器的启发，发明了人类使用的“育婴箱”。这个伟大的发明，让美国婴儿的死亡率下降了75%。</p><p>育婴箱是一个非常天才而伟大的发明。但是，这么伟大的东西，并没有在非洲带来婴儿死亡率的下降。</p><p>为什么？</p><p>因为斯蒂芬的育婴箱结构非常复杂，容易出现故障。出现故障后，需要专业人员和专业配件才能维修。而这些在基础条件落后的地方很难获得。所以，育婴箱很难大面积推广。</p><p>也就是说，斯蒂芬的育婴箱“售后成本”太高。你能捐10000个育婴箱，但你很难捐一整套昂贵而复杂的售后服务体系。</p><p>怎么办？</p><p>一位美国大学生，天才式地改进了斯蒂芬的育婴箱。这款育婴箱用旧汽车的前灯来供暖，用汽车仪表盘的风扇来保持空气循环，用车门的蜂鸣器和信号灯当报警系统，并且用摩托车电池供电。</p><p><b>这款育婴箱，就被称作NeoNurture育婴箱。</b></p><p>我说这是一个“天才的改进”。可是，这个发明到底“天才”在什么地方？</p><p>这个发明的“天才”之处，不是因为这些配件便宜，而是因为它利用成熟的汽车配件制造育婴箱，因此完全不用搭建一套独立的售后体系。育婴箱如果坏了，一个汽车修理工，就能修好它。</p><p>NeoNurture育婴箱的天才之处，是它创造性地降低了“售后成本”。</p><p>有一次，华为前轮值CEO费敏老师给我讲了一个故事。</p><p>他说，他们家空调坏了，于是请人上门来修。修理工人满头大汗，弄了一个上午，还是没修好，最后说先回去一趟再来。</p><p>费敏老师在华为时，负责整个华为的研发体系。他说，华为是不会这么设计产品的。华为如果做空调，一定会把空调“模块化”。</p><p>空调坏了，有人上门来修。最重要的“售后成本”是那块电路板，还是修理工人上门的时间？</p><p>大概率是上门修理的时间。</p><p>所以，如果从最开始就想明白了这个问题，进行模块化设计，维修工人上门后，就可以直接拔走坏掉的模块，换上新的，走人。这样的售后成本，是最低的。</p><p>为什么？</p><p><b>因为所有的售后成本，最终都会加到商品价格里，导致不必要的高价带来的交易阻力。</b></p><p> </p><p><font>创造性地降低售后成本，就是降低交易成本，提升商业效率。</font></p></p>
+
+      </div>
+
+               <div class="author"> 
+
+      <img data-type="author" src="https://piccdn.igetget.com/img/202003/08/202003081715468257765636.jpeg"> <div style="margin-top: 30px;font-size: 16px;color: #666">刘润</div>
+
+     </div> 
+
+      <div class="text">
+
+       <p><p>这一讲，我们讲了购后的两种交易成本：</p><p><ul><li>运输成本，也就是为了物理上完成商品的交付，所必须付出的运输、保管、管理成本；</li><li>售后成本，也就是为了保障承诺的正常使用，所必须付出的服务成本。</li></ul></p><p>好了。这一讲，就讲到这里。</p><p>到此为止，我们已经讲完了三类七项的交易成本：</p><p><ul><li>购前：搜寻成本、比较成本、测试成本；</li><li>购中：协商成本、付款成本；</li><li>购后：运输成本、售后成本。</li></ul></p><p>有人说，要想教一只鹦鹉成为经济学家，只需要教它学会一个词：供需关系。</p><p>套用这个句式，要想教这只鹦鹉同时成为商业大咖，你只需要再教它学会第二个词：交易成本。并且记住：</p><p><font>商业进化的方向，就是从“交易成本=∞”，向“交易成本= 0”前进的方向。</font></p><p>告诉这只鹦鹉，要想取得商业的成功，知道存在这七项交易成本很重要，更重要的，是找到降低它们的方法。</p><p>下一讲，是这一模块的小结。我会给你举三个例子，看看在真实的商业世界中，人们是如何通过降低交易成本，来获得商业成功的。我们下一讲，接着聊。希望你把这三讲内容转发给你做生意的朋友们，帮他们认清成本，缩减成本。</p><p>今天我给你留一道思考题：</p><p>你的公司，有没有降低了这七项交易成本中的哪一项，或者哪几项？还是并没有？</p><p>想清楚这个问题，你就能对自己的公司是正在一路高歌猛进，还是始终不温不火的原因，有个大概的判断了。</p></p>
+
+      </div>
+
+                      
+
+      <figure>
+
+       <img src="https://piccdn.igetget.com/img/202003/10/202003101133056985328567.jpg">
+
+      </figure>
+
+              
+
+      <figure>
+
+       <img src="https://piccdn.igetget.com/img/202003/10/202003101133149229984432.jpg">
+
+      </figure>
+
+        
+
+     </div> 
+
+    </article> 
+
+   </main> 
+
+  </div>  
+
+
+
+  
+
+<style>
+
+    .weui-tab {
+
+        height: 54px !important;
+
+    }
+
+    .ycolor {
+
+        color: #ffa42f;
+
+    }
+
+</style>
+
+  <div class="comments">
+
+    <div class="comments-color"></div>
+
+    <div class="comments-head">
+
+        <span>用户留言</span>
+
+    </div>
+
+    <ul class="comments-list" id="comments-list">
+
+
+
+                    <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/32954779-1563839882.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">斜阳</span>
+
+                    <span class="comments-vote"><b>31赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    关于中国物流成本高，和我们的日常感知不同，这是因为我们只看到了C端物流的发达，没有看到背后整体仓干配的复杂，以及更深层的，因为中国地理和文化差异格局导致的多层级分销体系，针对这两点，目前以降低交易成本为目的的演化方向是：
+
+仓干配层面，用交易数据带动末端的“配”，再利用“配”带动“仓干”的基础设施改革，整体进行拉动式变革，从C端反向倒逼B端和整个S端，实现S2B2C全链条效率提升。
+
+分销网络层面，执行“逻辑仓分散，物理仓集成”的管理方式，也就是“短链经济”，把供应链的三流（信息流，资金流，物流）进行拆分解耦，传统经销体系只保留资金流能力，品牌商控制全链条信息流，物流交给专业第三方物流平台。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">逻辑仓分散，物理仓集中。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/34525209-1495116392.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">心铭</span>
+
+                    <span class="comments-vote"><b>23赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    润总好，
+       我们公司是建筑公司，但是现在增加一个新业，制作了软件，让互联网给建筑赋能。从这几天的学习来看，公司的这个举措，如果做好了，肯定是成功的。
+        之前的建筑业，施工班组找活，需要各处打听，那里有活，然后上门采访，并且还不知道活的质量。这就是售前的搜索成本，现在我们这个软件，上面汇集了我们筛选过的活的信息，省去了他们搜索成本。对于给活的一方，我们软件上有施工班组的业绩记录，包括正在施工的记录，还有以往对施工班组的评价，这样省去了给活一方的搜索成本以及比较成本。
+        从以上来看，售前是有价值的，售中，售后我们还要努力。在付款成本方面，我们也有在尝试，通过软件的数据流，就可以提供信用评价，这样就可以放心给施工班组垫资，付款及时，工人积极性高，从而降低他们的成本。我想也是降低付款成本。
+
+       公司做的事情，我觉得还是有价值的，之前润总说过一句话，新零售就是更高效的零售，我想说我们做的就是新建筑。我相信公司会更好。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">用7类成本眼镜去看，就能看清楚对错的计算了。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/513144-1511189946.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">任光辉-游戏化管理</span>
+
+                    <span class="comments-vote"><b>23赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    运输成本，保管成本，管理成本。
+
+这个里面有一个商品周转率，一个商品从进入仓库、摆上柜台、到卖给用户需要的时间，商品周转时间越快，周转率越高，资金周转的就高效。
+
+努力提高货品的周转效率，从品类选择开始，到品牌选择，再到具体商品进货数量的敲定，都考验着我们的管理能力。需要从数据出发，拥有数据之眼，看清世界的底牌。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">没错。看清世界的底牌。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/36328591-1516452417.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">佛祖门徒</span>
+
+                    <span class="comments-vote"><b>14赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    降低交易成本一直都是公司始终在努力做的事。在发展过程中，会力争在产品覆盖到的几个行业中优先选择有代表性的客户，打造标杆性的项目。一方面，在行业内的痛点解决方案上树立口碑，降低其他客户的搜寻、比较成本；另一方面，对应不同体量的客户，有针对性更强的产品版本，并且有相应的代表性客户提供使用反馈，降低其他客户的测试成本。
+此外，产品是模块化的，并且架构在云上，绝大多数问题都不用去现场，只要通过远程就可以进行精准定位，并且在较短的时间内解决，降低了售后成本。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">标杆客户，就是降低协商成本的重要方法。连那么大的公司都买了，应该可以放心了。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/33484497-1518785458.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">刘溜溜</span>
+
+                    <span class="comments-vote"><b>12赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    购后的交易成本对企业还有顾客来说同样重要。
+
+如果一家企业能够自己通过各种方法减少交易成本，那就可以更多让利给顾客，使顾客能够在你这里买到相对便宜的好货，提升他们的复购率。即便不让利给消费者，那也可以提高自己的利润空间。
+
+对于顾客而言，如果一家企业能够减少交易成本，他们能获得的除了价格上的优惠之外，也能够有机会获得更好的购物体验。这些同样是对企业本身有利的。
+
+这几讲当中提到的七项交易成本，可以说是在商业世界必须要面对的。做得好，有利于自己的发展，做得不好，可能就会在残酷的商业竞争中被淘汰。并且，这七项交易成本的存在可能也会是新的商机，可以成为自己的主攻点。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">准备好，先强攻一点，拿下。就可以获得优势。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/185568-1493044528.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">Shirley_王淅 </span>
+
+                    <span class="comments-vote"><b>24赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    第一次实时跟课，前面因为工作关系，都是完整上线后很久后才开始学习。
+
+联想到几年前，上海市在发展规划中自我定位要成为“4大中心”，其中一个是“航运中心”，不仅是海运，也包括内河航运，具体是提升长江的运输能力，以上海为龙头带动沿江节点城市整体的运输效率，目的就是降低物流成本。因此看来，中国的经济政策制定，总体上还是有的放矢的。
+
+另外想请教润总，交易双方都有人力成本，人的因素会影响交易的所有环节，这次课程是会放到哪个模块讲呢？忍不住问，是因为这次疫情更加暴露了人力对经营模式的影响。谢谢。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/1870307-1543391025.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">雪域</span>
+
+                    <span class="comments-vote"><b>12赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    交易成本：为克服信息不对称和信用不传递而付出的时间和金钱。比如购前的搜寻成本，比较成本和测试成本，购中的协商成本和付款成本，购后的运输成本和售后成本。
+
+我以前的公司，是一家韩国企业。公司在2010年左右开始在外地建立分公司，主要就是为了降低运输成本和售后成本。
+
+分公司所在地分两种情况，一种是在人力资源丰富和物流发达的地方，比如临沂，一个县城就有一百多万人，物流运输非常发达。另一种情况是在客户工厂附近，供货和售后非常方便。
+
+后来一想，公司的主要客户也是大型的韩国电子企业，而这些韩国客户比较愿意用同是韩系的供货商，这其实也是降低了搜寻成本和比较成本。
+
+由于韩国企业有相同或相似的付款习惯和交流方式，用韩国企业供货还降低了协商成本。
+
+                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">在一段时间里，韩国，或者是海外公司的身份，都可以用来降低购前成本。不一定是韩国做得好，而是我们自己不争气。最后，国内公司都要起个洋名：达芬奇，马可波罗等。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-01-02/17834f6a84400000.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">吉林雀园</span>
+
+                    <span class="comments-vote"><b>11赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我在某宝开花店，模式是自产自销，正好梳理一下，我是这样做的
+购前：
+搜寻成本，我申请了企业店铺，运用多品种包对版的方式打造“专业花友店”，专业产生信任，进一步降低比较成本和测试成本。
+购中：选择正规的电商平台，本身就可以降低付款成本，在花友圈打造自己的品牌，可以降低协商成本，增加复购率。
+购后：运输对我来说是硬伤，农村交通不便，运输成本高，是我必须“接受”的难题。最后最重要的是售后成本，我在花友圈收集和总结大家最常见的问题，然后制作客服模板，在得到学习同理心，深入了解自己和花友的内心，寻找直击问题本质的方法。
+今年是创业第二年，我会持续学习，增加成功概率，加油💪                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">可以研究一下会员制。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/32954779-1563839882.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">斜阳</span>
+
+                    <span class="comments-vote"><b>10赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我太太所在的体育用品公司正在准备启动网红计划来降低交易成本，定期会使用最火的那两位网红之一进行爆发式营销。这既是面对疫情的自救，也是面向未来的全新尝试，此举会大大降低售前和售中，甚至售后的交易成本，通过一个点的信任和信息，击穿全链条，努力摆脱掉对传统渠道依赖的大包袱，我的个人判断是，不久的将来，随着人们工作生活方式被重构，在大众日用品和耐用品层面，个体化的大V网红会以全新的流量运营方式大部分代替传统经销体系。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">这要看，网红们会不会被利益迷惑，不断伤害自己的品牌，降低信任。如果这样，将会越来越差。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-08-14/1755003984400003.jpg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">阿虎</span>
+
+                    <span class="comments-vote"><b>10赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    日本的配送有分当面交给客人的宅急便和不需要客人签收，可以直接放到客人家里邮箱的メール便。在我做手机保护膜的时候，商家已经很多了。最早我是采用价格竞争策略进入市场，质量不仅要保证，价格还要更低。在运输方面，投放到邮箱里的配送方式还分为三档，1CM，2CM，3CM的价格都不一样。我就找东莞的工厂帮我批量生产0.9CM的包装盒。加上配送时信封的厚度，整体厚度控制在了1CM以内。然后把这些省下来的成本都让利给了顾客。
+       当然，我的公司现在也活了下来。早期的引流产品让我们积累了很多回头客，在后续开发出的新产品里，价格虽然更高了，但是由于信任已经建立起来，客人无需再货比三家了。新产品的整体销售额也超过引流产品了。
+       最后，感谢润总的「五商」，让我可以在竞争中存活下来分享我的案例。「商业通识」必定能给更多的人带来帮助，降低公司成本，提高运行效率。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-09-07/175ce49f44400005.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">二希·Hebe</span>
+
+                    <span class="comments-vote"><b>10赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我想起2个运输成本的例子。🌰
+
+1⃣️以前做跨境电商的时候，京东下完订单，我们会把货直接发到他们的保税仓。
+京东保税仓的好处太多了：
+1. 仓租便宜。平摊到每个货品的边际成本很低。
+2. 国际物流便宜。大货可以直接集装箱运回，大大节省物流费用。
+2. 先下单，再清关。用户下完订单之后，把产品订单、支付单、物流单快速整合，大大缩短清关时间，达到分钟级的清关时效。
+3. 货品保真。必须是国外注册的公司才有资格进驻，而且审批非常严格。
+4. 收货时间短。因为货品本身就在海关，再加清关快，京东的国内物流更快，货品到顾客手里时间被大大缩短。
+
+相比于直邮，保税仓的存在，大大降低了运输成本。
+
+2⃣️隔壁贾伟老师在设计课程里举过一个例子，让我印象特别深刻。
+就是IKEA那个2块9的马克杯。现在看起来像个漏斗的那个，还有一个小杯把，只能伸一根手指。
+这是一个特别经典的设计，它的销量特别好。但不是因为颜值，而是因为它的设计大大节约了物流成本。
+这个马克杯经过3次改良。从第一次的一个集装箱货盘上只能摆800个，到现在的能摆2000个。运输效率提高一倍以上，物流费用节省60%。
+
+好的产品，都是会帮用户省钱的。
+
+                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.igetget.com/posts/avatar/2019-05-20/221333933-1558350005.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">露酱</span>
+
+                    <span class="comments-vote"><b>8赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我的行业是房地产销售行业，发布的房源渠道有自家的网络，安居客，58同城（这两个网络现在合并了），自家的网络要求必须要真实房源，甚至一度提出过不是真实房源要罚款，邀请消费者监督。但是这个模式在实践过程中遇到很多阻力，因为真实房源所以价格高，投资价值比虚假房源的吸客量低。但是我想公司的最终考量是为了减少售前交易成本，创立品牌，建立信任成本，而过程中的阻力是减少交易成本的必然代价。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">不能在宏观上理解战略，很难在微观上克服困难。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/83797644-1504708930.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">亲爱的小卟</span>
+
+                    <span class="comments-vote"><b>7赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    2020年，我在自己的家乡五线城市做软件研发。 降低七种交易成本，我会这样做：
+
+1：搜寻成本，通过租赁公交站牌、广场广告位来降低个体户、个人等小客户的搜寻成本，通过加入工商联、中小企业组织等联盟来降低政府、大公司等大客户的搜寻成本。
+
+2：比较成本：通过展示成功案例，提高客户对我们技术能力的信任，降低与其他公司的技术比较成本。主动告知猪八戒等外包网站的访问渠道和参考价格，来降低价格比较成本。
+
+3：测试成本：有点软肋，不过在展示成功案例的时候，可以让客户亲自试试软件的操作，以及反馈以往客户对我们的评价，利用从众效应来提高客户对我们的信任。
+
+4：协商成本：五线城市人的圈子很小，随便街上来一个人，聊聊都能找到一个共同认识的人，或许两人还有亲戚关系，这种概率都很大。个人和公司的社会信誉，有天然的优势。当然签订合同，事后惩罚是肯定要做的。
+
+付款成本、运输成本、以及售后成本我觉得在本地，这都是天然的优势，违约后的社会名誉，法律方面的惩罚，以及面谈、上门服务，出现问题远程能立马解决。一点愚见。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">效果如何？期待你的后继分享。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/150832691-1512950361.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">吉米</span>
+
+                    <span class="comments-vote"><b>7赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    自己的公司是在京东商城销售数码产品相关的办公配件，比如平板保护套、键盘、鼠标、电容笔等。
+
+1.购前
+
+（1）搜索成本方面，我们会尽量优化产品的数据和排名，排名尽量靠前，降低客户的搜索成本，使顾客可以容易找到我们。
+
+（2）比较成本方面，我们会在页面里面做对比图，对比我们的产品和市场上的产品有什么不同，我们的优势是什么。
+
+（3）测试成本，京东平台是七天无理由退换货，我们在页面的承诺是30天无理由退换货，一年换新，来降低和打消消费者的疑虑。
+
+2.购中
+
+（1）协商成本 ，依托京东平台，消费者购物有保障，相对来说消费者没有这方面的顾虑，如果我们不履行承诺，平台也会处罚我们。
+
+（2）支付成本 ，支付成本方面消费者有京东这个平台做中介，购物无忧，消费者付款的金额还是在平台上面的。
+
+
+3.购后
+
+（1）运输成本方面 ，我们入了京东仓库，全国八大仓发货，一般都可以隔日达，部分地区可以当日达，虽然运输成本比较高，我们平均一票运费要11元左右，大大高于普通快递的2元，3元。
+
+但是消费者的体验很好，特别是这次疫情期间，在其他快递停摆的情况下，我们的业绩增长了几倍，就是因为我们在京东仓库里面储存了大量的货物，又能很快地运送到消费者手上。
+
+（2）售后成本，售后方面也是很方便的，消费者可以在后台选择京东快递上门取件，只要把货物交给京东快递员就好，退换货也是非常方便。
+
+所以按照交易成本分析，我们是有进行优化的，目前比较大的问题就是，因为京东物流快递费用高，加上京东平台抽取的扣点比较高，所以我们的整体售价会比友商平台高不少，这也带来了交易阻力。
+
+学习完这几节课，对自己的启发就是可以从顾客的体验感，还有提升产品的品质，降低不良率这些纬度来提升顾客的购买体验，从而让消费者虽然买到贵的东西，但是依然觉得还是比较超值的。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">不断重新审视这7种成本，看看还能从哪里抠出几块钱。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/224973104-1563596662.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">张萌</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我从事零售业，在18线小城市经营连锁超市。超市行业的交易成本体现在：售前，搜寻成本、比较成本、测试成本。每年参加大型行业会议，春季糖酒会、秋季糖酒会，中国国际食品展销会，美妆博览会，日用品博览会等大型会议，在展销会上，集中搜寻各种商品，现场试吃试饮试用比较，比较材质、用料、样式、价格，选择引进性价比最高的商品。商品引进本城市后，顾客通过卖场商品展示获得信息，市场比较后进行付款。顾客带回，超市提供售后服务。
+
+传统超市运营在售前的交易成本过重，搜寻比较测试的成本有降低空间，例如利用互联网线上采购平台，获取商品信息，通过大数据商品排序，精准捕捉市场需求，依据需求采货，提高资金使用率，提升周转率。售中的协商付款成本降低，要求我们打造自己的品牌，用品牌信任度降低顾客信用风险。售后运输问题，思考是否联合工厂实现“一件代发”，降低产品在多次运输中产生的费用，砍掉中间环节，变“商品集合地”为“信息分发平台”。售后问题第一时间解决，最大限度降低顾客时间/精力/金钱成本。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">变商品聚集地，为信息发布地。赞。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/12645883-1493054385.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">董坤</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    电商公司之所以能部分取代传统零售业，其主要原因就是他系统地降低了课程中所介绍的7大成本。
+
+如果你是一家产品零售公司，早期登录电商平台开店，就会感觉到这些优势：比如下单页面降低了搜索、比较成本，沟通软件（如旺旺）降低了协商成本、支付软件降低了支付成本、菜鸟网络以及只换不修降低了售后的运输和维修成本。
+
+一些较为有特色的电商平台，试图从降低测试成本入手，比如网易严选。在电商竞争激烈的时刻，以严选为主题，降低消费者对产品信息验证的成本。
+
+从这个过程中可以看出，一家公司针对交易成本的优化，有个明显的顺序：首先要针对售前成本进行优化，接下来马上就是售中成本，最后在考虑优化售后成本。
+
+同时，我们也看到，随着入住电商平台的商家越来越多，电商模式对公司的售前成本支付要求又大幅度提高了。新入住店家面对海量的商品信息，要想让消费者能搜到自己的产品，并不容易。
+
+现在仍然具有优势的公司，无非是两种：1，传统的大品牌公司。品牌的力量可以让消费者直接搜索其产品。2，早期加入电商平台，不断优化积累的品牌。长期来看，公司要尽力完善自己的品牌，意义就在于此。
+
+另外，网红带货，实际上也是利用个人品牌降低当下的搜索成本和比较成本。看透了这点，我曾给一家宠物食品公司建议：他们可以想办法打造一直“网红狗”，然后训练这只狗来选择它自己的食物和用品实现带货。
+
+这也是为了不断降低搜索和比较成本。针对售前成本的研究，是创业公司要做的工作。营销策划的很大一部分工作也是在解决这个问题。
+
+学习润总的课程，你会对各种成本，特别是售前成本理解的更深刻，找出更好的办法来。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">有趣的策略：网红狗带货。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/116712211-1529738016.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">🌴武汉秦涛</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    零售的人货场决定了物流成为交易无法回避的环节，而物流降本的确是一门有着丰富可深挖的学问，之前曾经负责过公司的行销规划业务，和内部物流部门协作较多，分享几点素材：
+1.区域建分仓是可以降低成本的，但前提是区域的消化量和周转速度足够高，否则租赁成本和人工成本反而会增加最后的物流成本，因此我们只在权重业务量的核心区域建仓，同时如果生意量不能保障的时候还会撤仓。
+2.整车物流成本低于零单。因此我们会对客户的订单量做管理，对于需求量小的客户会限制下单次数，以达到最佳物流效率，当然对订单精准度要求也会提高。
+3.内部协同。为保证物流效率，每次客户订单除了货品外会集合其他市场部门的品牌赠品及宣传物资等。
+4.原来我们在区域会养车和司机，最近几年基本全部转包给第三方了。
+5.不同时节的物流成本不一样，以春节前后为最高。因此节前物流统筹特别重要，很多区域会停止。
+6.物流的保管损耗责任需要做好流程，否则出现损坏就只有自己买单了，当然物流费用的结算周期也是一种杠杆。
+                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">举个例子，有些产品就相对更适合线下零售，不太适合电商。比如便宜的床垫。因为整车物流送到门店，比一个个发往全国要便宜。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/18087334-1541080844.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">托尼在厦门</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    作为一家B2B公司，售后：物流费用是最少的，从工厂到客户，服务费用也是比较少的，基本当地都有售后服务工程师。
+     拿一家做矿泉水的客户来说，他们从广东生产到福建销售，每年的物流费用7000-8000万元，这还是海运费用，整个物流环节和消费管理费用占到整个售价的50%-60%，想想就觉的可怕，如果是纯净水的话，24入箱的纯利仅为1-2元。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">我们不生产水。我们只是……</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/90286048-1505214308.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">山峰</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    网红直播带货模式的火爆，有两个关键，一个是网红的人格趣味性，增加吸粉的效率；另一个更关键就是专业能力，即“选品能力”和“优惠”。毕竟购物本身就是一个理性行为，商品不好，消费者上了一次当，没人愿意去上第二次，最终网络直播带货就变成了网络直播，粉丝光看不买。从交易成本的角度看，网红的专业能力，降低了消费者的搜寻成本、比较成本、测试成本。基于粉丝对网红的信任，又降低了消费者与厂家的协商成本。伴随着网红直播带货模式的演进——不断向货源靠近，厂家将直接与消费者进行连接，省略了代理商这个中间环节，毫无疑问会带来运输成本的降低。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/1618398-1503028365.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">青岛潘飞达</span>
+
+                    <span class="comments-vote"><b>5赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    按照这七项交易成本，梳理一下公司的情况，我们公司叫青岛云世纪，是做无人机应用软件开发的，很多人都知道大疆、亿航、极飞，他们都是做硬件研发、制造的，而我们是基于他们的主流机型做深度应用开发，用软件赋能硬件，为各行业提供无人机+的解决方案，以及飞行服务。但是却一直不温不火，很难找到突破口。真希望润总有一天能针对无人机行业进行一个深度分析，给我们提供一些启示。
+今天先通过这一模块做一个分析看看：
+1、搜寻成本。我们现在主要做的是企业服务或政府服务，基本上靠销售人员打电话或通过一些渠道找客户，公司成立时间不长、行业又新，没什么品牌，所以客户很难找到我们。但是如果客户找到我们想了解无人机行业情况或者帮他们出方案，我们有这个自信，只要是跟无人机有关的，都可以提供咨询或方案，我们服务了很多客户都是这样，但并不收费，然后他们直接去找厂家或者报价更低的人去了，但这算不算降低了客户的搜寻成本呢？
+2、比较成本。我们只是在提供咨询或方案的时候做一些简单的比较，但出发点是基于我们的成本利润考虑的，所以有时候也不是完全客观。
+3、测试成本。这一块空白。
+4、协商成本。公司没什么品牌，只是在行业内有一些小声誉，因为公司在青岛，所以基本上所有的品牌商想进青岛都首选我们合作，因为我们既有销售又有软件研发，还有当地的资源关系，又跟他们的主营业务没冲突。而与客户之间的协商成本就会很高，因为在他们那你没有品牌和声誉，所以要经常去做售前、做咨询、提供方案、提供报价等等，浪费了大量的时间成本。
+5、付款成本。这一块空白，也没给客户降低付款成本。
+6、运输成本。我们自己是做软件和服务解决方案的，不存在运输成本。
+7、售后成本。这一块单从软件和飞行服务上去分析可以忽略不计，但如果是做一个项目，成本就会大，因为要经常维护客户关系，是不是合同规定的售后我们都去做，尽量满足客户需要。对于客户来说因为我们本质上提供的都是服务，所以他只要结果就好了，也没有维修、更换等成本。
+以上是我对云世纪公司的分析，很粗浅，也不够细致，但是我们确实是陷入了泥潭，感觉一身武艺使不出来，业务惨淡到让人窒息，这里面有多种原因，有行业发展的、战略选择的，以及技术能力的等等，希望润总能赐教！                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">你已经走出了重要的一步。看看能在哪一点上，先做提升？</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+        <li class="comments-footer">以上留言由 作者 筛选显示</li>
+
+    </ul>
+
+</div>
+
+ </body>
+
+</html>
+
+
+
+    <!doctype html>
+
+<html lang="en" data-dpr="1" style="font-size: 34px;">
+
+ <head> 
+
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+  <meta content="yes" name="apple-mobile-web-app-capable"> 
+
+  <meta content="yes" name="apple-touch-fullscreen"> 
+
+  <meta content="telephone=no,email=no" name="format-detection"> 
+
+  <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"> 
+
+  <title>05｜交易成本（购后）：中国的物流真的比美国更快吗？</title> 
+
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+
+  <script src="../js/main.js"></script>
+
+
+
+  <script type="text/javascript" id="viewport">
+
+        /* eslint-disable */
+
+        var APPVersion=0;!function(J,I){function H(){var a=E.getBoundingClientRect().width;if(J.navigator.appVersion.match(/iphone/gi)&&a<500){a=a*B}a/B>540&&(a=540*B);var d=a/10;E.style.fontSize=d+"px",z.rem=J.rem=d}var G,F=J.document,E=F.documentElement,D=F.querySelector('meta[name="viewport"]'),C=F.querySelector('meta[name="flexible"]'),B=0,A=0,z=I.flexible||(I.flexible={});if(D){console.warn("将根据已有的meta标签来设置缩放比例");var y=D.getAttribute("content").match(/initial\-scale=([\d\.]+)/);y&&(A=parseFloat(y[1]),B=parseInt(1/A))}else{if(C){var x=C.getAttribute("content");if(x){var w=x.match(/initial\-dpr=([\d\.]+)/),v=x.match(/maximum\-dpr=([\d\.]+)/);w&&(B=parseFloat(w[1]),A=parseFloat((1/B).toFixed(2))),v&&(B=parseFloat(v[1]),A=parseFloat((1/B).toFixed(2)))}}}if(!B&&!A){var u=(J.navigator.appVersion.match(/android/gi),J.navigator.appVersion.match(/iphone/gi)),t=J.devicePixelRatio;B=u?t>=3&&(!B||B>=3)?3:t>=2&&(!B||B>=2)?2:1:1,A=1/B}if(E.setAttribute("data-dpr",B),!D){if(D=F.createElement("meta"),D.setAttribute("name","viewport"),D.setAttribute("content","initial-scale="+A+", maximum-scale="+A+", minimum-scale="+A+", user-scalable=no"),E.firstElementChild){E.firstElementChild.appendChild(D)}else{var s=F.createElement("div");s.appendChild(D),F.write(s.innerHTML)}}J.addEventListener("resize",function(){clearTimeout(G),G=setTimeout(H,300)},!1),J.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(G),G=setTimeout(H,300))},!1),"complete"===F.readyState?F.body.style.fontSize=12*B+"px":F.addEventListener("DOMContentLoaded",function(){F.body.style.fontSize=12*B+"px"},!1),H(),z.dpr=J.dpr=B,z.refreshRem=H,z.rem2px=function(d){var c=parseFloat(d)*this.rem;return"string"==typeof d&&d.match(/rem$/)&&(c+="px"),c},z.px2rem=function(d){var c=parseFloat(d)/this.rem;return"string"==typeof d&&d.match(/px$/)&&(c+="rem"),c}}(window,window.lib||(window.lib={}));
+
+    </script> 
+
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-iget-rush-node/dist/css/course.513f06c0faf6793849ce8f64a0627f0d.css"> 
+
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-editor/dist/preview.20aa73124b557d5b072d.css"> 
+
+ </head> 
+
+
+<style>
+    body {
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:12px;
+      margin:0;
+    }
+    #main {
+      height:1800px;
+      padding-top:90px;
+      text-align:center;
+    }
+    #fullbg {
+      background-color:gray;
+      left:0;
+      opacity:0.8;
+      position:absolute;
+      top:0;
+      z-index:3;
+      filter:alpha(opacity=80);
+      -moz-opacity:0.5;
+      -khtml-opacity:0.5;
+    }
+    #dialog {
+      background-color:#fff;
+      height:330px;
+      left:50%;
+      margin:-200px 0 0 -200px;
+      padding:1px;
+      position:fixed !important; /* 浮动对话框 */
+      position:absolute;
+      top:50%;
+      width:300px;
+      z-index:5;
+      border-radius:5px;
+      display:none;
+    }
+    #dialog p {
+      margin:0 0 12px;
+      height:24px;
+      line-height:24px;
+
+    }
+    #dialog p.close {
+      text-align:right;
+      padding-right:10px;
+    }
+    #dialog p.close a {
+      color:#000;
+      text-decoration:none;
+      font-size: 16px;
+    }
+    .code-img {
+      width: 250px;
+      margin: -10px auto 0 auto;
+      padding: 10px;
+    }
+    .code-img img {
+      width: 240px;
+    }
+  </style>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      showBg();
+    });
+  </script>
+  <script type="text/javascript">
+    //显示灰色 jQuery 遮罩层
+    function showBg() {
+      var bh = $("body").height();
+      var bw = $("body").width();
+      $("#fullbg").css({
+        height:bh,
+        width:bw,
+        display:"block"
+      });
+      $("#dialog").show();
+    }
+    //关闭灰色 jQuery 遮罩
+    function closeBg() {
+      $("#fullbg,#dialog").hide();
+    }
+  </script>
+</head>
+ <body  style="font-size: 14px;max-width: 600px;margin: 0 auto;"> 
+
+  <div id="fullbg"></div>
+  <div id="dialog">
+    <p class="close"><a href="#" rel="external nofollow" onclick="closeBg();">X</a></p>
+    <div class="code-img"> <img id="ewmsrc"  src="https://s2.ax1x.com/2020/03/11/8EWrIH.jpg"/></div>
+  </div>
+
+    <img style="max-width: 100%" src="https://piccdn.igetget.com/img/202003/10/202003101118349594650294.jpeg" alt="">
+
+  <div class="preview"> 
+
+   <main id="article-main" data-type="22"> 
+
+    <article class="article" id="preview-article"> 
+
+     <h1 class="title name-slFosOL50ZH3FiY08C0iemh10biJsJ102Np3xhSoYKeQEt0uOIABk5WrZbt8KMZa">05｜交易成本（购后）：中国的物流真的比美国更快吗？</h1> 
+
+     <div class="author"> 
+
+            <img data-type="author" src="https://piccdn.igetget.com/img/202003/08/202003081715468257765636.jpeg"> 
+
+      <p>刘润</p> 
+
+          <span class="time">2020-03-11</span> 
+
+     </div> 
+
+     <div class="line"></div> 
+
+     <div class="article-body"> 
+
+                <div id="1556543749421" class="player-v2"> 
+
+       <div class="player-wrap"> 
+
+        <button class="i-playing"></button> 
+
+        <div class="progress-group"> 
+
+         <div class="audio-title">
+
+           05｜交易成本（购后）：中国的物流真的比美国更快吗？ 
+
+         </div> 
+
+         <input id="range25936" type="range" min="0" max="100" value="0" data-current="0:00" data-max="13:07" data-total="787"> 
+
+        </div> 
+
+        <audio id="player25936" title="block.audio.title" src="http://igetoss.cdn.igetget.com/aac/202003/10/48000_202003101119306633338455.m4a" preload="" cover="05｜交易成本（购后）：中国的物流真的比美国更快吗？" cover-img="05｜交易成本（购后）：中国的物流真的比美国更快吗？"></audio> 
+
+
+
+       </div> 
+
+       <div class="player-tips">
+
+         建议WiFi环境下播放 
+
+       </div> 
+
+      </div>
+
+          <div class="text">
+
+       <p><p>商人们为了促成交易，克服“信息不对称、信用不传递”这两大交易阻力，必须付出代价。这个代价，就是“交易成本”。</p><p>这些代价必然存在，但也必须降低。</p><p>商业进化的方向，就是从“交易成本=∞”，向“交易成本=0”前进的方向。</p><p>前面两讲，我们讲了三类七项交易成本中的两类：</p><p><ul><li>第一类“购前”，包括“搜寻成本、比较成本、测试成本”，三项交易成本；</li><li>第二类“购中”：包括“协商成本、付款成本”，两项交易成本。</li></ul></p><p> </p><p>这一讲，我们接着讲第三类交易成本：购后。购后交易成本包括：运输成本，和售后成本。</p></p>
+
+      </div>
+
+                <div class="text">
+
+       <p><p>提问，你觉得现在是中国物流行业的效率高，还是美国物流行业的效率高？</p><p>很多人会觉得，当然是中国高啊！</p><p>2020年大年初一的早上，我在深圳大中华喜来登酒店和施展老师一起吃早饭，用手机在京东买了一本施展老师的新书《溢出》，然后立刻奔赴机场，飞回上海。下午回到上海的家时，这本《溢出》已经比我先进门，躺在我家的桌上了。</p><p>所以很多人会觉得：中国物流业的效率太高了。</p><p>但是，这其实是一个误解。</p><p>中国物流与采购联合会会长何黎明，在一次演讲中说，<b>“我国物流效率，仅相当于美国80年代”</b>。</p><p>啊？为什么？</p><p>要看一个国家物流行业的效率，一个关键指标是“社会物流总成本”在GDP里的占比。这个占比意味着，每创造10000元的社会财富，需要1000元钱还是100元钱，才能送到消费者手中。</p><p>那么，各个国家的“社会物流总成本”在GDP里的占比，到底是多少呢？</p><p>美国“社会物流成本”在GDP里的占比，大约是8%。日本是11%，要高一些。东南亚更高，平均是27%。</p><p>那中国呢？大约15%，将近是美国的2倍。</p><p>当然，这个数字，也和一个国家GDP的结构有关系。比如制造业大国，几乎一定比服务业大国的物流负担重。但是，这个占比依然在很大程度上，反映了一个国家物流行业的效率水平。</p><p>那么，为什么中国“社会物流总成本”和你想象的完全不一样，比美国高这么多呢？</p><p><b>社会物流，大概包括三种成本：运输费用、保管费用、管理费用。</b></p><p>在运输费用方面，中国目前的运输，主要还是依靠高成本的公路运输，成本更低的铁路运输和水路运输，占比很小。</p><p>中国多种方式（水路、铁路、公路、航路）的联合运输，只占4%~5%左右，而发达国家已经达到20%。我们的成本当然高。</p><p>那保管成本呢？保管成本，和商品的库存周期关系非常大。中国传统商业的生产计划性总体较差，一件商品在仓库里放1年才卖出去，和放1个月就卖出去，保管成本能差到12倍。</p><p>第三是管理费用。</p><p>你猜猜看，在中国，一盒棉签从工厂里生产出来，一直运到你家门口的夫妻老婆店，最后被你买走，一共被“搬运”了多少次？</p><p>大概5~8次。</p><p>从工厂搬运到品牌商仓库，再搬运到总代理仓库，再搬运到城市代理仓库，再搬运到批发市场，再搬运到夫妻老婆店。</p><p>每一次搬运，都会产生新的成本负担。而这些成本，是因为对交易流程的低效管理导致的。</p><p>那能不能减少搬运的次数？比如降到4次、3次，甚至降到2次？</p><p>有可能。</p><p>名创优品的棉签，从工厂出来后，会被直接运送到它在全国的7个大仓库，然后根据终端的销售数据，从7个大仓库，直接运送到需要补货的门店。这样，一盒棉签，在名创优品只需要搬运2次。</p><p>算上自建仓库的成本后，减少搬运次数这一件事，在大多数情况下，依然能够降低运输成本。</p><p>再举个例子。</p><p>你是一家品牌商，打算在京东、小米有品上卖东西，你甚至可以不建立自己的仓库，而是选择它们的“一件代发”服务。</p><p>什么意思？</p><p>货品从工厂出来，直接存入京东统一的仓库里。你是品牌商，或者经销商，你卖出一件商品，并不需要把货品搬到自己家，再从家里发货。京东帮你直接从统一的仓库发货。</p><p>这种“物权流转货不动”的模式，又减少了一次运输成本。</p><p>商人们在想尽一切办法，通过降低“运输成本”的方式，提升交易效率。</p><p>中国的“最后一公里”物流效率很高。但是，主干物流效率太低。</p><p>2013年，阿里巴巴成立了菜鸟网络。马云说，他的目标是让中国任何城市之间的电商快递，实现24小时内必达，全球范围内实现72小时必达。</p><p>怎么做？通过对大数据的分析，在用户还没有下单之前，就作出更准确的销售预测，调动多种方式联动的物流资源，实现提前配送，从而改善主干物流效率。</p><p> </p><p><b>这一切的努力，都是在降低运输成本，哪怕只是一点点。管它呢。进一寸有一寸的欢喜。</b></p></p>
+
+      </div>
+
+                <div class="text">
+
+       <p><p>梁宁老师曾经讲过一个关于“育婴箱”的故事。</p><p>19世纪70年代，妇产科医生斯蒂芬·塔尼受小鸡孵化器的启发，发明了人类使用的“育婴箱”。这个伟大的发明，让美国婴儿的死亡率下降了75%。</p><p>育婴箱是一个非常天才而伟大的发明。但是，这么伟大的东西，并没有在非洲带来婴儿死亡率的下降。</p><p>为什么？</p><p>因为斯蒂芬的育婴箱结构非常复杂，容易出现故障。出现故障后，需要专业人员和专业配件才能维修。而这些在基础条件落后的地方很难获得。所以，育婴箱很难大面积推广。</p><p>也就是说，斯蒂芬的育婴箱“售后成本”太高。你能捐10000个育婴箱，但你很难捐一整套昂贵而复杂的售后服务体系。</p><p>怎么办？</p><p>一位美国大学生，天才式地改进了斯蒂芬的育婴箱。这款育婴箱用旧汽车的前灯来供暖，用汽车仪表盘的风扇来保持空气循环，用车门的蜂鸣器和信号灯当报警系统，并且用摩托车电池供电。</p><p><b>这款育婴箱，就被称作NeoNurture育婴箱。</b></p><p>我说这是一个“天才的改进”。可是，这个发明到底“天才”在什么地方？</p><p>这个发明的“天才”之处，不是因为这些配件便宜，而是因为它利用成熟的汽车配件制造育婴箱，因此完全不用搭建一套独立的售后体系。育婴箱如果坏了，一个汽车修理工，就能修好它。</p><p>NeoNurture育婴箱的天才之处，是它创造性地降低了“售后成本”。</p><p>有一次，华为前轮值CEO费敏老师给我讲了一个故事。</p><p>他说，他们家空调坏了，于是请人上门来修。修理工人满头大汗，弄了一个上午，还是没修好，最后说先回去一趟再来。</p><p>费敏老师在华为时，负责整个华为的研发体系。他说，华为是不会这么设计产品的。华为如果做空调，一定会把空调“模块化”。</p><p>空调坏了，有人上门来修。最重要的“售后成本”是那块电路板，还是修理工人上门的时间？</p><p>大概率是上门修理的时间。</p><p>所以，如果从最开始就想明白了这个问题，进行模块化设计，维修工人上门后，就可以直接拔走坏掉的模块，换上新的，走人。这样的售后成本，是最低的。</p><p>为什么？</p><p><b>因为所有的售后成本，最终都会加到商品价格里，导致不必要的高价带来的交易阻力。</b></p><p> </p><p><font>创造性地降低售后成本，就是降低交易成本，提升商业效率。</font></p></p>
+
+      </div>
+
+               <div class="author"> 
+
+      <img data-type="author" src="https://piccdn.igetget.com/img/202003/08/202003081715468257765636.jpeg"> <div style="margin-top: 30px;font-size: 16px;color: #666">刘润</div>
+
+     </div> 
+
+      <div class="text">
+
+       <p><p>这一讲，我们讲了购后的两种交易成本：</p><p><ul><li>运输成本，也就是为了物理上完成商品的交付，所必须付出的运输、保管、管理成本；</li><li>售后成本，也就是为了保障承诺的正常使用，所必须付出的服务成本。</li></ul></p><p>好了。这一讲，就讲到这里。</p><p>到此为止，我们已经讲完了三类七项的交易成本：</p><p><ul><li>购前：搜寻成本、比较成本、测试成本；</li><li>购中：协商成本、付款成本；</li><li>购后：运输成本、售后成本。</li></ul></p><p>有人说，要想教一只鹦鹉成为经济学家，只需要教它学会一个词：供需关系。</p><p>套用这个句式，要想教这只鹦鹉同时成为商业大咖，你只需要再教它学会第二个词：交易成本。并且记住：</p><p><font>商业进化的方向，就是从“交易成本=∞”，向“交易成本= 0”前进的方向。</font></p><p>告诉这只鹦鹉，要想取得商业的成功，知道存在这七项交易成本很重要，更重要的，是找到降低它们的方法。</p><p>下一讲，是这一模块的小结。我会给你举三个例子，看看在真实的商业世界中，人们是如何通过降低交易成本，来获得商业成功的。我们下一讲，接着聊。希望你把这三讲内容转发给你做生意的朋友们，帮他们认清成本，缩减成本。</p><p>今天我给你留一道思考题：</p><p>你的公司，有没有降低了这七项交易成本中的哪一项，或者哪几项？还是并没有？</p><p>想清楚这个问题，你就能对自己的公司是正在一路高歌猛进，还是始终不温不火的原因，有个大概的判断了。</p></p>
+
+      </div>
+
+                      
+
+      <figure>
+
+       <img src="https://piccdn.igetget.com/img/202003/10/202003101133056985328567.jpg">
+
+      </figure>
+
+              
+
+      <figure>
+
+       <img src="https://piccdn.igetget.com/img/202003/10/202003101133149229984432.jpg">
+
+      </figure>
+
+        
+
+     </div> 
+
+    </article> 
+
+   </main> 
+
+  </div>  
+
+
+
+  
+
+<style>
+
+    .weui-tab {
+
+        height: 54px !important;
+
+    }
+
+    .ycolor {
+
+        color: #ffa42f;
+
+    }
+
+</style>
+
+  <div class="comments">
+
+    <div class="comments-color"></div>
+
+    <div class="comments-head">
+
+        <span>用户留言</span>
+
+    </div>
+
+    <ul class="comments-list" id="comments-list">
+
+
+
+                    <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/32954779-1563839882.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">斜阳</span>
+
+                    <span class="comments-vote"><b>31赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    关于中国物流成本高，和我们的日常感知不同，这是因为我们只看到了C端物流的发达，没有看到背后整体仓干配的复杂，以及更深层的，因为中国地理和文化差异格局导致的多层级分销体系，针对这两点，目前以降低交易成本为目的的演化方向是：
+
+仓干配层面，用交易数据带动末端的“配”，再利用“配”带动“仓干”的基础设施改革，整体进行拉动式变革，从C端反向倒逼B端和整个S端，实现S2B2C全链条效率提升。
+
+分销网络层面，执行“逻辑仓分散，物理仓集成”的管理方式，也就是“短链经济”，把供应链的三流（信息流，资金流，物流）进行拆分解耦，传统经销体系只保留资金流能力，品牌商控制全链条信息流，物流交给专业第三方物流平台。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">逻辑仓分散，物理仓集中。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/34525209-1495116392.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">心铭</span>
+
+                    <span class="comments-vote"><b>23赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    润总好，
+       我们公司是建筑公司，但是现在增加一个新业，制作了软件，让互联网给建筑赋能。从这几天的学习来看，公司的这个举措，如果做好了，肯定是成功的。
+        之前的建筑业，施工班组找活，需要各处打听，那里有活，然后上门采访，并且还不知道活的质量。这就是售前的搜索成本，现在我们这个软件，上面汇集了我们筛选过的活的信息，省去了他们搜索成本。对于给活的一方，我们软件上有施工班组的业绩记录，包括正在施工的记录，还有以往对施工班组的评价，这样省去了给活一方的搜索成本以及比较成本。
+        从以上来看，售前是有价值的，售中，售后我们还要努力。在付款成本方面，我们也有在尝试，通过软件的数据流，就可以提供信用评价，这样就可以放心给施工班组垫资，付款及时，工人积极性高，从而降低他们的成本。我想也是降低付款成本。
+
+       公司做的事情，我觉得还是有价值的，之前润总说过一句话，新零售就是更高效的零售，我想说我们做的就是新建筑。我相信公司会更好。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">用7类成本眼镜去看，就能看清楚对错的计算了。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/513144-1511189946.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">任光辉-游戏化管理</span>
+
+                    <span class="comments-vote"><b>23赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    运输成本，保管成本，管理成本。
+
+这个里面有一个商品周转率，一个商品从进入仓库、摆上柜台、到卖给用户需要的时间，商品周转时间越快，周转率越高，资金周转的就高效。
+
+努力提高货品的周转效率，从品类选择开始，到品牌选择，再到具体商品进货数量的敲定，都考验着我们的管理能力。需要从数据出发，拥有数据之眼，看清世界的底牌。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">没错。看清世界的底牌。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/36328591-1516452417.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">佛祖门徒</span>
+
+                    <span class="comments-vote"><b>14赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    降低交易成本一直都是公司始终在努力做的事。在发展过程中，会力争在产品覆盖到的几个行业中优先选择有代表性的客户，打造标杆性的项目。一方面，在行业内的痛点解决方案上树立口碑，降低其他客户的搜寻、比较成本；另一方面，对应不同体量的客户，有针对性更强的产品版本，并且有相应的代表性客户提供使用反馈，降低其他客户的测试成本。
+此外，产品是模块化的，并且架构在云上，绝大多数问题都不用去现场，只要通过远程就可以进行精准定位，并且在较短的时间内解决，降低了售后成本。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">标杆客户，就是降低协商成本的重要方法。连那么大的公司都买了，应该可以放心了。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/33484497-1518785458.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">刘溜溜</span>
+
+                    <span class="comments-vote"><b>12赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    购后的交易成本对企业还有顾客来说同样重要。
+
+如果一家企业能够自己通过各种方法减少交易成本，那就可以更多让利给顾客，使顾客能够在你这里买到相对便宜的好货，提升他们的复购率。即便不让利给消费者，那也可以提高自己的利润空间。
+
+对于顾客而言，如果一家企业能够减少交易成本，他们能获得的除了价格上的优惠之外，也能够有机会获得更好的购物体验。这些同样是对企业本身有利的。
+
+这几讲当中提到的七项交易成本，可以说是在商业世界必须要面对的。做得好，有利于自己的发展，做得不好，可能就会在残酷的商业竞争中被淘汰。并且，这七项交易成本的存在可能也会是新的商机，可以成为自己的主攻点。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">准备好，先强攻一点，拿下。就可以获得优势。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/185568-1493044528.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">Shirley_王淅 </span>
+
+                    <span class="comments-vote"><b>24赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    第一次实时跟课，前面因为工作关系，都是完整上线后很久后才开始学习。
+
+联想到几年前，上海市在发展规划中自我定位要成为“4大中心”，其中一个是“航运中心”，不仅是海运，也包括内河航运，具体是提升长江的运输能力，以上海为龙头带动沿江节点城市整体的运输效率，目的就是降低物流成本。因此看来，中国的经济政策制定，总体上还是有的放矢的。
+
+另外想请教润总，交易双方都有人力成本，人的因素会影响交易的所有环节，这次课程是会放到哪个模块讲呢？忍不住问，是因为这次疫情更加暴露了人力对经营模式的影响。谢谢。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/1870307-1543391025.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">雪域</span>
+
+                    <span class="comments-vote"><b>12赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    交易成本：为克服信息不对称和信用不传递而付出的时间和金钱。比如购前的搜寻成本，比较成本和测试成本，购中的协商成本和付款成本，购后的运输成本和售后成本。
+
+我以前的公司，是一家韩国企业。公司在2010年左右开始在外地建立分公司，主要就是为了降低运输成本和售后成本。
+
+分公司所在地分两种情况，一种是在人力资源丰富和物流发达的地方，比如临沂，一个县城就有一百多万人，物流运输非常发达。另一种情况是在客户工厂附近，供货和售后非常方便。
+
+后来一想，公司的主要客户也是大型的韩国电子企业，而这些韩国客户比较愿意用同是韩系的供货商，这其实也是降低了搜寻成本和比较成本。
+
+由于韩国企业有相同或相似的付款习惯和交流方式，用韩国企业供货还降低了协商成本。
+
+                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">在一段时间里，韩国，或者是海外公司的身份，都可以用来降低购前成本。不一定是韩国做得好，而是我们自己不争气。最后，国内公司都要起个洋名：达芬奇，马可波罗等。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="http://imgosscdn.igetget.com/uploader/avatar/2020-01-02/17834f6a84400000.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">吉林雀园</span>
+
+                    <span class="comments-vote"><b>11赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我在某宝开花店，模式是自产自销，正好梳理一下，我是这样做的
+购前：
+搜寻成本，我申请了企业店铺，运用多品种包对版的方式打造“专业花友店”，专业产生信任，进一步降低比较成本和测试成本。
+购中：选择正规的电商平台，本身就可以降低付款成本，在花友圈打造自己的品牌，可以降低协商成本，增加复购率。
+购后：运输对我来说是硬伤，农村交通不便，运输成本高，是我必须“接受”的难题。最后最重要的是售后成本，我在花友圈收集和总结大家最常见的问题，然后制作客服模板，在得到学习同理心，深入了解自己和花友的内心，寻找直击问题本质的方法。
+今年是创业第二年，我会持续学习，增加成功概率，加油💪                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">可以研究一下会员制。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/32954779-1563839882.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">斜阳</span>
+
+                    <span class="comments-vote"><b>10赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我太太所在的体育用品公司正在准备启动网红计划来降低交易成本，定期会使用最火的那两位网红之一进行爆发式营销。这既是面对疫情的自救，也是面向未来的全新尝试，此举会大大降低售前和售中，甚至售后的交易成本，通过一个点的信任和信息，击穿全链条，努力摆脱掉对传统渠道依赖的大包袱，我的个人判断是，不久的将来，随着人们工作生活方式被重构，在大众日用品和耐用品层面，个体化的大V网红会以全新的流量运营方式大部分代替传统经销体系。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">这要看，网红们会不会被利益迷惑，不断伤害自己的品牌，降低信任。如果这样，将会越来越差。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-08-14/1755003984400003.jpg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">阿虎</span>
+
+                    <span class="comments-vote"><b>10赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    日本的配送有分当面交给客人的宅急便和不需要客人签收，可以直接放到客人家里邮箱的メール便。在我做手机保护膜的时候，商家已经很多了。最早我是采用价格竞争策略进入市场，质量不仅要保证，价格还要更低。在运输方面，投放到邮箱里的配送方式还分为三档，1CM，2CM，3CM的价格都不一样。我就找东莞的工厂帮我批量生产0.9CM的包装盒。加上配送时信封的厚度，整体厚度控制在了1CM以内。然后把这些省下来的成本都让利给了顾客。
+       当然，我的公司现在也活了下来。早期的引流产品让我们积累了很多回头客，在后续开发出的新产品里，价格虽然更高了，但是由于信任已经建立起来，客人无需再货比三家了。新产品的整体销售额也超过引流产品了。
+       最后，感谢润总的「五商」，让我可以在竞争中存活下来分享我的案例。「商业通识」必定能给更多的人带来帮助，降低公司成本，提高运行效率。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-09-07/175ce49f44400005.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">二希·Hebe</span>
+
+                    <span class="comments-vote"><b>10赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我想起2个运输成本的例子。🌰
+
+1⃣️以前做跨境电商的时候，京东下完订单，我们会把货直接发到他们的保税仓。
+京东保税仓的好处太多了：
+1. 仓租便宜。平摊到每个货品的边际成本很低。
+2. 国际物流便宜。大货可以直接集装箱运回，大大节省物流费用。
+2. 先下单，再清关。用户下完订单之后，把产品订单、支付单、物流单快速整合，大大缩短清关时间，达到分钟级的清关时效。
+3. 货品保真。必须是国外注册的公司才有资格进驻，而且审批非常严格。
+4. 收货时间短。因为货品本身就在海关，再加清关快，京东的国内物流更快，货品到顾客手里时间被大大缩短。
+
+相比于直邮，保税仓的存在，大大降低了运输成本。
+
+2⃣️隔壁贾伟老师在设计课程里举过一个例子，让我印象特别深刻。
+就是IKEA那个2块9的马克杯。现在看起来像个漏斗的那个，还有一个小杯把，只能伸一根手指。
+这是一个特别经典的设计，它的销量特别好。但不是因为颜值，而是因为它的设计大大节约了物流成本。
+这个马克杯经过3次改良。从第一次的一个集装箱货盘上只能摆800个，到现在的能摆2000个。运输效率提高一倍以上，物流费用节省60%。
+
+好的产品，都是会帮用户省钱的。
+
+                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.igetget.com/posts/avatar/2019-05-20/221333933-1558350005.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">露酱</span>
+
+                    <span class="comments-vote"><b>8赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我的行业是房地产销售行业，发布的房源渠道有自家的网络，安居客，58同城（这两个网络现在合并了），自家的网络要求必须要真实房源，甚至一度提出过不是真实房源要罚款，邀请消费者监督。但是这个模式在实践过程中遇到很多阻力，因为真实房源所以价格高，投资价值比虚假房源的吸客量低。但是我想公司的最终考量是为了减少售前交易成本，创立品牌，建立信任成本，而过程中的阻力是减少交易成本的必然代价。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">不能在宏观上理解战略，很难在微观上克服困难。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/83797644-1504708930.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">亲爱的小卟</span>
+
+                    <span class="comments-vote"><b>7赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    2020年，我在自己的家乡五线城市做软件研发。 降低七种交易成本，我会这样做：
+
+1：搜寻成本，通过租赁公交站牌、广场广告位来降低个体户、个人等小客户的搜寻成本，通过加入工商联、中小企业组织等联盟来降低政府、大公司等大客户的搜寻成本。
+
+2：比较成本：通过展示成功案例，提高客户对我们技术能力的信任，降低与其他公司的技术比较成本。主动告知猪八戒等外包网站的访问渠道和参考价格，来降低价格比较成本。
+
+3：测试成本：有点软肋，不过在展示成功案例的时候，可以让客户亲自试试软件的操作，以及反馈以往客户对我们的评价，利用从众效应来提高客户对我们的信任。
+
+4：协商成本：五线城市人的圈子很小，随便街上来一个人，聊聊都能找到一个共同认识的人，或许两人还有亲戚关系，这种概率都很大。个人和公司的社会信誉，有天然的优势。当然签订合同，事后惩罚是肯定要做的。
+
+付款成本、运输成本、以及售后成本我觉得在本地，这都是天然的优势，违约后的社会名誉，法律方面的惩罚，以及面谈、上门服务，出现问题远程能立马解决。一点愚见。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">效果如何？期待你的后继分享。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/150832691-1512950361.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">吉米</span>
+
+                    <span class="comments-vote"><b>7赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    自己的公司是在京东商城销售数码产品相关的办公配件，比如平板保护套、键盘、鼠标、电容笔等。
+
+1.购前
+
+（1）搜索成本方面，我们会尽量优化产品的数据和排名，排名尽量靠前，降低客户的搜索成本，使顾客可以容易找到我们。
+
+（2）比较成本方面，我们会在页面里面做对比图，对比我们的产品和市场上的产品有什么不同，我们的优势是什么。
+
+（3）测试成本，京东平台是七天无理由退换货，我们在页面的承诺是30天无理由退换货，一年换新，来降低和打消消费者的疑虑。
+
+2.购中
+
+（1）协商成本 ，依托京东平台，消费者购物有保障，相对来说消费者没有这方面的顾虑，如果我们不履行承诺，平台也会处罚我们。
+
+（2）支付成本 ，支付成本方面消费者有京东这个平台做中介，购物无忧，消费者付款的金额还是在平台上面的。
+
+
+3.购后
+
+（1）运输成本方面 ，我们入了京东仓库，全国八大仓发货，一般都可以隔日达，部分地区可以当日达，虽然运输成本比较高，我们平均一票运费要11元左右，大大高于普通快递的2元，3元。
+
+但是消费者的体验很好，特别是这次疫情期间，在其他快递停摆的情况下，我们的业绩增长了几倍，就是因为我们在京东仓库里面储存了大量的货物，又能很快地运送到消费者手上。
+
+（2）售后成本，售后方面也是很方便的，消费者可以在后台选择京东快递上门取件，只要把货物交给京东快递员就好，退换货也是非常方便。
+
+所以按照交易成本分析，我们是有进行优化的，目前比较大的问题就是，因为京东物流快递费用高，加上京东平台抽取的扣点比较高，所以我们的整体售价会比友商平台高不少，这也带来了交易阻力。
+
+学习完这几节课，对自己的启发就是可以从顾客的体验感，还有提升产品的品质，降低不良率这些纬度来提升顾客的购买体验，从而让消费者虽然买到贵的东西，但是依然觉得还是比较超值的。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">不断重新审视这7种成本，看看还能从哪里抠出几块钱。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/224973104-1563596662.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">张萌</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    我从事零售业，在18线小城市经营连锁超市。超市行业的交易成本体现在：售前，搜寻成本、比较成本、测试成本。每年参加大型行业会议，春季糖酒会、秋季糖酒会，中国国际食品展销会，美妆博览会，日用品博览会等大型会议，在展销会上，集中搜寻各种商品，现场试吃试饮试用比较，比较材质、用料、样式、价格，选择引进性价比最高的商品。商品引进本城市后，顾客通过卖场商品展示获得信息，市场比较后进行付款。顾客带回，超市提供售后服务。
+
+传统超市运营在售前的交易成本过重，搜寻比较测试的成本有降低空间，例如利用互联网线上采购平台，获取商品信息，通过大数据商品排序，精准捕捉市场需求，依据需求采货，提高资金使用率，提升周转率。售中的协商付款成本降低，要求我们打造自己的品牌，用品牌信任度降低顾客信用风险。售后运输问题，思考是否联合工厂实现“一件代发”，降低产品在多次运输中产生的费用，砍掉中间环节，变“商品集合地”为“信息分发平台”。售后问题第一时间解决，最大限度降低顾客时间/精力/金钱成本。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">变商品聚集地，为信息发布地。赞。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/12645883-1493054385.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">董坤</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    电商公司之所以能部分取代传统零售业，其主要原因就是他系统地降低了课程中所介绍的7大成本。
+
+如果你是一家产品零售公司，早期登录电商平台开店，就会感觉到这些优势：比如下单页面降低了搜索、比较成本，沟通软件（如旺旺）降低了协商成本、支付软件降低了支付成本、菜鸟网络以及只换不修降低了售后的运输和维修成本。
+
+一些较为有特色的电商平台，试图从降低测试成本入手，比如网易严选。在电商竞争激烈的时刻，以严选为主题，降低消费者对产品信息验证的成本。
+
+从这个过程中可以看出，一家公司针对交易成本的优化，有个明显的顺序：首先要针对售前成本进行优化，接下来马上就是售中成本，最后在考虑优化售后成本。
+
+同时，我们也看到，随着入住电商平台的商家越来越多，电商模式对公司的售前成本支付要求又大幅度提高了。新入住店家面对海量的商品信息，要想让消费者能搜到自己的产品，并不容易。
+
+现在仍然具有优势的公司，无非是两种：1，传统的大品牌公司。品牌的力量可以让消费者直接搜索其产品。2，早期加入电商平台，不断优化积累的品牌。长期来看，公司要尽力完善自己的品牌，意义就在于此。
+
+另外，网红带货，实际上也是利用个人品牌降低当下的搜索成本和比较成本。看透了这点，我曾给一家宠物食品公司建议：他们可以想办法打造一直“网红狗”，然后训练这只狗来选择它自己的食物和用品实现带货。
+
+这也是为了不断降低搜索和比较成本。针对售前成本的研究，是创业公司要做的工作。营销策划的很大一部分工作也是在解决这个问题。
+
+学习润总的课程，你会对各种成本，特别是售前成本理解的更深刻，找出更好的办法来。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">有趣的策略：网红狗带货。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/116712211-1529738016.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">🌴武汉秦涛</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    零售的人货场决定了物流成为交易无法回避的环节，而物流降本的确是一门有着丰富可深挖的学问，之前曾经负责过公司的行销规划业务，和内部物流部门协作较多，分享几点素材：
+1.区域建分仓是可以降低成本的，但前提是区域的消化量和周转速度足够高，否则租赁成本和人工成本反而会增加最后的物流成本，因此我们只在权重业务量的核心区域建仓，同时如果生意量不能保障的时候还会撤仓。
+2.整车物流成本低于零单。因此我们会对客户的订单量做管理，对于需求量小的客户会限制下单次数，以达到最佳物流效率，当然对订单精准度要求也会提高。
+3.内部协同。为保证物流效率，每次客户订单除了货品外会集合其他市场部门的品牌赠品及宣传物资等。
+4.原来我们在区域会养车和司机，最近几年基本全部转包给第三方了。
+5.不同时节的物流成本不一样，以春节前后为最高。因此节前物流统筹特别重要，很多区域会停止。
+6.物流的保管损耗责任需要做好流程，否则出现损坏就只有自己买单了，当然物流费用的结算周期也是一种杠杆。
+                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">举个例子，有些产品就相对更适合线下零售，不太适合电商。比如便宜的床垫。因为整车物流送到门店，比一个个发往全国要便宜。</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/18087334-1541080844.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">托尼在厦门</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    作为一家B2B公司，售后：物流费用是最少的，从工厂到客户，服务费用也是比较少的，基本当地都有售后服务工程师。
+     拿一家做矿泉水的客户来说，他们从广东生产到福建销售，每年的物流费用7000-8000万元，这还是海运费用，整个物流环节和消费管理费用占到整个售价的50%-60%，想想就觉的可怕，如果是纯净水的话，24入箱的纯利仅为1-2元。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">我们不生产水。我们只是……</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/90286048-1505214308.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">山峰</span>
+
+                    <span class="comments-vote"><b>6赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    网红直播带货模式的火爆，有两个关键，一个是网红的人格趣味性，增加吸粉的效率；另一个更关键就是专业能力，即“选品能力”和“优惠”。毕竟购物本身就是一个理性行为，商品不好，消费者上了一次当，没人愿意去上第二次，最终网络直播带货就变成了网络直播，粉丝光看不买。从交易成本的角度看，网红的专业能力，降低了消费者的搜寻成本、比较成本、测试成本。基于粉丝对网红的信任，又降低了消费者与厂家的协商成本。伴随着网红直播带货模式的演进——不断向货源靠近，厂家将直接与消费者进行连接，省略了代理商这个中间环节，毫无疑问会带来运输成本的降低。                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                            </dl>
+
+
+
+        </li>
+
+            <li class="comments-item">
+
+            <div class="comments-user-avatar">
+
+                <img src="https://piccdn.luojilab.com/avatar/iget/1618398-1503028365.jpeg" alt="">
+
+            </div>
+
+            <dl class="comments-user">
+
+                <dt class="comments-user-info">
+
+                    <span class="comments-visitor">青岛潘飞达</span>
+
+                    <span class="comments-vote"><b>5赞</b></span>
+
+                </dt>
+
+                <dd class="comments-user-post">
+
+                    按照这七项交易成本，梳理一下公司的情况，我们公司叫青岛云世纪，是做无人机应用软件开发的，很多人都知道大疆、亿航、极飞，他们都是做硬件研发、制造的，而我们是基于他们的主流机型做深度应用开发，用软件赋能硬件，为各行业提供无人机+的解决方案，以及飞行服务。但是却一直不温不火，很难找到突破口。真希望润总有一天能针对无人机行业进行一个深度分析，给我们提供一些启示。
+今天先通过这一模块做一个分析看看：
+1、搜寻成本。我们现在主要做的是企业服务或政府服务，基本上靠销售人员打电话或通过一些渠道找客户，公司成立时间不长、行业又新，没什么品牌，所以客户很难找到我们。但是如果客户找到我们想了解无人机行业情况或者帮他们出方案，我们有这个自信，只要是跟无人机有关的，都可以提供咨询或方案，我们服务了很多客户都是这样，但并不收费，然后他们直接去找厂家或者报价更低的人去了，但这算不算降低了客户的搜寻成本呢？
+2、比较成本。我们只是在提供咨询或方案的时候做一些简单的比较，但出发点是基于我们的成本利润考虑的，所以有时候也不是完全客观。
+3、测试成本。这一块空白。
+4、协商成本。公司没什么品牌，只是在行业内有一些小声誉，因为公司在青岛，所以基本上所有的品牌商想进青岛都首选我们合作，因为我们既有销售又有软件研发，还有当地的资源关系，又跟他们的主营业务没冲突。而与客户之间的协商成本就会很高，因为在他们那你没有品牌和声誉，所以要经常去做售前、做咨询、提供方案、提供报价等等，浪费了大量的时间成本。
+5、付款成本。这一块空白，也没给客户降低付款成本。
+6、运输成本。我们自己是做软件和服务解决方案的，不存在运输成本。
+7、售后成本。这一块单从软件和飞行服务上去分析可以忽略不计，但如果是做一个项目，成本就会大，因为要经常维护客户关系，是不是合同规定的售后我们都去做，尽量满足客户需要。对于客户来说因为我们本质上提供的都是服务，所以他只要结果就好了，也没有维修、更换等成本。
+以上是我对云世纪公司的分析，很粗浅，也不够细致，但是我们确实是陷入了泥潭，感觉一身武艺使不出来，业务惨淡到让人窒息，这里面有多种原因，有行业发展的、战略选择的，以及技术能力的等等，希望润总能赐教！                </dd>
+
+                <dd class="comments-time">2020-03-11                </dd>
+
+                                <dl class="comments-author" >
+
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+
+                    <dd class="comments-author-reply">你已经走出了重要的一步。看看能在哪一点上，先做提升？</dd>
+
+                    <dd class="comments-time">2020-03-11</dd>
+
+                </dl>
+
+                            </dl>
+
+
+
+        </li>
+
+        <li class="comments-footer">以上留言由 作者 筛选显示</li>
+
+    </ul>
+
+</div>
+
+ </body>
+
+</html>
+
