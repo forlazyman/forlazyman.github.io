@@ -1,6 +1,9 @@
 # forlazyman.github.io
 
 ## 公众号：懒人找资源
+[懒人找资源](!https://s2.ax1x.com/2020/03/11/8koRzR.jpg)
+
+
 ### 以下内容仅供体验群成员查看学习
 
 ***
