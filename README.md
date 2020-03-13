@@ -354,9 +354,6 @@
 [07-溯源：病毒生命到底从何而来？.html](https://forlazyman.github.io/王立铭病毒科学9讲/07-溯源：病毒生命到底从何而来？.html)
 
 
-[07｜连接：为什么“要想富，先修路”？.html](https://forlazyman.github.io/王立铭病毒科学9讲/07｜连接：为什么“要想富，先修路”？.html)
-
-
 [08-纠缠：病毒怎样影响人类文明？.html](https://forlazyman.github.io/王立铭病毒科学9讲/08-纠缠：病毒怎样影响人类文明？.html)
 
 
