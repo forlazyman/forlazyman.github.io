@@ -115,20 +115,17 @@
 ***
 ## 万维钢精英日课4
 
-[中国供应链到底有多厉害？.html](https://forlazyman.github.io/万维钢精英日课4/中国供应链到底有多厉害？.html)
-
-
-[今天的华为是什么水平？.html](https://forlazyman.github.io/万维钢精英日课4/今天的华为是什么水平？.html)
-
+[发刊词：“士”的三个境界.html](https://forlazyman.github.io/万维钢精英日课4/发刊词：“士”的三个境界.html)
 
 [伯克森悖论.html](https://forlazyman.github.io/万维钢精英日课4/伯克森悖论.html)
 
+[今天的华为是什么水平？.html](https://forlazyman.github.io/万维钢精英日课4/今天的华为是什么水平？.html)
 
 [华为是中国公司吗？.html](https://forlazyman.github.io/万维钢精英日课4/华为是中国公司吗？.html)
 
+[能用愚蠢解释的，就不要用恶意.html](https://forlazyman.github.io/万维钢精英日课4/能用愚蠢解释的，就不要用恶意.html)
 
-[发刊词：“士”的三个境界.html](https://forlazyman.github.io/万维钢精英日课4/发刊词：“士”的三个境界.html)
-
+[中国供应链到底有多厉害？.html](https://forlazyman.github.io/万维钢精英日课4/中国供应链到底有多厉害？.html)
 
 [大人物为什么没意思.html](https://forlazyman.github.io/万维钢精英日课4/大人物为什么没意思.html)
 
@@ -136,7 +133,7 @@
 [特别放送：悖论的启示.html](https://forlazyman.github.io/万维钢精英日课4/特别放送：悖论的启示.html)
 
 
-[能用愚蠢解释的，就不要用恶意.html](https://forlazyman.github.io/万维钢精英日课4/能用愚蠢解释的，就不要用恶意.html)
+[问答：伯克森悖论和幸存者偏差的区别是什么？.html](https://forlazyman.github.io/万维钢精英日课4/问答：伯克森悖论和幸存者偏差的区别是什么？.html)
 
 
 [量子力学1：诡秘之主.html](https://forlazyman.github.io/万维钢精英日课4/量子力学1：诡秘之主.html)
@@ -144,8 +141,6 @@
 
 [量子力学2：孤单光量子.html](https://forlazyman.github.io/万维钢精英日课4/量子力学2：孤单光量子.html)
 
-
-[问答：伯克森悖论和幸存者偏差的区别是什么？.html](https://forlazyman.github.io/万维钢精英日课4/问答：伯克森悖论和幸存者偏差的区别是什么？.html)
 
 ## [返回分类目录](#分类目录)
 ***
