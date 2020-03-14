@@ -21,6 +21,7 @@
 
 * [王立铭病毒科学9讲](#王立铭病毒科学9讲)
 
+* [熊逸说苏轼30讲（原价94）](#熊逸说苏轼30讲)
 
 ***
 
@@ -353,6 +354,115 @@
 
 
 [09-结语：人类能最终战胜病毒吗？.html](https://forlazyman.github.io/王立铭病毒科学9讲/09-结语：人类能最终战胜病毒吗？.html)
+
+## [返回分类目录](#分类目录)
+
+***
+
+## 熊逸说苏轼30讲
+
+
+[发刊词：一个完美的中国人的样子.html](https://forlazyman.github.io/熊逸说苏轼30讲/发刊词：一个完美的中国人的样子.html)
+
+[01失败的父亲为什么能教出成功的孩子？.html](https://forlazyman.github.io/熊逸说苏轼30讲/01失败的父亲为什么能教出成功的孩子？.html)
+
+
+[02北宋最高分的作文什么样？.html](https://forlazyman.github.io/熊逸说苏轼30讲/02北宋最高分的作文什么样？.html)
+
+
+[03职场新人苏轼怎样化解刁难？.html](https://forlazyman.github.io/熊逸说苏轼30讲/03职场新人苏轼怎样化解刁难？.html)
+
+
+[04苏轼命运是怎么转折的？.html](https://forlazyman.github.io/熊逸说苏轼30讲/04苏轼命运是怎么转折的？.html)
+
+
+[05苏轼真是王安石的死对头吗？.html](https://forlazyman.github.io/熊逸说苏轼30讲/05苏轼真是王安石的死对头吗？.html)
+
+
+[06一篇奏章为什么会引发政坛恶斗？.html](https://forlazyman.github.io/熊逸说苏轼30讲/06一篇奏章为什么会引发政坛恶斗？.html)
+
+
+[07苏轼为什么会自相矛盾？.html](https://forlazyman.github.io/熊逸说苏轼30讲/07苏轼为什么会自相矛盾？.html)
+
+
+[08苏轼反对变法到底在反什么？.html](https://forlazyman.github.io/熊逸说苏轼30讲/08苏轼反对变法到底在反什么？.html)
+
+
+[09为什么说苏轼更有远见？.html](https://forlazyman.github.io/熊逸说苏轼30讲/09为什么说苏轼更有远见？.html)
+
+
+[10苏轼和王安石到底谁是奸人？.html](https://forlazyman.github.io/熊逸说苏轼30讲/10苏轼和王安石到底谁是奸人？.html)
+
+
+[11为什么说诗人名号委屈了苏轼？.html](https://forlazyman.github.io/熊逸说苏轼30讲/11为什么说诗人名号委屈了苏轼？.html)
+
+
+[12一封感谢信如何引发了乌台诗案？.html](https://forlazyman.github.io/熊逸说苏轼30讲/12一封感谢信如何引发了乌台诗案？.html)
+
+
+[13苏轼什么诗惹了祸？.html](https://forlazyman.github.io/熊逸说苏轼30讲/13苏轼什么诗惹了祸？.html)
+
+
+[14朝廷治了苏轼什么罪？.html](https://forlazyman.github.io/熊逸说苏轼30讲/14朝廷治了苏轼什么罪？.html)
+
+
+[15神采飞扬的苏轼变了吗？.html](https://forlazyman.github.io/熊逸说苏轼30讲/15神采飞扬的苏轼变了吗？.html)
+
+
+[16《赤壁赋》是旷达还是鸡汤？.html](https://forlazyman.github.io/熊逸说苏轼30讲/16《赤壁赋》是旷达还是鸡汤？.html)
+
+
+[17《后赤壁赋》为什么评价更高？.html](https://forlazyman.github.io/熊逸说苏轼30讲/17《后赤壁赋》为什么评价更高？.html)
+
+
+[18豪放词的标杆是怎么产生的？.html](https://forlazyman.github.io/熊逸说苏轼30讲/18豪放词的标杆是怎么产生的？.html)
+
+
+[19苏轼跟王安石为什么能和解？.html](https://forlazyman.github.io/熊逸说苏轼30讲/19苏轼跟王安石为什么能和解？.html)
+
+
+[20苏王会面为什么那么重要？.html](https://forlazyman.github.io/熊逸说苏轼30讲/20苏王会面为什么那么重要？.html)
+
+
+[21圣人和君子为什么会针锋相对？.html](https://forlazyman.github.io/熊逸说苏轼30讲/21圣人和君子为什么会针锋相对？.html)
+
+
+[22洛蜀党争到底在争什么？.html](https://forlazyman.github.io/熊逸说苏轼30讲/22洛蜀党争到底在争什么？.html)
+
+
+[23苏轼为什么会原谅恶？.html](https://forlazyman.github.io/熊逸说苏轼30讲/23苏轼为什么会原谅恶？.html)
+
+
+[24扬州市长苏轼的账要怎么算？.html](https://forlazyman.github.io/熊逸说苏轼30讲/24扬州市长苏轼的账要怎么算？.html)
+
+
+[25不要一文钱，怎么守定州？.html](https://forlazyman.github.io/熊逸说苏轼30讲/25不要一文钱，怎么守定州？.html)
+
+
+[26苏轼为什么会支持弓箭社？.html](https://forlazyman.github.io/熊逸说苏轼30讲/26苏轼为什么会支持弓箭社？.html)
+
+
+[27苏轼与章惇关系的真相是什么？.html](https://forlazyman.github.io/熊逸说苏轼30讲/27苏轼与章惇关系的真相是什么？.html)
+
+
+[28苏轼的达观是怎么修炼来的？.html](https://forlazyman.github.io/熊逸说苏轼30讲/28苏轼的达观是怎么修炼来的？.html)
+
+
+[29苏轼的人生对我们有什么启发？.html](https://forlazyman.github.io/熊逸说苏轼30讲/29苏轼的人生对我们有什么启发？.html)
+
+
+[30从年号读懂北宋政坛.html](https://forlazyman.github.io/熊逸说苏轼30讲/30从年号读懂北宋政坛.html)
+
+
+
+[配乐诗文吟诵：《赤壁赋》+《后赤壁赋》.html](https://forlazyman.github.io/熊逸说苏轼30讲/配乐诗文吟诵：《赤壁赋》+《后赤壁赋》.html)
+
+
+[配乐诗文吟诵：苏轼词十首.html](https://forlazyman.github.io/熊逸说苏轼30讲/配乐诗文吟诵：苏轼词十首.html)
+
+
+[配乐诗文吟诵：苏轼诗十首.html](https://forlazyman.github.io/熊逸说苏轼30讲/配乐诗文吟诵：苏轼诗十首.html)
+
 
 ## [返回分类目录](#分类目录)
 
