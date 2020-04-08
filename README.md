@@ -213,6 +213,57 @@
 [14｜信用中介：神秘莫测的黑市中间人VS德高望重的乡绅.html](https://forlazyman.github.io/刘润商业通识30讲/14｜信用中介：神秘莫测的黑市中间人VS德高望重的乡绅.html)
 
 
+[15｜中心型商业：为什么家乐福、麦德龙、大润发，纷纷被收购？.html](https://forlazyman.github.io/刘润商业通识30讲/15｜中心型商业：为什么家乐福、麦德龙、大润发，纷纷被收购？.html)
+
+
+[16｜超级节点：让人成为信息、商品和一切的中心.html](https://forlazyman.github.io/刘润商业通识30讲/16｜超级节点：让人成为信息、商品和一切的中心.html)
+
+
+[17｜信用中心：信用的中心，就是财富的中心.html](https://forlazyman.github.io/刘润商业通识30讲/17｜信用中心：信用的中心，就是财富的中心.html)
+
+
+[18｜去中心型商业：天下大势，分久必合，合久必分.html](https://forlazyman.github.io/刘润商业通识30讲/18｜去中心型商业：天下大势，分久必合，合久必分.html)
+
+
+[19｜信息对等：每个人都是时代的中心.html](https://forlazyman.github.io/刘润商业通识30讲/19｜信息对等：每个人都是时代的中心.html)
+
+
+[20｜信用科技：大数据，人工智能搭建的信用基础设施.html](https://forlazyman.github.io/刘润商业通识30讲/20｜信用科技：大数据，人工智能搭建的信用基础设施.html)
+
+
+[21｜区块链：从黄金，到账户，到区块链.html](https://forlazyman.github.io/刘润商业通识30讲/21｜区块链：从黄金，到账户，到区块链.html)
+
+
+[22｜去中心化家族：一场区块链本人的家族演讲.html](https://forlazyman.github.io/刘润商业通识30讲/22｜去中心化家族：一场区块链本人的家族演讲.html)
+
+
+[23｜全连接型商业：商人的最终归宿，是不再需要商人.html](https://forlazyman.github.io/刘润商业通识30讲/23｜全连接型商业：商人的最终归宿，是不再需要商人.html)
+
+
+[24｜左脚右脚：如何一步步走向商业的理想国.html](https://forlazyman.github.io/刘润商业通识30讲/24｜左脚右脚：如何一步步走向商业的理想国.html)
+
+
+[25｜红利、工资、利润：很多人以为的创业，其实只是在为社会打工.html](https://forlazyman.github.io/刘润商业通识30讲/25｜红利、工资、利润：很多人以为的创业，其实只是在为社会打工.html)
+
+
+[26｜无形资产：无法看见的护城河.html](https://forlazyman.github.io/刘润商业通识30讲/26｜无形资产：无法看见的护城河.html)
+
+
+[27｜成本优势：固若金汤的护城河.html](https://forlazyman.github.io/刘润商业通识30讲/27｜成本优势：固若金汤的护城河.html)
+
+
+[28｜网络效应：拥有生命的护城河.html](https://forlazyman.github.io/刘润商业通识30讲/28｜网络效应：拥有生命的护城河.html)
+
+
+[29｜迁移成本：反向建立护城河，防止用户逃离.html](https://forlazyman.github.io/刘润商业通识30讲/29｜迁移成本：反向建立护城河，防止用户逃离.html)
+
+
+[30｜你的未来史：商业进化道路上的四种未来，你选哪一种？.html](https://forlazyman.github.io/刘润商业通识30讲/30｜你的未来史：商业进化道路上的四种未来，你选哪一种？.html)
+
+
+[线下课通知｜刘润：以后，要靠本事赚钱了.html](https://forlazyman.github.io/刘润商业通识30讲/线下课通知｜刘润：以后，要靠本事赚钱了.html)
+
+
 
 ## [返回分类目录](#分类目录)
 
