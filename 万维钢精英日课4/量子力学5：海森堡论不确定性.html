@@ -1,0 +1,571 @@
+
+    <!doctype html>
+<html lang="en" data-dpr="1" style="font-size: 34px;">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta content="yes" name="apple-mobile-web-app-capable"> 
+  <meta content="yes" name="apple-touch-fullscreen"> 
+  <meta content="telephone=no,email=no" name="format-detection"> 
+  <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"> 
+  <title>量子力学5：海森堡论不确定性</title> 
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+  <script src="../js/main.js"></script>
+
+  <script type="text/javascript" id="viewport">
+        /* eslint-disable */
+        var APPVersion=0;!function(J,I){function H(){var a=E.getBoundingClientRect().width;if(J.navigator.appVersion.match(/iphone/gi)&&a<500){a=a*B}a/B>540&&(a=540*B);var d=a/10;E.style.fontSize=d+"px",z.rem=J.rem=d}var G,F=J.document,E=F.documentElement,D=F.querySelector('meta[name="viewport"]'),C=F.querySelector('meta[name="flexible"]'),B=0,A=0,z=I.flexible||(I.flexible={});if(D){console.warn("将根据已有的meta标签来设置缩放比例");var y=D.getAttribute("content").match(/initial\-scale=([\d\.]+)/);y&&(A=parseFloat(y[1]),B=parseInt(1/A))}else{if(C){var x=C.getAttribute("content");if(x){var w=x.match(/initial\-dpr=([\d\.]+)/),v=x.match(/maximum\-dpr=([\d\.]+)/);w&&(B=parseFloat(w[1]),A=parseFloat((1/B).toFixed(2))),v&&(B=parseFloat(v[1]),A=parseFloat((1/B).toFixed(2)))}}}if(!B&&!A){var u=(J.navigator.appVersion.match(/android/gi),J.navigator.appVersion.match(/iphone/gi)),t=J.devicePixelRatio;B=u?t>=3&&(!B||B>=3)?3:t>=2&&(!B||B>=2)?2:1:1,A=1/B}if(E.setAttribute("data-dpr",B),!D){if(D=F.createElement("meta"),D.setAttribute("name","viewport"),D.setAttribute("content","initial-scale="+A+", maximum-scale="+A+", minimum-scale="+A+", user-scalable=no"),E.firstElementChild){E.firstElementChild.appendChild(D)}else{var s=F.createElement("div");s.appendChild(D),F.write(s.innerHTML)}}J.addEventListener("resize",function(){clearTimeout(G),G=setTimeout(H,300)},!1),J.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(G),G=setTimeout(H,300))},!1),"complete"===F.readyState?F.body.style.fontSize=12*B+"px":F.addEventListener("DOMContentLoaded",function(){F.body.style.fontSize=12*B+"px"},!1),H(),z.dpr=J.dpr=B,z.refreshRem=H,z.rem2px=function(d){var c=parseFloat(d)*this.rem;return"string"==typeof d&&d.match(/rem$/)&&(c+="px"),c},z.px2rem=function(d){var c=parseFloat(d)/this.rem;return"string"==typeof d&&d.match(/px$/)&&(c+="rem"),c}}(window,window.lib||(window.lib={}));
+    </script> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-iget-rush-node/dist/css/course.513f06c0faf6793849ce8f64a0627f0d.css"> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-editor/dist/preview.20aa73124b557d5b072d.css"> 
+ </head> 
+ <body  style="font-size: 14px;max-width: 600px;margin: 0 auto;"> 
+    <img style="max-width: 100%" src="https://piccdn.igetget.com/img/202003/15/202003152215288008372102.jpeg" alt="">
+  <div class="preview"> 
+   <main id="article-main" data-type="22"> 
+    <article class="article" id="preview-article"> 
+     <h1 class="title name-slFosOL50ZH3FiY08C0iemh10biJsJ102Np3xhSoYKeQEt0uOIABk5WrZbt8KMZa">量子力学5：海森堡论不确定性</h1> 
+     <div class="author"> 
+            <img data-type="author" src="https://piccdn.igetget.com/img/202002/29/202002292204266526316645.jpeg"> 
+      <p>万维钢</p> 
+          <span class="time">2020-04-28</span> 
+     </div> 
+     <div class="line"></div> 
+     <div class="article-body"> 
+                <div id="1556543749421" class="player-v2"> 
+       <div class="player-wrap"> 
+        <button class="i-playing"></button> 
+        <div class="progress-group"> 
+         <div class="audio-title">
+           量子力学5：海森堡论不确定性 
+         </div> 
+         <input id="range25936" type="range" min="0" max="100" value="0" data-current="0:00" data-max="12:53" data-total="773"> 
+        </div> 
+        <audio id="player25936" title="block.audio.title" src="https://igetcdn.igetget.com/aac/202003/15/48000_202003152143394125675424.m4a" preload="" cover="量子力学5：海森堡论不确定性" cover-img="量子力学5：海森堡论不确定性"></audio> 
+
+       </div> 
+       <div class="player-tips">
+         ｜转述：怀沙｜ 
+       </div> 
+      </div>
+          <div class="text">
+       <p><p>二十一世纪的物理学家要想做出诺贝尔奖级别的工作是非常困难的，你可能要到四十岁以后才有机会。你得钻研现成的理论和高深的数学技巧很多年，才能摸到一点门道；要想到游刃有余的水平，乃至于找到别人没想到的重大突破点，又不知要摸索多少年。</p><p>而量子力学，却是年轻人的科学。</p><p>用现在时髦的话来说，维尔纳·海森堡（Werner Heisenberg）可谓是量子时代的原住民。他出生于1901年，那时候普朗克已经把黑体辐射给量子化了。海森堡二十岁刚出头就跟随玻尔研究最新的量子理论，他发明了矩阵力学来描写量子过程，不但拿到了1932年的诺贝尔物理奖，而且是量子力学主流解释的主要人物。</p><p> </p><p>年轻气盛的海森堡，对物理学的研究方法提出了一个指引。</p></p>
+      </div>
+                <div class="text">
+       <p><p>海森堡说，电子有时候表现得像是粒子，有时候表现得像是波，它到底是什么，我们无法想象，也*没必要*想象。你应该关心的是*可测量*的东西。电子的“轨道”到底是什么样的？它是如何从这里“走到”那里的？那其实是不可测量的。</p><p>想要画出电子的路线图，你必须在每一个时刻都同时知道电子的位置和速度（也就是知道动量，p=mv） —— 而海森堡说，这是不可能的！你不可能同时精确知道一个电子的位置和动量。</p><p>海森堡是这么论证的。要想知道一个电子在哪里，你就得用光去照一照它。光的分辨率取决于波长，波长越短，分辨率就越高，探测越精确。所以想要精确地测量一个电子的位置，你就得用波长非常短的光。而根据光量子理论，波长越短频率就越高，光子的能量就越高。你的测量实际上是用高能量的光子去打这个电子，你会把电子给打飞！那么你这个高能光子带来的冲击，就会掩盖电子原来的动量。</p><p>反过来说，如果想要精确测量电子的动量，你就得用能量比较低的光子去撞击它，而这就意味着那个光子的波长比较长，你就不能准确判断电子的位置。</p><p><font>总而言之，位置的测量误差和动量的测量误差有一个取舍关系，它们不可能都很小。</font></p><p> </p><p>海森堡的这一番解释当然有道理。今天你仍然会看到有些《量子力学》教科书，有些大学老师用这番解释说明量子力学的不确定性 —— 但是我可以负责任地告诉你，这个解释还不够彻底，还不够革命。</p></p>
+      </div>
+                <div class="text">
+       <p><p>光子频率这个解释是说你“测不准” —— 是因为你要想测量一个东西就不得不干扰这个东西，是测量手段本身的悖论。那你可能会问，如果我是全知全能的上帝，如果我能在不干扰的情况下感知到电子，我就应该可以测准，对吧？</p><p><b>不对。包括海森堡本人后来也承认，量子力学的真正观点<font>不是“测不准”，而是“不确定”。</font></b></p><p><font>不是你的能力问题，是电子的本性问题。</font></p><p> </p><p>电子根本就不能同时拥有确定的位置和动量。不论是什么东西，电子也好、光子也好、宏观物体也好，它的位置不确定性（Δx）和动量不确定性（Δp）都满足下面这个关系 [1] ——&nbsp;</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/15/202003152029404290648336.png">
+      </figure>
+              <div class="text">
+       <p><p>也就是说，位置和动量永远都有一个最小的不确定性，受到普朗克常数的限制。不是你测不准，不是你看不见，而是电子*根本就没有*确定的位置和动量，电子的行为有一种内在的不确定，它永远都是模糊的。</p><p> </p><p>这个原理叫做“海森堡不确定性原理”。</p></p>
+      </div>
+                <div class="text">
+       <p><p>比如我们上一讲说的那个电子双缝实验中，电子最终打在屏幕上的位置很有规律，有暗有亮。那请问，你能精确地预测一个电子会打到屏幕的哪个位置上吗？</p><p>在经典物理学中，我们把电子想象成一个小球，只要知道小球通过双缝时刻的位置以及横向和纵向的速度，你就能精确计算它在屏幕上的落点。但是在量子力学中，因为不确定性原理，电子根本就没有精确的位置和速度，这样的预测是不可能的。</p><p>事实上，哪怕你无比小心地操作实验，以至于精确地确保对这一个电子和对上一个电子的发射动作完全一样，它们两个的落点也会不一样。电子就好像有自己的个性一样，不接受你的精确控制。</p><p>不确定性原理并不仅仅是一个统计规律，而是一个关于量子世界的本质的论断。我们甚至可以说它的优先级高于量子力学的其他所有定律。你可以用不确定性原理解释一些很怪异的现象。</p><p> </p><p>比如说，咱们看一个单缝实验。</p></p>
+      </div>
+                <div class="text">
+       <p><p>在遮挡板上钻一个很小的小孔，然后让一束光穿过小孔，照射在遮光板后的屏幕上 [2]，你猜它会出现什么情况？</p><p>这可能会让你想起中学学过的“小孔成像”，你预计屏幕上会出现挡板另一侧的图像，说明光走直线……但是中学生学的那个小孔开得太大了。如果小孔的直径像光的几个波长那么小，你会看到屏幕上出现非常漂亮的环状条纹。中间有个最亮的光盘，周围是一圈暗纹，然后再是一圈亮纹、一圈暗纹，一环套一环逐渐变淡。</p><p> </p><p>这个现象叫做光的衍射，那个条纹是光波从小孔中间的不同位置出发、到达屏幕时互相干涉的结果。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/15/202003152030439337121507.jpg">
+      </figure>
+              <div class="text">
+       <p><p>这个实验的有意思之处是小孔的直径和屏幕上衍射条纹的关系。</p><p>如果小孔的直径很大，比如说相当于 20 个波长，那么你拿一束激光照射进来，屏幕上基本就是一个光点，没有什么衍射的样子。这就好像没有挡板一样，光老老实实地走直线，简单明了。</p><p> </p><p>小孔的直径越小，衍射条纹就越明显，而且越宽广。比如如果小孔直径是两个波长，你会看到非常大的衍射条纹，光不再走直线了！</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/15/202003152031149551394928.jpg">
+      </figure>
+              <div class="text">
+       <p><p>站在光子的视角来看，这个现象很不寻常。孔越大，对光的约束就越小，光子非常自由，反而老老实实走直线；孔越小，对光的约束越大，光却要往四周扩散。怎么会这样呢？</p><p>你的直觉可能会认为是小孔的边缘对光子产生了干扰。也许当光子路过小孔的时候，被边缘给撞了一下，发生了散射。但这个解释是不对的。如果是因为被撞飞了产生的散射，光子在屏幕上的落点应该是完全混乱的！你不会看到那一环一环的漂亮衍射条纹。再者，不仅光子存在衍射现象，用电子、质子都会发生衍射，而光子、电子、质子跟小孔的材料发生电磁相互作用的机制是完全不同的。</p><p> </p><p>单缝实验真正揭示的，是海森堡不确定性原理。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/15/202003152031575679437002.jpg">
+      </figure>
+              <div class="text">
+       <p><p>如上图所示，我们把垂直于光前进的方向设为 y 方向。小孔比较小的时候，光在通过小孔的时候，在 y 方向上的不确定性 Δy 就小；孔比较大的时候，Δy 就大。</p><p>而根据不确定性原理，位置不确定性小的时候，动量不确定性就大。在 y 方向上有一个比较大的 Δp ，就意味着光子多了一个垂直方向的速度，也就是它会一边往前飞一边往边上飞，所以它才有可能会飞到屏幕中心以外的地方去，为那里的衍射条纹做出贡献。而如果小孔大，就等于说光子的动量不确定性小，它就没有那个垂直方向的速度，它就会老老实实地往前飞，那么屏幕上也就没有衍射光环了，只在中心处有个光斑。</p><p> </p><p>换句话说，根据不确定性原理，你甚至可以通过控制某一方面的不确定性，去改变另一方面的不确定性。</p></p>
+      </div>
+                <div class="text">
+       <p><p>比如说，根据不确定性原理，世界上没有绝对静止不动的东西。这是因为如果一个粒子的速度是绝对的 0，那它就没有动量的不确定性，那么它的位置的不确定性就必须是无穷大，那么它就必须同时出现在宇宙中所有的地方。事实上，哪怕是在温度是绝对零度的条件下，粒子也会有一些微小的震动。</p><p> </p><p>不确定性原理说明，所谓“电子轨道”，根本就没有意义。老百姓心目中的原子常常是下面这个样子 ——&nbsp;</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/15/202003152037161894456967.jpg">
+      </figure>
+              <div class="text">
+       <p><p>中间有个原子核，外面有几个电子沿着固定的轨道旋转，就好像行星绕着太阳转一样。这也是卢瑟福想象的原子，而这个图像是错误的。真实的原子，差不多是像下面这个样子 ——&nbsp;</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/15/202003152038043347068389.png">
+      </figure>
+              <div class="text">
+       <p><p>电子没有确定的位置，它同时出现在原子核之外的各个地方，它呈现出来是一片“云”。其实连中间那个原子核也是云。</p><p> </p><p>那为什么在日常生活中，我们可以精确地知道一个东西的位置和速度呢？那当然是因为普朗克常数是一个很小的数字，那一点不确定性和宏观世界的尺度相比微不足道。</p></p>
+      </div>
+                <div class="text">
+       <p><p>量子力学中，除了位置和动量这一对儿，还有能量和时间这一对儿，也满足同样的不确定性关系。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/15/202003152044363041828709.png">
+      </figure>
+              <div class="text">
+       <p><p>比如你看氢原子的光谱，你仔细看的话，那些谱线并不是很精确的细线，而是有一定的粗度，有一定的模糊性，这是为啥呢？根本原因就是电子在不同能级之间的跃迁并不是真正瞬时的，有一个时间上的不确定性，而这就对应着辐射光子能量上的不确定性，这也就意味着波长的模糊性。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/15/202003152045085097961004.jpg">
+      </figure>
+              <div class="text">
+       <p><p>再比如说，根据相对论，质量和能量是等价的，所以能量上的不确定性就意味着质量的不确定性。现代物理学知道有很多粒子的寿命都是有限的，可能存在很短的时间就会衰变成别的粒子 —— 而这种粒子的存在时间的不确定性，决定了它们的质量也有不确定性，你不可能绝对精确地测定它们的质量。</p><p>那为什么我们精确地知道质子和电子的质量呢？因为它们很可能根本就不会衰变！它们的时间不确定性是无穷大。</p><p><b>所以“不确定”是量子世界的本质。海森堡要求我们专注于那些能测量的东西，坦然接受测量结果的不确定性。</b></p><p>但你可能还是忍不住想问，在我们没有测量的那段时间，电子到底经历了什么呢？就好像有一位美丽的女同事，你每次见到她都是在上班的时候。你觉得那不是真正的她，你忍不住猜测她不上班的时候是什么样子，你觉得你还可以进一步了解她。</p><p>而我不得不告诉你，这个问题你怎么想都不会想明白 —— 如果真的存在一个关于电子的“客观现实”，那个现实很可能是在我们人类的理解能力之外。事实上，我们一直到今天也只是知道电子的一些*性质*而已，我们并不知道电子*到底*是个什么东西 [3]。</p><p> </p><p><font>海森堡的理论规定，我们跟电子只有工作关系。</font></p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/15/202003152046002878405729.jpg">
+      </figure>
+              <div class="text">
+       <p><p><b>注释</b></p><p><b>[1] 严格地说，这个 Δ 的意思是统计分布的方差。</b></p><p><b>[2] 单孔衍射实验的两张图来自 Marco Masi, Quantum Physics: an overview of a weird world: A primer on the conceptual foundations of quantum physics (2019) 一书。</b></p><p><b>[3] 精英日课第三季，<span class="link" data-link='{"typeid":"85379","type":65}' data-ddurl="igetapp://class/article?courseArticleId=85379" data-ddurlminver="5.2.0">《要么电子有意识，要么一切都是幻觉》</span>。</b></p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/15/202003152232009171305175.jpg">
+      </figure>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/15/202003152046101069782034.jpg">
+      </figure>
+        
+     </div> 
+    </article> 
+   </main> 
+  </div>  
+
+  
+<style>
+    .weui-tab {
+        height: 54px !important;
+    }
+    .ycolor {
+        color: #ffa42f;
+    }
+</style>
+  <div class="comments">
+    <div class="comments-color"></div>
+    <div class="comments-head">
+        <span>用户留言</span>
+    </div>
+    <ul class="comments-list" id="comments-list">
+
+                    <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/11261969-1538225974.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">石三</span>
+                    <span class="comments-vote"><b>58赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    **不确定性是量子世界的本质**，海森堡真是太厉害了，一语道破本质。
+
+看到老师在文章中说：
+
+>如果一个粒子的速度是绝对的 0 ，那它就必须同时出现在宇宙中所有的地方。
+
+这是不是说，因为粒子的不确定性原理，如果我们真的要测量一个完全静止的粒子在宇宙中的具体位置，那么它就必须满整个宇宙？
+
+而且，因为宇宙空间还在持续膨胀，很多遥远星系的退行速度都会超光速，比如距离我们 138 亿光年的星系退行速度是 28.7 万公里每秒，它们远离我们的速度是 95.7 万公里每秒。
+
+这是不是说，我们在地球这边测量的这个粒子，它也会以超过光速 3 倍的速度随时出现在可观测宇宙的边缘呢？
+
+而且，这里说的整个宇宙，还只是我们目前可观测的 460 亿光年的可观测宇宙。如果严格来说的话，这个粒子是不是还同时充满在比我们目前可观测宇宙至少大 1500 万亿亿倍的整个宇宙呢？
+
+这得是一种什么样的神奇的存在呀？😂                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">……谈论量子力学的时候暂时不要谈太大的尺度，我们的视角一次只能看一个尺度。。。鉴于不确定性禁止这样的光子存在，任何畅想都是合法的。</dd>
+                    <dd class="comments-time">2020-03-16</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-04-03/17a18551c4400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">Allelujah 朱磊</span>
+                    <span class="comments-vote"><b>40赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    我们知道，宏观世界是由微观粒子所构成的。
+
+我们又知道，宏观世界是可测量的，微观粒子的不确定性并没有对宏观世界造成可见的影响。
+
+万sir对此的解释是，普朗克常数是一个很小的数字，那一点不确定性和宏观世界的尺度相比微不足道。
+
+我注意到，其中的核心似乎在于，并不是所有的微观粒子构成都「不确定」，海森堡只验证了电子（光量子）的不确定性，而构成原子的中心，也就是质子部分更多是确定的，所以电子的不确定性对于原子的运动构成的宏观世界的影响极小。
+
+不知道我的理解是否正确。                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">不是。原子核也是不确定的。一切都是云。。。</dd>
+                    <dd class="comments-time">2020-03-16</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/249923272-1579744675.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">惉椛惹愺</span>
+                    <span class="comments-vote"><b>27赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    其实我们觉得量子世界不确定性原理非常诡异，只是因为我们总把电子想成单纯的粒子。从波粒二象性原理解释，任何粒子，既是粒子又是波。从波的角度看，自然界的波本来就处于不同波长的叠加态，波长和位置本来就会形成不确定性关系。所以这个不确定，在具有波动性的电子那里也存在。这样理解，可否印证海森堡不确定性原理。                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">波的意向作用有限，比如对能量和时间的不确定性，波就没用。我们后面会讲到，波是个临时性的概念。</dd>
+                    <dd class="comments-time">2020-03-16</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/1460204-1486208270.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">曲临江</span>
+                    <span class="comments-vote"><b>23赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师只说了单缝实验产生的光环不是来自于撞击，那它为什么也不是来自于引力呢？根据广义相对论，光也会受到引力的作用，那么在单缝实验中，光子会不会是受到了遮挡板上小孔边缘的引力拉扯而发生了偏折呢？
+如果开孔足够大，光子从孔洞的正中间穿过时离孔的边缘就很远，引力太小了，光还是走自己的直线。
+而当孔洞足够小时，就会有光紧贴着孔的边缘前进，于是在引力的作用下转了一个弯，走出了一条弧线，最终落在原本落点外围的地方。光子离边缘越近，引力越大，偏转也就越多，落点也就越靠外，但这样的光子出现概率也就越低，所以越向外围的光圈就越暗。
+这种想法似乎解释不了为什么光斑会有一圈一圈的衍射条纹，但似乎说明了动量与位置之间的关系。请万老师快点说说我错在哪里了吧!可别让我自大的以为自己有了什么了不得的洞见!                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">引力太弱了。如果是引力，实验环境中最大的引力是下方的地球，粒子们应该表现出一个向下的趋势，但是并没有。事实上那些干涉条纹是可以计算的，我们说自己跟自己干涉，这并不是猜想，是算出来的。引力影响不到那个尺度。</dd>
+                    <dd class="comments-time">2020-03-16</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/579221-1478939912.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">弘毅388633</span>
+                    <span class="comments-vote"><b>21赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    老师，如果电子没有轨道，电子同时处于原子核四周的所有位置，那么电子的能级如何理解？                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">电子云跟电子云的形状也不一样。同时出在所有位置，各处概率也不一样。低能级电子云的有效半径更低一些。。。</dd>
+                    <dd class="comments-time">2020-03-16</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/13172735-1563927948.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">李盈</span>
+                    <span class="comments-vote"><b>44赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    从今以后，海森堡的测不准原理就变成了不确定性原理。其实，这个不确定性原理并不是完全意义上的不确定。比如，虽然不知道确切的位置，但是它的位置不是随机的，它是有取值范围的。
+
+另外，一共两个变量，当位置相对确定时，动量就相对不确定，两个变量就跟串供了一样，绝对不会出现囚徒困境当中所描绘的现象，比如两个都特别确定，或特别不确定，就像跷跷板的两端。
+
+不确定性原理其实是不完全确定性原理，可谓犹抱琵琶半遮面，让你看到一些规律，但又不能完全摸透它。科学就是这样，越是了解的多，就越懂得保持谦卑，越是无知，就会觉得无所不能。                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/509472-1544029320.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">悍那Hana</span>
+                    <span class="comments-vote"><b>42赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    不知做此类比是否合适：微观心理世界、与微观物理世界一样，我们与她们，都只是常怀不确定的“工作关系”。
+
+没人真正知道，“电子”私下的本质属性；
+就像没人真正知道，细分到最小颗粒的人心…
+
+究其原因，也是两个层面的不确定性——
+
+一是表层的“测不准”：一旦测量，必定干扰。
+填写问卷，人们在评价恐惧的驱使下不选“真的”、只选“对的”；
+设计实验，实验者的罗森塔尔期望效应、参与者的自证预言安慰效应…
+
+二是深层的“不可测”：纵不测量，也一切可变、一切必变。
+人是反应的动物，而刺激不唯一、反应常叠加，即便条分缕析控制观察，目标是个光圈，只能无限接近、终究无法到达…
+
+如万老师常说，把玩原理是智力拉伸，而把玩哲学、把玩思想、把玩背后的得到，也同样有趣～                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/954048-1529046724.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">老安</span>
+                    <span class="comments-vote"><b>36赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师好，我感觉把电子的状态解释成“云”，要比“既是波又是粒子”更容易理解。您在第二季讲《穿越平行宇宙》时提到过量子的随机性：“量子随机性是唯一随机性，是物理定律不能预测的结果，是真正的意外。”今天讲的“不确定性”和“随机性”听着有点相似，是不是可以这样理解，在没有观测前量子呈现出“不确定性”，而观测后量子的运动就会呈现出“随机性”？                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-01-04/1784006f04400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">吴佩师</span>
+                    <span class="comments-vote"><b>31赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    日本名古屋大学教授小泽正直在2003年提出“小泽不等式”，认为“测不准原理”可能有其缺陷所在。为此，其科研团队对与构成原子的中子“自转”倾向相关的两个值进行了精密测量，并成功测出超过所谓“极限”的两个值的精度，使得小泽不等式获得成立，同时也证明了与“测不准原理”之间存在矛盾。                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2019-11-29/1778038344400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">晓曦</span>
+                    <span class="comments-vote"><b>30赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    “不确定”不只是量子世界的本质，也是我们社会和人生的本质。海森堡要求我们专注于那些能测量的东西，坦然接受测量结果的不确定性，这让我想到刘擎老师前两天讲的哈耶克的“理性的自负”的概念：就是说对人类的能力抱有过度信心，相信我们能构建完美的理论体系和计划。妄想用理性彻底征服无知，消除所有的不确定性，是一种不成熟。理性不是不好，而是因为很好很管用所以才特别要警惕对它的夸大和滥用。真正的成熟就是在运用理性的同时，直面自己不可能摆脱的无知，勇敢地与不确定性共存。                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/36328591-1516452417.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">佛祖门徒</span>
+                    <span class="comments-vote"><b>22赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    “换句话说，根据不确定性原理，你甚至可以通过控制某一方面的不确定性，去改变另一方面的不确定性。”
+思维中有两种倾向，一是消除不确定性；二是控制不确定性。以往的思路大多是找到未知的规律，或是找出所有的要素以及要素间相互影响的关系，很多时候常常是徒劳的。利用两种不确定性之间的关系来获得想要的某种结果或引导一种不确定性像比较“确定”的方面发展，这是今天日课最重要的得到。我琢磨的还是具有极大不确定性的人心，或许这种思维方式能够发挥更多积极的作用。                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-04-07/17a31b34c4400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">伪装</span>
+                    <span class="comments-vote"><b>22赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    人类个体是测不准的，但是任何一个人类组织都是可测量的。测不准人类个体，不是测量的能力问题，而是人类个体本身就是不确定的。
+这个很量子力学。。。
+也难怪生物学、心理学这一类测量人类的学科会越来越复杂，越是测不准就越想测准，只能挖空心思想办法测量，于是一门又一门的学科就被创造了出来。
+而力学越往深处越综合统一。。。                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-04-03/17a18551c4400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">Allelujah 朱磊</span>
+                    <span class="comments-vote"><b>22赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    维尔纳·海森堡于1927年发表论文给出对不确定性原理的原本启发式论述，因此 此原理又被称为“海森堡不确定性原理”。
+根据海森堡的表述，测量这动作不可避免的搅扰了被测量粒子的运动状态，因此产生不确定性。
+
+同年稍后，厄尔·肯纳德（Earl Kennard）给出另一种表述。隔年，赫尔曼·外尔也独立获得这结果。按照肯纳德的表述，位置的不确定性与动量的不确定性是粒子的秉性，无法同时压抑至低于某极限关系式，与测量的动作无关。由此，对于不确定性原理，有两种完全不同的表述。追根究柢，这两种表述等价，可以从其中任意一种表述推导出另一种表述。
+
+长久以来，不确定性原理与另一种类似的物理效应（称为观察者效应）时常会被混淆在一起。
+观察者效应指出，对于系统的测量不可避免地会影响到这系统。为了解释量子不确定性，海森堡的表述所援用的是量子层级的观察者效应。之后，物理学者渐渐发觉，肯纳德的表述所涉及的不确定性原理是所有类波系统的内秉性质，它之所以会出现于量子力学完全是因为量子物体的波粒二象性，它实际表现出量子系统的基础性质，而不是对于当今科技实验观测能力的定量评估——测量不是只有实验观察者参与的过程，而是经典物体与量子物体之间的相互作用，不论是否有任何观察者参与这过程。                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-02-21/1793c38104400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">成洁getit</span>
+                    <span class="comments-vote"><b>19赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    我不知道第一个发现后来被称为海森堡论不确定性现象的物理学家的心理健康还好吗，哪怕是现在的我试图真正了解这个“不确定性”的皮毛，都觉得三观世界要崩塌了。
+但是只要我不去想这件事情，世界就立刻恢复到我之前以为的样子，这还是一个需要我挣扎着起床去上班的周一早上。我还是在一个确定的时间确定的地点做确定的事情。与宏观世界的“确定性”相对应的“另一个”位置或者动量是什么呢？
+可能这个问法是错误的。但这个想法太奇妙了。                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2019-12-16/177ddc4a84400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">爱丽娜</span>
+                    <span class="comments-vote"><b>19赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    “不确定”是量子世界的本质。这有点像足球世界的踢点球，守门员永远也不能确定点球的方向，只能狂猜，只能靠经验，或者靠运气。
+
+在量子世界，人类暂时只能当守门员。庆幸的是，海森堡这类的守门员，偶尔也扑到了量子这枚足球！
+
+在得到学习越久，听万老师讲课越多，越相信运气的魅力，尽管运气更加具有不确定性…                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-03-29/17a0103a44400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">露奇露奇</span>
+                    <span class="comments-vote"><b>16赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    扎心……每天盼更新就是希望能跟电子有点私密关系，到头来还是被官宣只有工作关系🤧                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/11115982-1493106774.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">musicbug</span>
+                    <span class="comments-vote"><b>14赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师，我又做实验了，类似DNA,X射线衍射实验，发知识城邦里了。不过是用电灯泡的和DNA同是螺旋形的灯丝。图案神似，欢迎大家去城邦看图。                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-04-05/17a270d6c4400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">雪泥鸿爪</span>
+                    <span class="comments-vote"><b>13赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师光子位置的不确定性越小，速度的不确定性就越大，可是光子已经是光速了。这个速度的不确定性是什么意思？光速是不变的，所以溢出来的速度的不确定性就自动转换成方向上的倾斜，为什么就开始斜着跑了，我们可以准确的计算倾斜的数据吗？如果不能知道往那个方向倾斜，方向上就是不确定的，那不就等于位置上的不确定吗？所以是位置越确定，位置就越不确定……      我是那里理解的有问题吗？                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">光速是大尺度的事情，光子是小尺度的事情。要在光速意义下谈论光子，我们只需要“量子电动力学”……总之别担心，一切都在物理学家掌握之中。</dd>
+                    <dd class="comments-time">2020-03-16</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/150454-1485872822.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">nobita</span>
+                    <span class="comments-vote"><b>12赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师，海森堡不确定性方程中只有两个常数，h和Pi。请问这个方程是完全准确的，还是根据实验得到的一个大致的数值？如果是完全准确的，那么是不是意味着Pi除了圆周率这个规律外，还代表着这个宇宙其他的规律？昨天恰好是Pi Day，感觉Pi很神秘！                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">这个数是可以精确计算出来的。</dd>
+                    <dd class="comments-time">2020-03-16</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/133903-1514251357.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">得稻</span>
+                    <span class="comments-vote"><b>10赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    从衍射实验来看光子感觉就像是生命体，一切行为都是为了生存和繁衍。似乎有巨大的生命力，让他们去占领空间。如果孔径很大，也就是不用约束它的行为，他就会按照直线距离最短也就是能量消耗最低的方式去穿过这个孔径，而达到他的繁衍目的，生命在于运动嘛，他要去其他地方繁衍。而孔径很小的时候他反而会去撞击这个孔径来了解这个边界。似乎他们也懂概率论，知道不能把鸡蛋放在同一个篮子里。所以他们宁愿消耗自己的能量来多寻几条出路。所以这时衍射条纹最剧烈，这真是光子用生命在画出的圈啊！
+这些光子好像一个巨大的蚁群能够互相交流，来完成他们占领每个“普朗克空间”的繁衍生存使命。
+”粒子的速度是绝对的 0，那它就没有动量的不确定性，那么它的位置的不确定性就必须是无穷大，那么它就必须同时出现在宇宙中所有的地方。”--看看这句话，光子他的使命一定就是占领全宇宙！可是如果他死了静静的躺在那里，也就是占领了全宇宙，死亡真的是永恒的T_T！反而如果它的速度无穷大，也就永远禁锢在了一个位置，获得了那一瞬间的无穷能量，可他也死在了那个位置。无穷大能量也满足了时间最小值这个跷跷板关系。感觉光子好可怜，他的追求横竖都是虚无和无意义。
+想到了热寂的最终宿命，听起来海森堡论和热寂还挺统一的，也想问问万老师，量子力学和热力学都是统一的么？                </dd>
+                <dd class="comments-time">2020-03-16                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">量子力学和热力学是两个不同层面的东西，如同心理学和经济学。</dd>
+                    <dd class="comments-time">2020-03-16</dd>
+                </dl>
+                            </dl>
+
+        </li>
+        <li class="comments-footer">以上留言由 作者 筛选显示</li>
+    </ul>
+</div>
+ </body>
+</html>

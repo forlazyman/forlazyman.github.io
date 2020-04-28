@@ -1,0 +1,715 @@
+
+    <!doctype html>
+<html lang="en" data-dpr="1" style="font-size: 34px;">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta content="yes" name="apple-mobile-web-app-capable"> 
+  <meta content="yes" name="apple-touch-fullscreen"> 
+  <meta content="telephone=no,email=no" name="format-detection"> 
+  <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"> 
+  <title>量子力学10：全同粒子的怪异行为</title> 
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+  <script src="../js/main.js"></script>
+
+  <script type="text/javascript" id="viewport">
+        /* eslint-disable */
+        var APPVersion=0;!function(J,I){function H(){var a=E.getBoundingClientRect().width;if(J.navigator.appVersion.match(/iphone/gi)&&a<500){a=a*B}a/B>540&&(a=540*B);var d=a/10;E.style.fontSize=d+"px",z.rem=J.rem=d}var G,F=J.document,E=F.documentElement,D=F.querySelector('meta[name="viewport"]'),C=F.querySelector('meta[name="flexible"]'),B=0,A=0,z=I.flexible||(I.flexible={});if(D){console.warn("将根据已有的meta标签来设置缩放比例");var y=D.getAttribute("content").match(/initial\-scale=([\d\.]+)/);y&&(A=parseFloat(y[1]),B=parseInt(1/A))}else{if(C){var x=C.getAttribute("content");if(x){var w=x.match(/initial\-dpr=([\d\.]+)/),v=x.match(/maximum\-dpr=([\d\.]+)/);w&&(B=parseFloat(w[1]),A=parseFloat((1/B).toFixed(2))),v&&(B=parseFloat(v[1]),A=parseFloat((1/B).toFixed(2)))}}}if(!B&&!A){var u=(J.navigator.appVersion.match(/android/gi),J.navigator.appVersion.match(/iphone/gi)),t=J.devicePixelRatio;B=u?t>=3&&(!B||B>=3)?3:t>=2&&(!B||B>=2)?2:1:1,A=1/B}if(E.setAttribute("data-dpr",B),!D){if(D=F.createElement("meta"),D.setAttribute("name","viewport"),D.setAttribute("content","initial-scale="+A+", maximum-scale="+A+", minimum-scale="+A+", user-scalable=no"),E.firstElementChild){E.firstElementChild.appendChild(D)}else{var s=F.createElement("div");s.appendChild(D),F.write(s.innerHTML)}}J.addEventListener("resize",function(){clearTimeout(G),G=setTimeout(H,300)},!1),J.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(G),G=setTimeout(H,300))},!1),"complete"===F.readyState?F.body.style.fontSize=12*B+"px":F.addEventListener("DOMContentLoaded",function(){F.body.style.fontSize=12*B+"px"},!1),H(),z.dpr=J.dpr=B,z.refreshRem=H,z.rem2px=function(d){var c=parseFloat(d)*this.rem;return"string"==typeof d&&d.match(/rem$/)&&(c+="px"),c},z.px2rem=function(d){var c=parseFloat(d)/this.rem;return"string"==typeof d&&d.match(/px$/)&&(c+="rem"),c}}(window,window.lib||(window.lib={}));
+    </script> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-iget-rush-node/dist/css/course.513f06c0faf6793849ce8f64a0627f0d.css"> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-editor/dist/preview.20aa73124b557d5b072d.css"> 
+ </head> 
+ <body  style="font-size: 14px;max-width: 600px;margin: 0 auto;"> 
+    <img style="max-width: 100%" src="https://piccdn.igetget.com/img/202003/23/202003232222094413504282.jpeg" alt="">
+  <div class="preview"> 
+   <main id="article-main" data-type="22"> 
+    <article class="article" id="preview-article"> 
+     <h1 class="title name-slFosOL50ZH3FiY08C0iemh10biJsJ102Np3xhSoYKeQEt0uOIABk5WrZbt8KMZa">量子力学10：全同粒子的怪异行为</h1> 
+     <div class="author"> 
+            <img data-type="author" src="https://piccdn.igetget.com/img/202002/29/202002292204266526316645.jpeg"> 
+      <p>万维钢</p> 
+          <span class="time">2020-04-28</span> 
+     </div> 
+     <div class="line"></div> 
+     <div class="article-body"> 
+                <div id="1556543749421" class="player-v2"> 
+       <div class="player-wrap"> 
+        <button class="i-playing"></button> 
+        <div class="progress-group"> 
+         <div class="audio-title">
+           量子力学10：全同粒子的怪异行为 
+         </div> 
+         <input id="range25936" type="range" min="0" max="100" value="0" data-current="0:00" data-max="10:43" data-total="643"> 
+        </div> 
+        <audio id="player25936" title="block.audio.title" src="https://igetcdn.igetget.com/aac/202003/24/48000_202003240116135216613224.m4a" preload="" cover="量子力学10：全同粒子的怪异行为" cover-img="量子力学10：全同粒子的怪异行为"></audio> 
+
+       </div> 
+       <div class="player-tips">
+         | 转述：怀沙 | 
+       </div> 
+      </div>
+          <div class="text">
+       <p><p>你说在我们日常生活中，有没有两个完全相同的东西呢？应该是没有。</p><p>比如说一对双胞胎，哪怕你假设他们的基因完全一样，但他们各自的人生经历、他们的记忆、他们吃的每顿饭都不可能是完全一样的，表现在身体和大脑的神经连接上，这两个人总会存在差异。</p><p>再比如说，同一个工厂、同一个批次生产出来的标准化产品，比如说手机，是绝对相同的吗？肯定也不是。如果你用放大镜去看，总能找出零件上的不同磨痕，玻璃上的细微差异。</p><p>宏观世界里任何两个东西，哪怕你假设它们真的是看起来完全一样的，我也能找出不一样来。比如说，它们不可能在同一时间占据同一个位置，对吧？你把这两个东西横排摆在我面前，它们总得是一个在左边一个在右边吧？我总可以给它们编上号：左边这个是 1 号，右边这个是 2 号 —— 这就是不一样。</p><p>我们精英日课专栏讲过“丑小鸭定理” [1]，说的就是两只天鹅之间的差别，和丑小鸭跟天鹅之间的差别是一样大的，世界上没有完全相同的两个东西。</p><p> </p><p><font><b>但是，在微观世界里，两个电子，却是完全相同的。</b></font></p></p>
+      </div>
+                <div class="text">
+       <p><p>对物理学家来说电子只是一个点。电子身上没有任何痕迹能让你找到差别的线索。电子没有年龄，你怎么看也看不出来哪个电子更老一些、哪个电子是后出生的。</p><p>更神奇的是，你甚至不能给电子编号。</p><p>在宏观世界里，比如你给我三个小球，我总能把它们从左到右排列好，在我自己的意念之中给它们编号为A、B、C。只要我一直盯住它们不放，那不管你怎么改变顺序，我也能一直区别谁是谁。所以这三个小球哪怕外表看起来绝对相同，它们在我的眼中也一共有六种排列方式：ABC、ACB、BAC、BCA、CAB、CBA。</p><p>但是电子不能这么排。三个电子摆在你面前，只有一种排列方法，<b><font>AAA。</font></b></p><p><font>量子力学中有个概念叫做“全同粒子”，全同的意思是无法区分。电子和电子，质子和质子，一切名称相同的粒子都是全同粒子。全同粒子不仅仅是外观和物理性质一样，而且在根本上、在数学上，都是无法区分的。</font></p><p>这其中就包括，你哪怕在意念之中，也无法给三个电子编号。因为根据不确定性原理，电子没有明确的轨道，你根本就不可能一直盯住它们三个！哪怕是全知全能的上帝也区分不了。</p><p>这个知识非常重要。<b>表现在统计物理学上，就是对全同粒子的统计和对普通事物的统计是非常不一样的，有一个宏观的效应。</b></p><p> </p><p>有了全同粒子的知识，我们就可以欣赏一个精妙实验。</p></p>
+      </div>
+                <div class="text">
+       <p><p>这个实验叫“洪-欧-曼德尔效应（Hong–Ou–Mandel effect）”，是罗切斯特大学的三个物理学家在 1987 做成的 [2]。它对量子计算机很有用，但是我讲这个实验不是因为有用，而是因为有趣。我希望你仔细琢磨一下其中的奥妙，感受感受量子世界。</p><p> </p><p>我们先来介绍一个简单的物理仪器，叫做“分束器（beam splitter）”。它的作用是把一束入射的光分成两束：一束反射，一束透射。只要入射角正好是 45 度，反射和透射就正好各占一半。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231903164603468226.png">
+      </figure>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231904087926936385.png">
+      </figure>
+              <div class="text">
+       <p><p>分束器的构造很简单，就是一块厚玻璃的一面镀上银。镀银的这一面就好像镜子一样，只不过是半透明的镜子。如果我们不是用一束光，而是只把一个光子打到分束器上，那可想而知，光子会有50%的可能性反射，50%的可能性透射。</p><p> </p><p>下面是重要的一点：从镀银的这一面反射出来的光子，它会获得一个180°（也就是 π）的相位差，导致它的态函数要改变一次正负号 [3]。但是从分束器另一面反射、或者任何透射的光子，都不会改变相位 [4]。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231905014470456001.png">
+      </figure>
+              <div class="text">
+       <p><p>这些都是非常基本的性质，所有做光学实验的人都会用到分束器。</p><p>好，现在我们的实验是这样的。假设分束器是平放的，下面的一面镀银。有两个光子，一个从分束器的上方45°角入射，另一个从分束器的下方45°角入射。你猜会发生什么？</p><p>光子遇到分束器后有两个选择，反射或者透射，可能性各占50%。所以两个光子的行为一共有四种可能性 —— </p><p> </p><p>1）上面的光子反射，下面的光子透射：</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231905444081715538.png">
+      </figure>
+              <div class="text">
+       <p><p>2）上下两个光子都透射：</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231906205804499443.png">
+      </figure>
+              <div class="text">
+       <p><p>3）上下两个光子都反射：</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231906523606829743.png">
+      </figure>
+              <div class="text">
+       <p><p>4）上面的光子透射，下面的光子反射：</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231907236453007673.png">
+      </figure>
+              <div class="text">
+       <p><p>没问题吧？</p><p>好，现在根据量子力学，这件事儿总的态函数应该写成这四种情况的叠加态。但是考虑到分束器是下面镀银，下面的光子反射的时候会带来一个相位差，也就是一个负号，所以总态函数是</p><p>Ψ = 第一种情况 + 第二种情况 - 第三种情况 - 第四种情况</p><p> </p><p>用图形表示，就是 ——&nbsp;</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231907576805771718.png">
+      </figure>
+              <div class="text">
+       <p><p>这时候请注意！如果这两个光子是全同的，第二种情况（两个光子都透射）和第三种情况（两个光子都反射）的结局就是不可区分的。对吧？因为你根本无法跟踪这两个光子，你不知道从分束器里跑出来的到底哪个是哪个，两种情况的结局都是两个光子从两侧跑出来。</p><p> </p><p>而又因为第三种情况有个负号，所以第二和第三种情况互相抵消了……抵消了。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231908316490156478.png">
+      </figure>
+              <div class="text">
+       <p><p>“洪-欧-曼德尔效应”的实验结果正是如此！只剩下第一和第四种情况。你看到的或者是两个光子一起从上方跑出来，或者是一起从下方跑出来，而绝不会是各自从不同的方向出来。</p></p>
+      </div>
+                <div class="text">
+       <p><p>我们想想这件事有多怪异。光子是完全自由的。它们各自都有反射和透射两个选项，它们完全没有理由约好了一起走。但是结果却是它们必须一起走。</p><p>我再帮你捋一遍。这就好比说十字路口的东边来了一个老张，南边来了一个老李，两人正好在路口相遇。他们都是完全自由的。老张本来打算要么直行往西、要么右转往北；老李本来打算要么直行往北，要么左转往西。在经典世俗的生活中他们既可以一起往北或者往西，也可以一个往北一个往西，是吧？</p><p>可是奇怪的事情发生了。实验结果是老张和老李总是选择了同一方向。就好像他俩认识一样，聊了几句就决定必须一起走。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003232154114825297059.jpg">
+      </figure>
+              <div class="text">
+       <p><p><font>是谁给了两个光子这样的协调呢？</font></p><p>这个事儿跟传统光学的干涉现象没关系。传统光学的干涉，是一束光的波峰正好跟另一束光的波谷重叠导致的相消 —— 你需要两束光在一起才能干涉。可是这里被抵消掉的恰恰是两个光子选择不同方向的那两个量子态 [5]。</p><p>“洪-欧-曼德尔效应”再次告诉我们，“量子叠加态”，是比波函数更为深刻的表达。在量子叠加态中不但两个波的波峰和波谷能抵消，连两个*事件*都可以互相抵消。</p><p> </p><p>事实上如果你学量子电动力学，你会学到费曼发明的“费曼图”，他的做法就是要把所有可能发生的粒子事件一个一个画出来，让事件之间做加加减减 —— 这个做法被称之为<font>“费曼规则”。</font></p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231910171465296869.png">
+      </figure>
+              <div class="text">
+       <p><p>“洪-欧-曼德尔效应”还让我们看到了，<font><b>全同粒子，那是真的不可区分的。</b></font></p></p>
+      </div>
+                <div class="text">
+       <p><p>全同粒子的这个不可区分的性质，让物理学家也深感不安。为什么非得是这样的呢？我听到的最离奇的解释，来自费曼的导师，约翰·惠勒（John Archibald Wheeler）。惠勒是一位卓有贡献的理论物理学家，“黑洞”这个词就是他发明的，他的脑洞比较大。</p><p>有一天，惠勒突发奇想，给费曼打电话说 ，他知道为什么电子是全同的了。费曼问为什么？惠勒说，因为整个宇宙中只有一个电子！</p><p> </p><p>我想，如果费曼当时用的是微信，一定会缓缓打出一个用手捂脸的表情。只有一个电子，难道说这个电子实现了实体化无处不在，可以制造无数个分身同时让人观测到吗？费曼没当回事，惠勒提了一下也不了了之。</p></p>
+      </div>
+                <div class="text">
+       <p><p>那到底应该如何理解粒子的全同性呢？以我之见，很可能还是因为基本粒子实际上都是数学结构，是抽象的存在。具体的事物，我们总可以找出一些特征来加以区分。抽象的东西，比如数字“1”，你写出多少个来，也只能是全同的。</p><p>那为什么日常生活中的各种事物没有全同的呢？因为其中包含的粒子实在太多了。每一个物体都是基本粒子排列组合形成的，它们排列组合的方式实在太多，以至于你无法找到两个完全相同的物体。如果基本粒子是字母，宏观物体就好像长篇小说 —— 字母都是全同的字母，但是小说跟小说没有一样的。另一方面，宏观物体的位置不确定性也变得可以忽略不计，让你可以跟踪了。</p><p>但是你要沿着这个思路往深了想，可能会有点胆战心惊。如果这个世界最底层的积木都是抽象的存在，都是数学结构，那这些积木组成的物体就算失去了全同性，不也仍然还是数学结构吗？也许我们身边的一切，包括你和我，都只不过是数学元素的排列组合而已。</p><p> </p><p>那要这么说的话，这个世界还是真实的吗？它跟电子游戏里的虚拟世界又有什么本质区别呢？这个话题有点危险，我们还是先回到量子力学。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231912172627652315.jpg">
+      </figure>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231913595990692031.jpg">
+      </figure>
+              <div class="text">
+       <p><p><b>注释</b></p><p><b>[1] <span class="link" data-link='{"typeid":"12004","type":65}' data-ddurl="igetapp://class/article?courseArticleId=12004" data-ddurlminver="5.2.0">精英日课第二季，丑小鸭定理</span></b></p><p><b>[2]&nbsp;C. K. Hong; Z. Y. Ou &amp; L. Mandel (1987). "Measurement of subpicosecond time intervals between two photons by interference". Phys. Rev. Lett. 59 (18): 2044–2046.</b></p><p><b>[3] 为什么180 度要变号呢，数学细节是 e^(iπ) = -1。</b></p><p><b>[4] 这个原理是“菲涅耳方程”，关键在于分束器的厚玻璃和空气的折射率非常不同。详情见&nbsp;K P Zetie, S F Adams and RM Tocknell,&nbsp;How does a Mach–Zehnder interferometer work?&nbsp;Phys. Educ. 35(1) January 2000.</b></p><p><b>[5] 事实上，如果你发射的不是两个光子，而是两束光，你看到的就只会是往西和往北两个方向走的两束光，实验无比平淡，毫无意义。&nbsp;</b></p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/23/202003231914436193569363.jpg">
+      </figure>
+        
+     </div> 
+    </article> 
+   </main> 
+  </div>  
+
+  
+<style>
+    .weui-tab {
+        height: 54px !important;
+    }
+    .ycolor {
+        color: #ffa42f;
+    }
+</style>
+  <div class="comments">
+    <div class="comments-color"></div>
+    <div class="comments-head">
+        <span>用户留言</span>
+    </div>
+    <ul class="comments-list" id="comments-list">
+
+                    <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-09-04/175bc295c4400001.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">武恩稳</span>
+                    <span class="comments-vote"><b>70赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    美国现在疫情情况如何，抖音里面看到有黑人开始抢劫了，股市也是大跌，不知道美国到底严不严重，不知道万老师在国内还是在国外，不怕疫情，就是怕美国人对华人的敌意，万sir千万注意安全哈，                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">那些都是极个别现象，在正常情况下黑人也会抢劫，华人也会被抢！目前没什么异常，美国各界群众情绪稳定。</dd>
+                    <dd class="comments-time">2020-03-24</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/670009-1493062172.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">王依胜</span>
+                    <span class="comments-vote"><b>43赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    您好万老师，听前面讲泡利不相容原理，我觉得电子与电子不同，自旋也能不一样，这讲里说电子都一样，感觉有点矛盾，可否解疑？                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">这是两回事儿。原子中的电子可以拥有四个量子数，量子数不同的两个电子是可区分的 -- 但是脱离这些量子数，两个电子是全同的。</dd>
+                    <dd class="comments-time">2020-03-24</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-03-14/179b2f8684400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">红军</span>
+                    <span class="comments-vote"><b>27赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    😂，这些新课，万老师订阅量这，拿捏死死的啊！哈哈哈遥遥领先！吼吼吼恭喜万老师了！
+                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">谢谢！哈哈哈</dd>
+                    <dd class="comments-time">2020-03-24</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/104592-1530455172.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">张洋</span>
+                    <span class="comments-vote"><b>27赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万sir，周末要上演的是不是关于“隐变量理论”的论战。                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">改为明天上演。</dd>
+                    <dd class="comments-time">2020-03-24</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/35706011-1497913344.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">何树存</span>
+                    <span class="comments-vote"><b>24赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    文章最后的问题让我凭印象找到第三季的《要么电子有意识，要么一切都是幻觉》重新学习了一遍。万老师我很想问一下关于电子的意识之类的问题，当前有什么新的进展吗？还是说人类永远也无法得知真相？                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">新的实验证明电子的一些新的怪异行为，但是并不能说电子有意识，……或者说，这取决于你如何定义“意识”……</dd>
+                    <dd class="comments-time">2020-03-24</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/509472-1544029320.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">悍那Hana</span>
+                    <span class="comments-vote"><b>60赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    必须要摘抄第二季日课《为什么世界是数学的》里的一段描述，因为觉得这个理论跟“全同粒子”，讲了同一个故事！
+
+“这个世界不但软件是数学的，而且连硬件，从根本上来说，也是纯数学结构。
+
+泰格马克有一篇著名论文，其中提出了一个关键的名词，叫“包袱”，就是人类强加在数学系统上的概念。比如一个篮球，明明是一堆原子，但我们为了方便起见，把这堆原子当成同一个东西，叫“篮球” —— 篮球就是一个包袱。…
+
+那如果把所谓的包袱都剥离掉，剩下来的是什么？哲学上一直有个悖论，叫“无穷后退问题”。我们说这个物质是分子组成的，分子是原子组成的，原子是由质子、中子和电子组成的，这些又是由夸克组成的……那以此类推，推到哪里才算到头呢？泰格马克说，其实推到基本粒子那里，就已经到头了！
+
+最后不带包袱的这个东西，就是数学结构。终极理论，不管它是什么样子的，它必然是一个没有任何包袱的纯数学结构。
+
+凡是有包袱的东西，都有一些“內禀”的性质。比如说一把椅子，它的内禀的性质就包括它是什么颜色、是什么材质、它有什么历史等等。但是像“上夸克”这样的基本粒子是没有“內禀”性质的！
+
+上夸克没有历史… 上夸克的所有性质都*只是数学性质*，是纯数学的产物。再问“上夸克是什么组成的”就没有多大意义了，正如你不能问“立方体是什么组成的” —— 立方体就是立方体。”
+
+而两个纯数学的“粒子”，有着完全等同的*数学*性质，是多么理所应当的事情吖～
+
+万老师，可以这样理解嘛？                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-04-03/17a18551c4400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">Allelujah 朱磊</span>
+                    <span class="comments-vote"><b>48赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    事实上，我完全能够理解和接受基本粒子的全同性，反而是无法理解为何全同粒子的不可区分会让物理学家产生困扰——
+
+要知道，在我们普通人眼中，物理学家就是一群穷究万物最小可分元素、探寻其运行规律的人，并且深信大爆炸之后所有宇宙中存在的定则是自发产生的。
+
+既然如此，为何会对终于找到的 无法再切分的基本粒子的性质抱有如此的疑惑？难道建筑师会去思考建构大厦的每一块砖头没有任何细微的差异，会导致大厦本身不具备存在的意义吗🤔                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2019-12-16/177ddc4a84400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">爱丽娜</span>
+                    <span class="comments-vote"><b>36赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    哈哈，虽然我听不懂量子力学，但下面的道理很让我兴奋:
+
+如果基本粒子是字母，宏观物体就好像长篇小说 —— 字母都是全同的字母，但是小说跟小说没有一样的。
+
+看来粒子与物体是一场以小博大的豪赌，积液成裘的游戏。咱们不妨来窥探一下二者的内在关系(左边/右边): 
+基本粒子/宏观物体
+字母/长篇小说
+无穷小/无穷大
+极少/极多
+一/万   (1/100000000......)
+x/X的n次方的n次方
+……
+(注意: 上面的关系不可以简化为0/1，因为无论左边的小到什么程度，都是一个"有"而非"无"。)
+
+"左边/右边" 可以换算成 "基本符号/系统框架"，或者换算成"极简符号/数学公式"。
+
+那么我们可以用量子思维推演一下语言符号系统的编码解码(以英语音节的发音规律为例):
+
+"拉丁字母/长篇小说"
+"26字母/符合构词法的单词群"
+"5元音字母+21辅音字母/由元音辅音构成的单词群"
+"5元音+21辅音/由单音节为基础构成的词群"
+"5+21/单音节结构: 开音节+闭音节"
+"字母符号？/开闭音节方程式？？"
+
+字母符号~ (1，5，2，-e)
+开闭音节~(-5), (-1)
+(为刻画英语发音的开闭音节方程式，我们暂时用四个符号"1，5，2，-e"来代替字母发音的要素~
+让我们来规定辅音因素为"1"(发音为腰)，单个元音音素为5，双元音字母的音素为52，外加一个特殊的符号~处在音节尾不发音的字母e)
+
+首先明确概念，元音素结尾的为英语开音节(结构是-5或者15)，闭音素结尾的为闭音节(结构是21或者-1)。
+
+这里抛砖引玉，只探讨英语发音规律中的50%~开音节的"基本粒子"方程式(5的发音为五大元音的字母本音):
+(一) 15 (含 -5)
+(二) 151e (含 15e)
+(三) 1521 (含152)
+
+举例说明(五大元音发字母本音哈，一劳永逸):
+(一) 15 ~ be, me, hi, so, no...
+(二) 151e~ bake, here, side, code, cute...
+(三) 1521~wait, meat, dial, goat, suit...
+
+语言是一套符号的编码系统，即字母的秩序规则，左边是字母符号，右边是构词系统(发音与语法的公式)。我猜测量子力学同样是符号系统，左基本粒子，右大千世界。
+
+光怪陆离的量子力学是个神器，戳穿大千世界，洞察天书奥妙。望断天涯疑无路，红尘破处是坦途。                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/1232911-1563070269.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">包子哥</span>
+                    <span class="comments-vote"><b>29赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    这下好，如果有禅师告诉你说：“这世界上没有两片完全相同的树叶，没有两粒完全相同的沙粒，也没有任何两个完全效果相同的东西”的时候，你可以说：“两个电子”……
+
+这还真是一个细思极恐的话题，我们的时间如此千姿百态，但是其基础仅仅只是一些完全相同没有任何差异的质子中子和电子，更可怕的是，这些东西之所以完全相同，是因为它们只是基于逻辑的东西……
+
+我们常说的“逻辑先于事实”，不仅仅是一句思辨，而是这世界的真相……
+
+所谓的“真实存在”与“客观”，又该如何理解呢？                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-01-04/1784006f04400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">吴佩师</span>
+                    <span class="comments-vote"><b>29赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    在同样的条件下，它们的物理行为完全相同，因此用一个全同粒子代替另一个，不会引起物理状态的变化。在经典力学中，可以从粒子运动的不同轨道来区分不同的粒子。而在量子力学中，由于波粒二象性，随着时间的变化，波在传播过程中总会出现重叠，因此全同粒子在量子力学中是不可区分的。                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/150756131-1562498827.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">启航</span>
+                    <span class="comments-vote"><b>19赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    来自灵魂的约定
+
+全同粒子，
+是量子理论的，
+基本假设。
+就像光速不变，
+之于相对论。
+是经过，
+无数次实践，
+检验过的，
+普遍真理。
+
+比如泡利在，
+不相容原理中，
+就用到了，
+这一假设。
+波函数的平方，
+是概率密度。
+全同波色子，
+相位可以相反。
+全同费米子，
+相位必须相同。
+
+粒子全同，
+波函数的系数，
+就被简化，
+物理学就会，
+达到完美对称。
+泡利电子轨道，
+就变得，
+完全不相容。
+好完美的理论。
+
+惠勒说如果，
+整个宇宙中，
+只有一个电子。
+而其他的电子，
+都是它的分身，
+该有多么完美。
+我要说，
+为什么不呢？
+你怎么知道，
+全同粒子，
+就不是孙悟空？
+
+在数学领域中，
+粒子本身就是，
+一种抽象存在。
+非要在“1”上，
+加一个特征，
+即无必要，
+也毫无意义。
+佛陀说，
+凡所有相，
+皆是虚妄。
+若见诸相非相，
+即见如来。
+
+有时学习物理，
+也要有一点，
+看破红尘的气度。
+毕竟九九归真，
+一生万物……                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/11261969-1538225974.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">石三</span>
+                    <span class="comments-vote"><b>18赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    全同粒子真是太奇妙了！
+
+在现实世界里，我和你不一样，他和万老师也不一样，我们每个人都是独特的。
+
+哪怕一模一样如孪生双胞胎，如果我们认真观察，也会发现他们或多或少，都会有性格或外形上的差异。
+
+
+然而，好玩的是，在量子世界里，我和你和他和万老师，**我们所有人，在本质上都是一模一样的！**
+
+可以这样理解：
+
+在你身上有很多很多的电子， 在万老师身上也有很多很多的电子。
+
+当你和万老师握手的时候，你们身上的电子就会发生一些互换。
+
+你身上的一些电子会跑到万老师身上，万老师身上的一些电子也会跑到你身上。
+
+这些不同的电子，如果把它们抓住观察，我们就会发现，它们居然是一模一样的。
+
+所有的电子都带有相同的电量，都具有完全相同的质量，它们完全一样，不可分辨。
+
+它们就像是从工厂批量生产出来的，经过不同的模型，注入不同的“灵魂”，就组合成不同的我们。
+
+这真是令人震惊的事情。
+
+我忍不住想到基努·里维斯在《黑客帝国》里的无限分身。
+
+万老师说我们都在游戏里，并且不让我们继续想下去，哈哈，难道我佛万维刚，就是那个先知？！                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-04-05/17a270d6c4400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">雪泥鸿爪</span>
+                    <span class="comments-vote"><b>17赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师我有个疑问，第二种和三种相互抵消是因为它们两个完全一样同时又是1和-1的关系，因为电子相同所以无法区分都透射和都反射这两种情况。但是如果能够区分哪个是反射哪个是透射的呢？透射的电子相比于反射的电子会有角度和到达时间的不同吧，在远处放一个屏幕看打在屏幕上哪个位置和什么到达的，这样不就可以分辨一个电子是透射过来的还是反射过来的吗？                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">看是看不到的，或者说看了就会干扰，就不是这个实验了。</dd>
+                    <dd class="comments-time">2020-03-24</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-04-07/17a31b34c4400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">伪装</span>
+                    <span class="comments-vote"><b>16赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    我一直都不明白为什么有人说，我们的世界可能不是真实的，今天这个全同粒子让我恍然有些明白了。。。
+我的理解是：如果不能搞清楚全同粒子为什么全同，那么我们的世界底层就是一个数学问题，而数学就是抽象的，虚无的，它是怎么进入现实并组成实体的？
+这又让我想起了“道生一，一生二，二生三，三生万物”，道也是抽象的，它生出了一，然后演化了万物。
+难道道德经也与量子力学有关？
+科学的尽头是哲学。。。                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/243156976-1571481110.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">李玳蒙</span>
+                    <span class="comments-vote"><b>12赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    今天音频是10分43秒诶，真棒                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-09-05/175c275544400001.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">周树涛</span>
+                    <span class="comments-vote"><b>11赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    看过费曼的两本书《你干嘛在乎别人怎么想》和《别逗了费曼先生》。哪怕费曼没有做出任何物理学的贡献，他也是一个能让人记住的人。
+
+他为了测试人的鼻子灵敏度，趴在地板上闻脚印。为了证明排尿不靠重力，亲自倒立测试。不相信止痛片和可乐共食会死亡，也亲自测试。还研究开锁，把同事的保险柜开了个遍。
+
+这样的好奇心、实证精神特别打动人。他的教育理念也特别值得我们借鉴在自己和孩子的学习上。我敢说了解费曼的人没人不爱他。
+
+最后请教万老师，这个实验怎么保证两个光子是同时发射的呢？如果有时间差就不会低消啊？                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/1581902-1493040985.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">甜梦人生</span>
+                    <span class="comments-vote"><b>10赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    假设我左手拿一个电子，右手有一个电子，能不能给这两个电子区分左右？                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">这个可以。如果你不让它们混在一起，总可以说哪个是左手的，哪个是右手的。但是如果它们相遇了，那就不可再标记了。</dd>
+                    <dd class="comments-time">2020-03-24</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-11-01/176efbbec4400002.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">你先走</span>
+                    <span class="comments-vote"><b>10赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    世界底层是数学的、抽象的，我们看到的世界还是真实的吗？据说，每一个掌握了理论物理的人，都会纠结这个问题。恰好昨天听书解读的《大图景》回答了这个问题。
+
+我理解，这需要我们明白罗素那个理发师悖论，也就是集合不同。我们不能把底层的抽象世界数学世界道理，
+直接套用到人文领域去找寻意义。
+
+在《大图景》作者卡罗尔看来，在价值观的人文世界，和底层的物理世界之间，还存在着一个源自底层的涌现的世界。涌现世界中的一切概念虽然都是人造产物，比如我对一个女人说“我爱你”，说这三个字、“爱”的意义，等等，虽然都人为构造的，但无疑是真实存在的，那我们建构意义就有了基础，我们就可以在这个世界的基础上建立价值观。
+
+卡罗尔把这叫做“诗性自然主义”，也就是底层是抽象无意义的，但会涌现出真实世界，那我们的感受就是真实存在的，在此基础上，我们就能构建更高层面的价值观，比如啥是真善美。
+
+所以，生活不是抽象的数学，而是真实的诗和远方的田野。                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-01-30/178ca426c4400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">躺赢君</span>
+                    <span class="comments-vote"><b>9赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    想请问万老师一个困扰我多年的问题：您之前课程里说过，从宏观来说，世界上原子的轨迹都可以用牛顿定律精确计算其轨迹，如果是的话，那么是不是各种宏观尺度的事件从宇宙大爆炸开始就注定了？也就是著名的机械论。
+
+那如今量子世界的不确定性是否能给我们的人生或者宇宙带来一丝不确定性？我们是否还有自由意志的可能性？
+
+还是说这种不确定性是可以忽略的，而人体其实目前也没观测到量子效应的存在，我们还是没有自由意志？                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">是的，量子力学让宇宙机械决定论失效了……但也不是完全失效。我们会在后面讲一个非常离奇的、但是完美符合逻辑的机械决定论。</dd>
+                    <dd class="comments-time">2020-03-24</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-02-29/17968f4904400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">邓普莱特</span>
+                    <span class="comments-vote"><b>9赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    量子力学好好的怎么会有费曼呢，哈哈哈哈哈哈哈哈哈……
+
+我现在脑海中全是费曼……他一脸懵逼指着自己完全看不懂设计图纸小窗口说：“如果是这个会怎么样？”然后专家认真检查后说，你太牛逼了，这里设计有问题。
+
+他如何在酒吧现场活学活用酒友的泡妞技巧，然后抱得美人归……他偷偷摸索保险柜密码后打开保险柜，然后假装不知情把同事吓的半死……哈哈哈哈哈哈。
+
+他也吐槽巴西的教育制度，吐槽出版社的教育材料的不合理，他对事物的解释清晰易懂……他是一个我向往学习的人。
+
+我常常跟敢于表达自己的想法和情绪，向同事解释蝴蝶效应的理解错误，让自己学习的知识跟实际联系起来，跟其它学科知识联系起来。费曼先生将成为我一生挚友。                </dd>
+                <dd class="comments-time">2020-03-24                </dd>
+                            </dl>
+
+        </li>
+        <li class="comments-footer">以上留言由 作者 筛选显示</li>
+    </ul>
+</div>
+ </body>
+</html>

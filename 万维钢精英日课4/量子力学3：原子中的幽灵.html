@@ -1,0 +1,635 @@
+
+    <!doctype html>
+<html lang="en" data-dpr="1" style="font-size: 34px;">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta content="yes" name="apple-mobile-web-app-capable"> 
+  <meta content="yes" name="apple-touch-fullscreen"> 
+  <meta content="telephone=no,email=no" name="format-detection"> 
+  <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"> 
+  <title>量子力学3：原子中的幽灵</title> 
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+  <script src="../js/main.js"></script>
+
+  <script type="text/javascript" id="viewport">
+        /* eslint-disable */
+        var APPVersion=0;!function(J,I){function H(){var a=E.getBoundingClientRect().width;if(J.navigator.appVersion.match(/iphone/gi)&&a<500){a=a*B}a/B>540&&(a=540*B);var d=a/10;E.style.fontSize=d+"px",z.rem=J.rem=d}var G,F=J.document,E=F.documentElement,D=F.querySelector('meta[name="viewport"]'),C=F.querySelector('meta[name="flexible"]'),B=0,A=0,z=I.flexible||(I.flexible={});if(D){console.warn("将根据已有的meta标签来设置缩放比例");var y=D.getAttribute("content").match(/initial\-scale=([\d\.]+)/);y&&(A=parseFloat(y[1]),B=parseInt(1/A))}else{if(C){var x=C.getAttribute("content");if(x){var w=x.match(/initial\-dpr=([\d\.]+)/),v=x.match(/maximum\-dpr=([\d\.]+)/);w&&(B=parseFloat(w[1]),A=parseFloat((1/B).toFixed(2))),v&&(B=parseFloat(v[1]),A=parseFloat((1/B).toFixed(2)))}}}if(!B&&!A){var u=(J.navigator.appVersion.match(/android/gi),J.navigator.appVersion.match(/iphone/gi)),t=J.devicePixelRatio;B=u?t>=3&&(!B||B>=3)?3:t>=2&&(!B||B>=2)?2:1:1,A=1/B}if(E.setAttribute("data-dpr",B),!D){if(D=F.createElement("meta"),D.setAttribute("name","viewport"),D.setAttribute("content","initial-scale="+A+", maximum-scale="+A+", minimum-scale="+A+", user-scalable=no"),E.firstElementChild){E.firstElementChild.appendChild(D)}else{var s=F.createElement("div");s.appendChild(D),F.write(s.innerHTML)}}J.addEventListener("resize",function(){clearTimeout(G),G=setTimeout(H,300)},!1),J.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(G),G=setTimeout(H,300))},!1),"complete"===F.readyState?F.body.style.fontSize=12*B+"px":F.addEventListener("DOMContentLoaded",function(){F.body.style.fontSize=12*B+"px"},!1),H(),z.dpr=J.dpr=B,z.refreshRem=H,z.rem2px=function(d){var c=parseFloat(d)*this.rem;return"string"==typeof d&&d.match(/rem$/)&&(c+="px"),c},z.px2rem=function(d){var c=parseFloat(d)/this.rem;return"string"==typeof d&&d.match(/px$/)&&(c+="rem"),c}}(window,window.lib||(window.lib={}));
+    </script> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-iget-rush-node/dist/css/course.513f06c0faf6793849ce8f64a0627f0d.css"> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-editor/dist/preview.20aa73124b557d5b072d.css"> 
+ </head> 
+ <body  style="font-size: 14px;max-width: 600px;margin: 0 auto;"> 
+    <img style="max-width: 100%" src="https://piccdn.igetget.com/img/202003/10/202003102347128279547468.jpeg" alt="">
+  <div class="preview"> 
+   <main id="article-main" data-type="22"> 
+    <article class="article" id="preview-article"> 
+     <h1 class="title name-slFosOL50ZH3FiY08C0iemh10biJsJ102Np3xhSoYKeQEt0uOIABk5WrZbt8KMZa">量子力学3：原子中的幽灵</h1> 
+     <div class="author"> 
+            <img data-type="author" src="https://piccdn.igetget.com/img/202002/29/202002292204266526316645.jpeg"> 
+      <p>万维钢</p> 
+          <span class="time">2020-04-28</span> 
+     </div> 
+     <div class="line"></div> 
+     <div class="article-body"> 
+                <div id="1556543749421" class="player-v2"> 
+       <div class="player-wrap"> 
+        <button class="i-playing"></button> 
+        <div class="progress-group"> 
+         <div class="audio-title">
+           量子力学3：原子中的幽灵 
+         </div> 
+         <input id="range25936" type="range" min="0" max="100" value="0" data-current="0:00" data-max="13:18" data-total="798"> 
+        </div> 
+        <audio id="player25936" title="block.audio.title" src="http://igetoss.cdn.igetget.com/aac/202003/10/48000_202003102349221412415557.m4a" preload="" cover="量子力学3：原子中的幽灵" cover-img="量子力学3：原子中的幽灵"></audio> 
+
+       </div> 
+       <div class="player-tips">
+         | 转述：怀沙 | 
+       </div> 
+      </div>
+          <div class="text">
+       <p><p>咱们先来思考这么一个问题：<b>物质是不是无限可分的？</b></p><p>从数学直觉上来讲，物质应该是无限可分的。既然一个大东西能被分割成小东西，那小东西肯定也能被分割成更小的东西。《庄子》不是有一句话吗？“一尺之棰，日取其半，万世不竭。”你想必也听说过，物质是分子组成的，分子是原子组成的，原子是质子、中子和电子组成的，质子和中子又是由夸克组成的。那么接下来连小学生都会问的问题就是，夸克和电子，又是什么东西组成的呢？</p><p>答案是它们不是由别的东西组成的。现代物理学的标准模型认为夸克和电子是“基本粒子”，它们不可再分。我可以非常负责任地告诉你，物质并不是无限可分的。</p><p>物理学认为电子和夸克都是一些“数学结构” [1]，不可再分，也不必再分。这个思想其实也容易理解，我给你打个比方。比如一本书，你可以把它分成章节；章节可以分成句子；句子可以分成单词；单词可以分成字母 — 那请问，像a、b、c这样的字母，像“你、我、他”这样的汉字，还可以再分吗？再分就没有意义了。字母和单个汉字已经是最底层的符号单位，它们代表的是抽象的概念，无需再分 [2]。</p><p>一直到二十世纪都还有一些哲学家 —— 我就不说是谁了 —— 认为物质是无限可分的。他们想错了。</p><p> </p><p>所以哲学家是靠不住的，真实世界比庄子的直觉更有意思！而物理学家的见识可不是拍脑袋想出来的，他们的探索步步惊心。<b><font>物质该怎么分，正是量子力学的开端。</font></b></p></p>
+      </div>
+                <div class="text">
+       <p><p>十九世纪末的科学家已经明确知道物质是原子组成的了，而且还把原子给分了类。门捷列夫弄好了元素周期表，知道每种原子的化学性质。经典物理学很美好，人们并不急于知道原子还能不能继续往下分。</p><p>这时候，大自然主动给了物理学家两个提示。</p><p>首先是 1896 年前后，居里夫人等人发现铀原子能自发地往外发射某种射线。居里夫人把这个现象命名为“放射性”，并且正确地推测出，放射性不是因为原子和原子之间的化学反应，而是原子自身的某种活动。科学家据此怀疑，<b>原子内部应该还有结构。</b></p><p>1897年，约瑟夫·汤姆孙（Sir Joseph John Thomson）发现阴极射线中有一种“微粒”，在外加的电磁场中会发生偏转。汤姆孙意识到这种微粒带负电，并且把它命名为“电子”。这是人们第一次明确知道<b>原子之中还有别的东西，</b>汤姆孙因此得到1904年的诺贝尔物理奖。</p><p> </p><p>原子是电中性的。那既然电子带负电，原子中必定还有带正电的物质。汤姆孙设想了一个模型，现在称之为“梅子布丁模型”，也可以叫“葡萄干布丁模型”。想象有一个松软的、球状的大蛋糕，其中点缀着一些葡萄干 ——&nbsp;</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102123471045586820.png">
+      </figure>
+              <div class="text">
+       <p><p>那些葡萄干就是带负电的电子，而蛋糕本身带正电，和葡萄干达成平衡。原子一受热，电子们就会在蛋糕上震动起来，形成电磁波，这也就是辐射发光。</p><p> </p><p>这个模型听起来挺合理，但是是错的。</p></p>
+      </div>
+                <div class="text">
+       <p><p>给汤姆孙模型致命一击的，是他的学生欧内斯特·卢瑟福（Ernest Rutherford）。卢瑟福最早也是研究放射性，而且比居里夫人更有洞见。</p><p>卢瑟福合理推断出，所谓放射性衰变，其实就是一种原子从自己的内部分裂，变成了另外一种原子。有的人不接受这个理论，说原子怎么还能变呢，那你这不等于是炼金术吗？其实这个指责也没什么，我们知道化学这个学科，最早就是起源于炼金术……结果卢瑟福因此获得了 1908 年的诺贝尔……化学奖。</p><p>卢瑟福对此是不以为荣，反以为耻。他有一句名言说“所有的科学可以分为两类，一类是物理学，剩下的都是收集邮票。” [3] 我理解他的意思是物理学研究的是世界最本源的规律，需要灵感、洞见和创造性的理论，对比之下其他学科都只不过是老老实实地记录观测结果而已 —— 我是光荣的物理学家，而你们给我个化学奖？</p><p> </p><p>不过卢瑟福在放射性方面的研究给他提供了一把神兵利器。某些放射性物质衰变时会发射一种高能量的射线，卢瑟福称之为“阿尔法粒子”，并且正确地推测出阿尔法粒子其实就是把氦原子拿掉两个电子后剩下的离子。卢瑟福可以大量制造阿尔法粒子，他能把阿尔法粒子当子弹用。</p></p>
+      </div>
+                <div class="text">
+       <p><p>物理学家要想探测某个东西的内部结构，标准的打法是对它进行轰炸。现在动不动就耗资数百亿美元的、据说能代表一个国家的综合国力的加速器和对撞机，都是干这种事儿的。</p><p> </p><p>卢瑟福在 1911 年做这个实验，只花了英国皇家科学院 70 英镑 [4]。他的做法是让两个学生拿阿尔法粒子轰炸金箔。金箔是薄薄的一层金纸，阿尔法粒子是高能量的子弹，你说子弹打在纸上会有什么样的效果？卢瑟福在实验室周围放了一圈屏幕，记录子弹的反弹情况。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102125127889379474.png">
+      </figure>
+              <div class="text">
+       <p><p>这两个学生中有一个叫盖格，后来因为发明了著名的“盖格计数器”而成了物理学史上的名人。盖格有个长处，他能在黑暗中待上几个小时，一心一意做记录。</p><p>实验发现，绝大多数阿尔法粒子直接就从金箔中穿过去了；有少量阿尔法粒子发生了偏转；还有极少量的阿尔法粒子，居然被金箔给反弹回来了。卢瑟福感到很震惊，纸怎么能把子弹反弹回来呢？唯一的可能性，就是这张纸中散布着一些非常硬的东西。</p><p> </p><p>卢瑟福断定那个硬东西是原子核。大部分子弹穿过，少量偏转，极少量反弹，这说明原子内部根本不是什么葡萄干布丁结构，而是一个极其空旷的空间。这个空间的大小是由外层的电子决定的，而原子几乎全部的重量，都集中在中间很小的那个带正电的原子核上。只有碰巧靠近原子核飞过的时候，同样带正电的阿尔法粒子才能被偏转，因为正电和正电互相排斥；只有正好撞向原子核的阿尔法粒子才会被反弹回来。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102127516903364110.jpg">
+      </figure>
+              <div class="text">
+       <p><p>卢瑟福做了一番计算，认为原子核的尺度大约在10^(-14)米，只占到整个原子万分之一的大小，这些数据在今天看来也算准确。卢瑟福轰炸了很多种物质，<b>发现不同原子的原子核的电荷数和重量都不一样，并且据此发现了质子和中子的存在。</b></p></p>
+      </div>
+                <div class="text">
+       <p><p>卢瑟福这个原子模型比汤姆孙那个葡萄干布丁模型好多了，但是它有两个问题。</p><p><b>第一个问题是，电子带负电，原子核带正电，而正负电相互吸引，那为什么电子不会掉入到原子核去呢？</b>卢瑟福说这是因为电子在绕着原子核做圆周运动，就好像行星绕着太阳转一样，离心力平衡了吸引力。</p><p> </p><p>但这个解释是错的。电子做圆周运动，等于是不断地改变速度的方向，而麦克斯韦电动力学告诉我们，带电物体的变速运动一定会产生辐射，从而损失能量。计算表明电子应该一边转圈、一边辐射、一边掉落，在10^(-12)秒之内就会掉入原子核！</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102133077616948887.png">
+      </figure>
+              <div class="text">
+       <p><p>图片来自 https://profmattstrassler.com/articles-and-posts/particle-physics-basics/the-structure-of-matter/atoms-building-blocks-of-molecules/atoms-their-inner-workings/
+</p></p>
+      </div>
+              <div class="text">
+       <p><p>可真实的原子为啥是稳定的呢？</p><p> </p><p><b>第二个问题是，原子的确会对外辐射，而且不受干扰也能辐射 —— 但是原子辐射的光谱很独特，不是连续的。</b>比如下面这个是氢原子的辐射光谱，它由一些好像有规律、又好像没规律的线组成 ——</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102133582597415229.png">
+      </figure>
+              <div class="text">
+       <p><p>当时有个中学老师叫巴尔默，还真找到了氢原子辐射光谱的一个规律。他发现其中一些辐射光的波长 λ 的倒数，正好正比于 (1/4 - 1/n^2)，其中 n=3, 4, 5……，也就是</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102134395514482256.png">
+      </figure>
+              <div class="text">
+       <p><p>但这个公式纯粹是凑数凑出来的，没人知道这意味着什么。我们需要一位物理学家来赋予它意义。</p></p>
+      </div>
+                <div class="text">
+       <p><p>1912年，量子力学未来的掌门人，尼尔斯·玻尔（Niels Henrik David Bohr）博士毕业了。他先加入了汤姆孙的研究组，但是因为批评汤姆孙的模型而受到打压，又转投了卢瑟福。在卢瑟福的实验室里，玻尔意识到以自己的动手能力，做实验是真不行，但是做理论可以。</p><p>玻尔看着巴尔默凑出来的公式，想起普朗克和爱因斯坦“量子化”这个动作，决定把原子中电子的轨道给来个量子化。玻尔提出四个假设 —— </p><p> </p><p>第一，电子平时按照特定的轨道运动，每个轨道有自己的能级，能级和“轨道量子数” n 的平方成反比。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102135240132309922.png">
+      </figure>
+              <div class="text">
+       <p><p>第二，电子在同一个轨道中运动的时候，并不向外辐射能量。为什么不辐射能量我们暂时不知道。</p><p> </p><p>第三，只有当电子在两个不同能级之间“跃迁”的时候，它才会辐射能量。辐射的能量正好是两个能级的能量差，同时又等于普朗克常数乘以光的频率。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102135515229471357.png">
+      </figure>
+              <div class="text">
+       <p><p>第四，电子轨道有个角动量，角动量也要量子化，怎么理解这一点咱们后面再说。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102136196487041109.png">
+      </figure>
+              <div class="text">
+       <p><p>考虑到 λf = c，玻尔这个模型完全解释了巴尔默的谱线公式，而且还能计算所有的谱线 ——&nbsp;</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102137288207313772.jpg">
+      </figure>
+              <div class="text">
+       <p><p>这是一个无比成功的模型。光电效应不是说外来一个高能量的光子能把电子打飞吗？需要多大能量呢？正好是那个电子所在能级的能量。<b>玻尔模型还能明明白白地告诉你原子中如果有多个电子，它们应该怎么排列，玻尔等于是解释了整个化学！</b>玻尔据此得到 1922 年诺贝尔物理奖。</p></p>
+      </div>
+                <div class="text">
+       <p><p>咱们再类比一下，玻尔的解题思路和普朗克、爱因斯坦非常相似。都是先有实验结果，再凑数，再来个量子化。那你说爱因斯坦是不是应该非常喜欢玻尔这个理论呢？并没有。</p><p>玻尔的论文是1913年发表的，爱因斯坦的评价是你这个思路我真想过，但是我真没敢发表，因为这太怪异了。</p><p>为什么轨道只有固定的那么几条？为什么电子在轨道中就不会辐射能量了？玻尔无法回答。还有，跃迁到底是怎么回事？一个高能级的电子，为什么会自动地、突然地跃迁到低能级去？它受到什么刺激了吗？它有自由意志吗？它跃迁的路线又是怎么走的呢？这一切都非常诡异。</p><p><font>物理学家有一种强烈的感觉，量子世界必定有一套自己独特的规则，是经典物理学所不包括的。</font></p><p>到目前为止，都是实验结果“倒逼”物理学改革。物理学家都是不得不接受一个事实，然后手忙脚乱地对付出来一个模型，很被动。</p><p>这个局面不会持续太久，理论物理学家马上就要主动出击了。</p><p> </p><p>顺便说一句，卢瑟福总共培养了包括玻尔在内十一个诺贝尔奖得主，其中八个是物理奖，三个是化学奖，可谓是空前绝后的一代宗师……但遗憾的是，他仍然只有一个化学奖。</p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102138397508589707.jpg">
+      </figure>
+              <div class="text">
+       <p><p><b>注释</b></p><p><b>[1] 参考精英日课第二季，<span class="link" data-link='{"typeid":"11053","type":65}' data-ddurl="igetapp://class/article?courseArticleId=11053" data-ddurlminver="5.2.0">为什么世界是数学的</span></b></p><p><b>[2] 你要非得说，文字还可以分成笔画，笔画还可以分成墨点，墨点还可以分成分子和原子……那你就犯了逻辑错误，你脱离了*传递信息的最小单位*这个范畴。</b></p><p><b>[3] 原话是&nbsp;All science is either physics or stamp collecting.</b></p><p><b>[4]&nbsp;Steven Weinberg, The Crisis of Big Science, The New York Review of Books,&nbsp;MAY 10, 2012.&nbsp;</b></p></p>
+      </div>
+              
+      <figure>
+       <img src="https://piccdn.igetget.com/img/202003/10/202003102139199701587321.jpg">
+      </figure>
+        
+     </div> 
+    </article> 
+   </main> 
+  </div>  
+
+  
+<style>
+    .weui-tab {
+        height: 54px !important;
+    }
+    .ycolor {
+        color: #ffa42f;
+    }
+</style>
+  <div class="comments">
+    <div class="comments-color"></div>
+    <div class="comments-head">
+        <span>用户留言</span>
+    </div>
+    <ul class="comments-list" id="comments-list">
+
+                    <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/954048-1529046724.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">老安</span>
+                    <span class="comments-vote"><b>76赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师，近两讲中都提到：通过实验，凑出数学公式，再通过量子化赋予意义。请问在物理学研究中，以上这种方式仅仅是个巧合呢？还是也遵循了实践、认识、再实践、再认识的认识论规律呢？                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">我认为是规律。不过理论也有主动性，我们后面会看到…</dd>
+                    <dd class="comments-time">2020-03-11</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/36400186-1508229016.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">乐苗凯</span>
+                    <span class="comments-vote"><b>48赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                           现代粒子物理学的研究集中在亚原子粒子上。这些粒子的结构比原子要小，其中包括原子的组成部分如电子、质子和中子（质子和中子本身又是由夸克所组成的粒子）和放射和散射所造成的粒子如光子、中微子和μ子，以及许多其它奇特的粒子。
+        严格地说“粒子”这个称呼不精确，粒子物理学中研究的所有的物体都遵守量子力学的规则，它们都显示波粒二象性，根据不同的实验条件它们显示粒子的特性或波的特性。在物理理论中，它们既非粒子也非波，理论学家用希尔伯特空间中的状态矢量来描写它们，详细的理论基础为量子场论。但按照粒子物理学的常规在这篇文章中这些物体依然被称为“粒子”，虽然这些粒子也具有波的特性。 
+        量子最早的概念是指最小单位的能量，不过后来物理学家们发现，不单单能量可以表现出这种不连续的分离化性质，其他物理量例如角动量、自旋、电荷等都可以表现出量子化特征。量子一般指光子，也叫光量子。光子虽没有质量，但他是与物质有密切关系可互相转化的，这关系就是爱因斯坦质能方程式，能量等于质量乘以光速的平方。 
+        时至今日，关于微观世界，科学家给我们的答案是：物质是由原子构成，原子是由原子核和电子构成，原子核是由质子和中子构成，质子和中子又是由夸克组成。物质世界并非是无限可分，夸克是组成物质的最小的抽象的单位，而量子是能量的最小组成单位，两者都像是英文中的26个字母，或者说是计算机系统中的0和1，不可再分，再分就没有意义，甚至会让整个系统坍塌。
+
+        这些组成物质的最小单位是否也和量子一样都没有质量，两者是否可以通过质能公式相互转换呢？ 如果是的话，质量为零的最小物质单位为什么可以构成质量不为零的各种各样的物质世界呢？夸克和量子又有何本质的区别呢，已知的夸克有六种，夸克的种类被称为“味”，它们是上、下、魅、奇、底及顶。那目前已知的量子有不同的种类吗？                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">量子，只是一个概念或者说法，是不精确的语言</dd>
+                    <dd class="comments-time">2020-03-11</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-04-14/17a5579a44400000.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">胡皓</span>
+                    <span class="comments-vote"><b>36赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师，爱因斯坦、普朗克和波尔这种通过凑数的方式来建立模型，是否可以说明只要我提出的理论能够在数学上推到出实验的结果，那么不管我的这个理论有多么的“诡异”，都是合理的?                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">可以这么说，但必须有实验验证才行。</dd>
+                    <dd class="comments-time">2020-03-11</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/314194-1551743101.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">黄鸿鸣</span>
+                    <span class="comments-vote"><b>30赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    太阳晒在身上，让人觉得暖和，那说明接受到了太阳传递过来的能量，在地球与太阳之间，非常空旷，是真空状态，其中的粒子非常少，那这种能量是怎么传递过来的呢？比如说保温杯，之所以能保温，是因为杯子里面与外面的空间隔着一层真空，没有介质，温度这种能量传递不出来。这样想的话，那温度这种能量与太阳辐射出的能量不是同一种能量。                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">真空能阻断 热传导 但不能阻断热辐射。光可以在宇宙空间随便走。</dd>
+                    <dd class="comments-time">2020-03-11</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-02-16/1792547084400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">钱清渠</span>
+                    <span class="comments-vote"><b>27赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    万老师，隔壁刘擎老师正好讲到了波普尔的科学哲学，提出科学都是先提出理论，在通过观察验证，每通过一次证伪，理论才算接近真理。
+
+而这种直接通过实验来提出理论的过程，难道在科学哲学中不算“科学”吗？                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">理论是哪来的呢？是从观察和实验中发现规律，总结出来的。然后你再用这个理论去做出新的预言，再去验证。</dd>
+                    <dd class="comments-time">2020-03-11</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/11261969-1538225974.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">石三</span>
+                    <span class="comments-vote"><b>62赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    好难过😔
+
+故事正听着入神着迷呢，听到【理论物理学家马上就要主动出击了】，想着又有哪些了不得的物理学家要出场了，结果课程突然就结束了。
+
+万老师真是太会吊人胃口了😂
+
+今日碎碎念：
+
+我基本上没有什么物理学的基础。
+
+上初中的时候物理老师打过我，于是就自暴自弃地放弃学习物理。
+高中时因为数学和物理成绩不好，分科的时候想偷懒，就选了文科。
+高考成绩不突出，和目标相差太远，一赌气就连大学也没上。
+毕业后这十几年在社会上瞎混，更是从来都不知道数学和物理有什么用途。
+
+今天看了老师的这节课程，尤其是复习了在注释里面推荐的精英日课第二季课程——《为什么世界是数学的》，我突然又一次感受到了强烈的震撼。
+
+万老师在文章中说：
+
+【我们这个世界为什么能存在呢？
+因为，数学，允许，它存在。
+宇宙只不过是数学王国中某些数学结构的物理实体而已。
+我们完全不需要什么上帝之类的造物主，我们这个世界不需要任何理由就存在。
+你、我，我们都是数学的产物，我们的各种活动只是在实践数学上的可能性而已，我们就是数学的一部分。】
+
+这段话对于普通人来说，可能没有多大的触动。但我看着它们，却眼含热泪。
+
+谢谢万老师，也许你不知道，就是因为听了您在精英日课第1季里解读的《给忙碌者的天体物理学课》，尤其是卡尔萨根教授对于蓝色光点的那段经典的话，让我有机会得以拷问我的认知，让我终于有勇气怀疑，最终放弃了虔诚信仰了三年的基督信仰。
+
+因为这个信仰转变的契机，也让我得以有机会审视自己的认知结构，再加上卓克老师的科普，我这个出身中医世家的中医铁粉，又变成了整个家族里唯一一个反对中医的“叛徒”。
+
+我得到了全新的生命，却和整个家族的亲人们，在很多方面，都格格不入了😂。
+
+然而，我很感激。
+因而， 我更后悔。
+
+很多时候我都在想，如果能早一点认识万老师，学到这么有趣的物理和数学，我的生命，该是另一种什么模样？                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/iget/avatar/default.png" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">roaroa</span>
+                    <span class="comments-vote"><b>50赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    卢瑟福是新西兰人，1895年他在新西兰的农场挖土豆的时候收到了英国剑桥大学发来的通知书，从而开启了作为“诺贝尔奖得主幼儿园园长”的传奇人生。现在新西兰最大面值的货币100元上的头像就是这位一代宗师卢老爷子。                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/509472-1544029320.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">悍那Hana</span>
+                    <span class="comments-vote"><b>47赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    整个过程步步惊心，却也有点像盲人摸象：
+
+同样的实验，同样的观测，甚至是同样的数据、同样的表现，理论派和实证派愣是提出完全不同的解释方案，还都自成一体言之有物…
+
+也许科学研究都是这样两条路径的汇聚：
+理论派基于原理，提出猜想；
+实证派现实演练，归纳总结。
+
+所有学科都必经的路，物理学只是走在前面吧～
+
+以及，原子中的幽灵，想到了上一季一期《要么电子有意识，要么一切都是幻觉》…
+
+以及以及，好像还是没有解释光的波动性？                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-04-03/17a18551c4400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">Allelujah 朱磊</span>
+                    <span class="comments-vote"><b>45赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    在中学学习到能级和跃迁的时候，我也曾思索过：为什么能级之间不存在中间态，跃迁的动作不是连续性的，而像是在每一个能级之间实现了「跨越」？
+
+但对此的思考并没有持续。
+这一方面是因为高考对此不作要求，于是曾经作为考生的我就默认所有课本上的知识都是“正确”的存在；另一方面是因为，我对这些公式能够得出如此精确的计算结果表示满足和惊叹。
+
+但物理学的前进不能只依赖计算和猜想，物理学家必须对真实世界给出一个符合逻辑的解释。                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/1232911-1563070269.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">包子哥</span>
+                    <span class="comments-vote"><b>25赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    #凑数，又见凑数
+
+继昨天课程中万老师提到的普朗克先生凑数凑出来的公式后，今天的课程中又出现了一位中学老师巴尔默，用自己的灵感凑数凑出了另一个公式……
+
+为什么这些凑数凑出来的公式，可以几乎完美的被物理实验所验证呢？
+
+我认为可能有以下几个原因：
+
+1.世界的本质是数学的。所以用数学来描述一切的物理现象这条路一定是对的。
+
+2.根据实验数据来反推原理公式，是可行的。如果试验设计的符合要求，排除了干扰，那么，它的数据一定会呈现出某种数学上的规律。
+
+3.灵感来源于对于物理实验本身的了解，对于数据的熟悉，以及对于数学的研究。在这其中物理知识，实验设计，结果数据与数学功底缺一不可。
+
+4.最后，用什么样的数学公式来描述什么样的物理现象这个事，不仅仅需要物理知识和数学功底，而有时候必须需要一点点运气和灵感了。无疑，普朗克和巴尔默都是运气极好的人，他们抓到了那一瞬间的灵感。
+
+具备了以上所有的这些条件，我们终于可以在这些非常勤奋的天才的无比好运的带领下，进入了量子力学的时代。                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.igetget.com/posts/avatar/2019-04-11/118663560-1554943104792.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">王晓彤</span>
+                    <span class="comments-vote"><b>23赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    本讲涉及的内容，有两个我知道的小故事。
+
+1.盖格计数器的发明
+卢瑟福拿阿尔法粒子轰炸金箔，这个试验需要做很多次，而每次的现场观测和记录都是苦差事。试验过程需要在黑暗环境里待好几个小时，结束后，记录者眼睛的体验可想而知。
+一开始，卢瑟福亲自做观测和记录，后来就由学生盖格代劳，试验记录者的辛苦随之转移到盖格身上。
+再后来，盖格发明了“盖格计数器”，这种测量仪器至今还在使用，一些医院就有配置。
+
+2.波尔研究的插曲
+波尔在曼彻斯特大学，参加了卢瑟福为首的科学集体进行研究工作。开始几个月，就有了显著的成果，卢瑟福想让波尔继续研究工作，但波尔选择了回国，因为…未婚妻在等他。
+后来，玻尔婚后在曼彻斯特大学任教，在朋友的建议下，开始研究原子结构，也看到了巴尔默公式，终于提出了本讲中的波尔模型。                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">谢谢分享</dd>
+                    <dd class="comments-time">2020-03-11</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-03-29/17a0103a44400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">露奇露奇</span>
+                    <span class="comments-vote"><b>20赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    1. 全程对着公式一脸懵，但是“物理直觉”的部分还是听懂了，万老师的讲法很稳。
+
+2. 还好之前在李永乐那里听过角动量，跟看到亲人一样…
+
+3. 古典的书《跃迁》，起名还真形象，全书就是在教你怎么和电子转换轨道一样增强能级。
+
+4. 爱因斯坦不愧是做大事的，别人10分之一就满足了，他一直在考虑百分之百。                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/11087548-1528294273.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">马克李</span>
+                    <span class="comments-vote"><b>19赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    薛定谔～是你出场的时候了么？然后回答生命是什么～
+
+医疗上其实我们的诊断学也是被临床数据所逼，才抛弃了传统医学（不少人概念中的中医）的那一套，因为经不住数据检验。
+
+刚做完一个急诊，老人家西去，现在越来越少的尸检也让很多溯因难以进行，试验数据是检验理论最好的东西                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.igetget.com/posts/avatar/2019-04-15/214129211-1555264753.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">陈C</span>
+                    <span class="comments-vote"><b>17赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    量子力学最初的发展，是从物质该怎么分，里面是什么构造这类问题开始的。从汤姆逊的枣糕模型，到卢瑟福的行星环绕模型，再到巴尔默的谱线公式，直到波尔的轨道量子化模型，概括起来就是这样一个过程的反复叠加：发现一个现象，提出一个理论解释该现象，再去尝试用该理论解释其他现象；如果解释失败，那就提出新的理论解释它，再去解释更多的现象。
+
+当然很多时候，科学家们其实并没有真正见到什么现象，而是从已有的理论中就受到了启发，然后提出新的理论；但这样的理论也一样要放到更广阔的的范围内去接受检验，比如“我佛”爱因斯坦的相对论。科普文章里常说的，某位科学家“预言”了某种现象的存在，其实是他们从自己的理论出发做个推论，来为以后的实验验证提供一个抓手。
+
+物理学为整个科学研究做了一个非常好的榜样。你可以从已有的数据（实验结果）中挖掘出一些规律，甚至是从前人的理论中再“变”出一些理论来；但这种表面的“规律”或“理论”到底靠不靠得住，必须把它放到更广的世界中，用更多的新数据去检验它，然后才能知道。现在关于科学研究，论文发表后必须要经过同行的重复性检验，就是在动用整个学术界的力量来检验一个理论。
+                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/113005-1506758683.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">戚志光</span>
+                    <span class="comments-vote"><b>16赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    这一讲里提到了好多伟大的物理学家，居里夫人，汤姆孙，卢瑟福，波尔，当然还有我佛爱因斯坦。这对我来说就像看武侠小说一样精彩，各路大神各显神通，为了追求解释宇宙的真理而互相较量，没有比这更激动人心的历史了。
+今天万sir还提到了一个名字——巴尔默，他发现了氢原子光谱的规律，给出了公式。这个人我以前没有听说过，可能是因为他是今天提到的人里唯一没有获得诺贝尔奖的人吧。那个年代，连中学教师都可以为物理学作出重大的贡献，真是让人神往啊。                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://piccdn.luojilab.com/avatar/iget/36328591-1516452417.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">佛祖门徒</span>
+                    <span class="comments-vote"><b>15赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    老天爷还是公平的，自有安排。从汤姆孙到卢瑟福，再到玻尔，即使如大神爱因斯坦这般惊世骇俗的才华，也只是获得有限的一些伟大发现，总要把其他的机会留给更多的人，而在其中起到调控作用的一个重要设置就是思维框架。今天日课里提到的这些科学家似乎都是如此，他们从一个思考路径出发做出了重要的成果，然后就被局限在一个更大的框架之中，直到一个后来人将此打破，于是科学又往前发展了……                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2019-11-09/1771b63ac440000a.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">Cduoduo</span>
+                    <span class="comments-vote"><b>14赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    能把量子力学讲得既专业又听得懂还有梗还读出了历史故事的跌宕起伏昂首期盼……简直原地感慨好几分钟~~
+
+非常好奇电子跃迁的“自由意志”，电子想干嘛~~
+不免想起第三季末对人类自由意志的探讨…
+人类引以为傲的自由意志，似乎可以用基因和某种生理机制公式推出。
+而人类用惯常的规则去套观察对象，却发现人家干嘛按你的规则来，人家表现出了“自由意志”，人家似乎能真正地“随便儿”…
+
+最后，玻尓的故事告诉我们，还是得选长板作为成就的方向；而卢瑟福的故事告诉我们，“出名要趁早”，但也不能太早到别人都欣赏不来你到底做了啥😂
+                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="https://imgosscdn.igetget.com/uploader/avatar/2020-02-21/1793c38104400000.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">成洁getit</span>
+                    <span class="comments-vote"><b>13赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    原子模型可能是错的，因为只能说明一些问题却带来更多的问题。有此体会到的微观世界的本质是数学的，没有差不多的处事哲学，后者有着巨大的不确定性。科学（或者特指数学）是不以人类意志为转移的，不生不灭不增不减。无论观察还是凑公式，最后的结果都是人们要去接受这个反直觉反宏观认识的结局。
+我觉得最能摧毁我三观的是微观和宏观世界如此不同，却事实就在眼前，最感兴趣的是宏观和微观的确切边界在哪里。                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-09-05/175c275544400001.jpg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">周树涛</span>
+                    <span class="comments-vote"><b>9赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    看来先有观察线索，再研究理论会快一些，至少能有个思考方向。理论物理发展的慢，可能就是因为目前的实验观察线索太少了，跟不上理论发展的速度。
+
+就是说，目前已经证实，至少能量和物质是量子化的，一份一份的，是这个意思吧？
+那电子在跃迁的时候，是光速还是瞬间移动呢？如果是光速，能量是哪一刻发出来的？                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                                <dl class="comments-author" >
+                    <dt class="comments-author-meta"><span class="comments-author-name">作者</span>回复</dt>
+                    <dd class="comments-author-reply">现在最新的观测，去年闹的沸沸扬扬的那个，就是看到了电子的跃迁。跃迁不是绝对瞬时的，有一个过程。不是光速。</dd>
+                    <dd class="comments-time">2020-03-11</dd>
+                </dl>
+                            </dl>
+
+        </li>
+            <li class="comments-item">
+            <div class="comments-user-avatar">
+                <img src="http://luoji-zero.oss-cn-beijing.aliyuncs.com/uploader/avatar/2019-11-01/176efbbec4400002.jpeg" alt="">
+            </div>
+            <dl class="comments-user">
+                <dt class="comments-user-info">
+                    <span class="comments-visitor">你先走</span>
+                    <span class="comments-vote"><b>9赞</b></span>
+                </dt>
+                <dd class="comments-user-post">
+                    卢瑟福说“所有的科学可以分为两类，一类是物理学，剩下的都是收集邮票。”为什么是“收集邮票”而不是其它？是不是那个年代，电报电话还没普及，物理学家的沟通交流大多还是写信，写信就需要邮票。所以，卢瑟福的意思是，一类是物理学家，一类是为物理学家服务的……😇😇😇
+
+卢瑟福能从实验中获得洞见，不得不说，科学进步非常依赖观测的进步。能看到才能记录和分析。
+
+很好奇，玻儿是怎么发现自己动手不行动脑行，这种清醒认知自己能力优长的能力，很贵。                </dd>
+                <dd class="comments-time">2020-03-11                </dd>
+                            </dl>
+
+        </li>
+        <li class="comments-footer">以上留言由 作者 筛选显示</li>
+    </ul>
+</div>
+ </body>
+</html>
