@@ -270,31 +270,164 @@
 ***
 ## 万维钢精英日课4
 
-[发刊词：“士”的三个境界.html](https://forlazyman.github.io/万维钢精英日课4/发刊词：“士”的三个境界.html)
+[《上游》1：“上工”如何“治未病”.html](https://forlazyman.github.io/万维钢精英日课4/《上游》1：“上工”如何“治未病”.html)
 
-[伯克森悖论.html](https://forlazyman.github.io/万维钢精英日课4/伯克森悖论.html)
 
-[今天的华为是什么水平？.html](https://forlazyman.github.io/万维钢精英日课4/今天的华为是什么水平？.html)
+[《上游》2：“士”与上游思维.html](https://forlazyman.github.io/万维钢精英日课4/《上游》2：“士”与上游思维.html)
 
-[华为是中国公司吗？.html](https://forlazyman.github.io/万维钢精英日课4/华为是中国公司吗？.html)
 
-[能用愚蠢解释的，就不要用恶意.html](https://forlazyman.github.io/万维钢精英日课4/能用愚蠢解释的，就不要用恶意.html)
+[《上游》3：人有近忧，必无远虑.html](https://forlazyman.github.io/万维钢精英日课4/《上游》3：人有近忧，必无远虑.html)
+
+
+[《上游》4：系统问题，系统解决.html](https://forlazyman.github.io/万维钢精英日课4/《上游》4：系统问题，系统解决.html)
+
+
+[《上游》5：支点和预警.html](https://forlazyman.github.io/万维钢精英日课4/《上游》5：支点和预警.html)
+
+
+[《上游》6：官僚系统的悖论.html](https://forlazyman.github.io/万维钢精英日课4/《上游》6：官僚系统的悖论.html)
+
+
+[《上游》7：摸着石头过河.html](https://forlazyman.github.io/万维钢精英日课4/《上游》7：摸着石头过河.html)
+
+
+[《上游》8：谁买单？.html](https://forlazyman.github.io/万维钢精英日课4/《上游》8：谁买单？.html)
+
+
+[《上游》9：你面对的世界（完）.html](https://forlazyman.github.io/万维钢精英日课4/《上游》9：你面对的世界（完）.html)
+
+
+[两倍速的世界.html](https://forlazyman.github.io/万维钢精英日课4/两倍速的世界.html)
+
 
 [中国供应链到底有多厉害？.html](https://forlazyman.github.io/万维钢精英日课4/中国供应链到底有多厉害？.html)
 
+
+[五种“催化式”说服法.html](https://forlazyman.github.io/万维钢精英日课4/五种“催化式”说服法.html)
+
+
+[今天的华为是什么水平？.html](https://forlazyman.github.io/万维钢精英日课4/今天的华为是什么水平？.html)
+
+
+[伯克森悖论.html](https://forlazyman.github.io/万维钢精英日课4/伯克森悖论.html)
+
+
+[你和你的渴望.html](https://forlazyman.github.io/万维钢精英日课4/你和你的渴望.html)
+
+
+[决策是一门技能.html](https://forlazyman.github.io/万维钢精英日课4/决策是一门技能.html)
+
+
+[华为是中国公司吗？.html](https://forlazyman.github.io/万维钢精英日课4/华为是中国公司吗？.html)
+
+
+[发刊词：“士”的三个境界.html](https://forlazyman.github.io/万维钢精英日课4/发刊词：“士”的三个境界.html)
+
+
 [大人物为什么没意思.html](https://forlazyman.github.io/万维钢精英日课4/大人物为什么没意思.html)
+
+
+[如果想法挖掘越来越贵……（上）.html](https://forlazyman.github.io/万维钢精英日课4/如果想法挖掘越来越贵……（上）.html)
+
+
+[如果想法挖掘越来越贵……（下）.html](https://forlazyman.github.io/万维钢精英日课4/如果想法挖掘越来越贵……（下）.html)
 
 
 [特别放送：悖论的启示.html](https://forlazyman.github.io/万维钢精英日课4/特别放送：悖论的启示.html)
 
 
-[问答：伯克森悖论和幸存者偏差的区别是什么？.html](https://forlazyman.github.io/万维钢精英日课4/问答：伯克森悖论和幸存者偏差的区别是什么？.html)
+[特别放送：打造你的上游能力.html](https://forlazyman.github.io/万维钢精英日课4/特别放送：打造你的上游能力.html)
+
+
+[特别放送：极简量子力学.html](https://forlazyman.github.io/万维钢精英日课4/特别放送：极简量子力学.html)
+
+
+[相信的科学1：世人是那么好骗的吗？.html](https://forlazyman.github.io/万维钢精英日课4/相信的科学1：世人是那么好骗的吗？.html)
+
+
+[相信的科学2：最高级的交流策略.html](https://forlazyman.github.io/万维钢精英日课4/相信的科学2：最高级的交流策略.html)
+
+
+[相信的科学3：我们真的很机警（上）.html](https://forlazyman.github.io/万维钢精英日课4/相信的科学3：我们真的很机警（上）.html)
+
+
+[相信的科学4：我们真的很机警（下）.html](https://forlazyman.github.io/万维钢精英日课4/相信的科学4：我们真的很机警（下）.html)
+
+
+[相信的科学5：宣传和广告有用吗？.html](https://forlazyman.github.io/万维钢精英日课4/相信的科学5：宣传和广告有用吗？.html)
+
+
+[相信的科学6：谣言和假新闻.html](https://forlazyman.github.io/万维钢精英日课4/相信的科学6：谣言和假新闻.html)
+
+
+[秘密项目.html](https://forlazyman.github.io/万维钢精英日课4/秘密项目.html)
+
+
+[能用愚蠢解释的，就不要用恶意.html](https://forlazyman.github.io/万维钢精英日课4/能用愚蠢解释的，就不要用恶意.html)
+
+
+[量子力学10：全同粒子的怪异行为.html](https://forlazyman.github.io/万维钢精英日课4/量子力学10：全同粒子的怪异行为.html)
+
+
+[量子力学11：爱因斯坦的最后一战.html](https://forlazyman.github.io/万维钢精英日课4/量子力学11：爱因斯坦的最后一战.html)
 
 
 [量子力学1：诡秘之主.html](https://forlazyman.github.io/万维钢精英日课4/量子力学1：诡秘之主.html)
 
 
 [量子力学2：孤单光量子.html](https://forlazyman.github.io/万维钢精英日课4/量子力学2：孤单光量子.html)
+
+
+[量子力学3：原子中的幽灵.html](https://forlazyman.github.io/万维钢精英日课4/量子力学3：原子中的幽灵.html)
+
+
+[量子力学4：德布罗意的明悟.html](https://forlazyman.github.io/万维钢精英日课4/量子力学4：德布罗意的明悟.html)
+
+
+[量子力学5：海森堡论不确定性.html](https://forlazyman.github.io/万维钢精英日课4/量子力学5：海森堡论不确定性.html)
+
+
+[量子力学6：薛定谔解出危险思想.html](https://forlazyman.github.io/万维钢精英日课4/量子力学6：薛定谔解出危险思想.html)
+
+
+[量子力学7：概率把不可能变成可能.html](https://forlazyman.github.io/万维钢精英日课4/量子力学7：概率把不可能变成可能.html)
+
+
+[量子力学8：狄拉克统领量子电动力学.html](https://forlazyman.github.io/万维钢精英日课4/量子力学8：狄拉克统领量子电动力学.html)
+
+
+[量子力学9：世间万物为什么是这个样子.html](https://forlazyman.github.io/万维钢精英日课4/量子力学9：世间万物为什么是这个样子.html)
+
+
+[量子力学番外篇2：这个宇宙的物理学并不完美，而这很值得庆祝.html](https://forlazyman.github.io/万维钢精英日课4/量子力学番外篇2：这个宇宙的物理学并不完美，而这很值得庆祝.html)
+
+
+[量子力学番外篇：物理学家的冷笑话.html](https://forlazyman.github.io/万维钢精英日课4/量子力学番外篇：物理学家的冷笑话.html)
+
+
+[问答：“经济学”和“行为经济学”的区别.html](https://forlazyman.github.io/万维钢精英日课4/问答：“经济学”和“行为经济学”的区别.html)
+
+
+[问答：为什么“将来的世界是银子的？”.html](https://forlazyman.github.io/万维钢精英日课4/问答：为什么“将来的世界是银子的？”.html)
+
+
+[问答：伯克森悖论和幸存者偏差的区别是什么？.html](https://forlazyman.github.io/万维钢精英日课4/问答：伯克森悖论和幸存者偏差的区别是什么？.html)
+
+
+[问答：怎么区分“居安思危”和“杞人忧天”？.html](https://forlazyman.github.io/万维钢精英日课4/问答：怎么区分“居安思危”和“杞人忧天”？.html)
+
+
+[问答：怎么对待“假警报”？.html](https://forlazyman.github.io/万维钢精英日课4/问答：怎么对待“假警报”？.html)
+
+
+[问答：怎么选择最佳的成长路径？.html](https://forlazyman.github.io/万维钢精英日课4/问答：怎么选择最佳的成长路径？.html)
+
+
+[问答：有违反宇宙规律的粒子存在吗？.html](https://forlazyman.github.io/万维钢精英日课4/问答：有违反宇宙规律的粒子存在吗？.html)
+
+
+[问答：量子力学为啥叫“力学”？.html](https://forlazyman.github.io/万维钢精英日课4/问答：量子力学为啥叫“力学”？.html)
+
 
 
 ## [返回分类目录](#分类目录)
