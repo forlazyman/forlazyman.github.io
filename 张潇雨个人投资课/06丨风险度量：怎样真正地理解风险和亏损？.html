@@ -1,0 +1,158 @@
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>06丨风险度量：怎样真正地理解风险和亏损？</title>
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="CSS/all.css" rel="stylesheet">
+    <link href="css/weui.min.css" rel="stylesheet">
+    <link rel="stylesheet" charset="utf-8" href="css/jpk.css">
+    <link href="css/weui.min.css" rel="stylesheet">
+    <link href="css/APlayer.min.css" rel="stylesheet"> 
+
+    <script src="../js/jquery-git.js"></script>
+    <script src="js/jquery.watermark.js"></script>
+  <meta name="MobileOptimized" content="320"> 
+  <meta http-equiv="cleartype" content="on"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+  <style>
+     img {
+        max-width: 100% !important;
+      }
+      .article {
+        float: none;
+      }
+
+      li{
+        list-style: none;
+        font-size: 17px;
+        text-align: justify;
+        line-height: 20px;
+
+      }
+  </style>
+    <style>
+        *{margin:0;-webkit-tap-highlight-color:transparent !important}.aplayer-con{position:fixed;top:0;background:#fefefe;width:100%;z-index:999;border-top:1px solid #ddd}.aplayer{margin:0 !important}.article .title{font-size:24px !important}.aplayer .aplayer-icon.aplayer-icon-mode{display:none}.no-text{text-align:center;color:#999;margin-top:100px}.weui-tab{height:54px !important}.ycolor{color:#ffa42f}
+    </style>
+
+  <div class="container" style="padding: 8px;">
+
+
+ <!doctype html>
+<html lang="en" data-dpr="1" style="font-size: 34px;">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta content="yes" name="apple-mobile-web-app-capable"> 
+  <meta content="yes" name="apple-touch-fullscreen"> 
+  <meta content="telephone=no,email=no" name="format-detection"> 
+  <meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"> 
+  <title>06丨风险度量：怎样真正地理解风险和亏损？</title> 
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> 
+  <script type="text/javascript" id="viewport">
+        /* eslint-disable */
+        var APPVersion=0;!function(J,I){function H(){var a=E.getBoundingClientRect().width;if(J.navigator.appVersion.match(/iphone/gi)&&a<500){a=a*B}a/B>540&&(a=540*B);var d=a/10;E.style.fontSize=d+"px",z.rem=J.rem=d}var G,F=J.document,E=F.documentElement,D=F.querySelector('meta[name="viewport"]'),C=F.querySelector('meta[name="flexible"]'),B=0,A=0,z=I.flexible||(I.flexible={});if(D){console.warn("将根据已有的meta标签来设置缩放比例");var y=D.getAttribute("content").match(/initial\-scale=([\d\.]+)/);y&&(A=parseFloat(y[1]),B=parseInt(1/A))}else{if(C){var x=C.getAttribute("content");if(x){var w=x.match(/initial\-dpr=([\d\.]+)/),v=x.match(/maximum\-dpr=([\d\.]+)/);w&&(B=parseFloat(w[1]),A=parseFloat((1/B).toFixed(2))),v&&(B=parseFloat(v[1]),A=parseFloat((1/B).toFixed(2)))}}}if(!B&&!A){var u=(J.navigator.appVersion.match(/android/gi),J.navigator.appVersion.match(/iphone/gi)),t=J.devicePixelRatio;B=u?t>=3&&(!B||B>=3)?3:t>=2&&(!B||B>=2)?2:1:1,A=1/B}if(E.setAttribute("data-dpr",B),!D){if(D=F.createElement("meta"),D.setAttribute("name","viewport"),D.setAttribute("content","initial-scale="+A+", maximum-scale="+A+", minimum-scale="+A+", user-scalable=no"),E.firstElementChild){E.firstElementChild.appendChild(D)}else{var s=F.createElement("div");s.appendChild(D),F.write(s.innerHTML)}}J.addEventListener("resize",function(){clearTimeout(G),G=setTimeout(H,300)},!1),J.addEventListener("pageshow",function(b){b.persisted&&(clearTimeout(G),G=setTimeout(H,300))},!1),"complete"===F.readyState?F.body.style.fontSize=12*B+"px":F.addEventListener("DOMContentLoaded",function(){F.body.style.fontSize=12*B+"px"},!1),H(),z.dpr=J.dpr=B,z.refreshRem=H,z.rem2px=function(d){var c=parseFloat(d)*this.rem;return"string"==typeof d&&d.match(/rem$/)&&(c+="px"),c},z.px2rem=function(d){var c=parseFloat(d)/this.rem;return"string"==typeof d&&d.match(/px$/)&&(c+="rem"),c}}(window,window.lib||(window.lib={}));
+    </script> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-iget-rush-node/dist/css/course.513f06c0faf6793849ce8f64a0627f0d.css"> 
+  <link rel="stylesheet" href="https://staticcdn.igetget.com/docker/fe-editor/dist/preview.20aa73124b557d5b072d.css"> 
+ </head> 
+ <body style="font-size: 14px;"> 
+  <img style="max-width: 100%" src="https://piccdn.igetget.com/img/201905/08/201905081503105135562889.jpg" alt="">
+  <div class="preview"> 
+   <main id="article-main" data-type="22"> 
+    <article class="article" id="preview-article"> 
+     <h1 class="title name-slFosOL50ZH3FiY08C0iemh10biJsJ102Np3xhSoYKeQEt0uOIABk5WrZbt8KMZa">06丨风险度量：怎样真正地理解风险和亏损？</h1> 
+     <div class="author"> 
+      <img data-type="author" src="https://piccdn.igetget.com/img/201905/04/201905041742266424568661.jpg"> 
+      <p>张潇雨</p> 
+      <span class="time">2019-05-09</span> 
+     </div> 
+     <div class="line"></div> 
+     <div class="article-body"> 
+                <div id="1556543749421" class="player-v2"> 
+       <div class="player-wrap"> 
+        <button class="i-playing"></button> 
+        <div class="progress-group"> 
+         <div class="audio-title">
+           06丨风险度量：怎样真正地理解风险和亏损？ 
+         </div> 
+         <input id="range25936" type="range" min="0" max="100" value="0" data-current="0:00" data-max="13:07" data-total="787"> 
+        </div> 
+        <audio id="player25936" title="block.audio.title" src="http://igetoss.cdn.igetget.com/mp3/201905/08/201905081504018668125074.mp3" preload="" cover="06丨风险度量：怎样真正地理解风险和亏损？" cover-img="06丨风险度量：怎样真正地理解风险和亏损？"></audio> 
+       </div> 
+       <div class="player-tips">
+         张潇雨亲述 
+       </div> 
+      </div>
+          <div class="text">
+       <p><p>你好，欢迎来到《张潇雨·个人投资课》。</p><p>在2018年，有一件事情给我们留下了很深的印象，就是P2P 理财的全面倒塌。很多人把自己毕生的积蓄都投入到了 P2P 产品里，最后落得了一个血本无归的结局，非常令人惋惜。</p><p>对于这件事，不知道你有没有想过：当初这些投资者为什么会去买 P2P 呢？</p><p>关于这个问题我问过很多人，典型的答案有这么几个：</p><p>“银行理财收益太低，又不懂别的投资渠道，P2P 买起来很方便，于是就买了。”</p><p>“我的亲戚或者朋友买了很多，好像没事，推荐给我，于是就也买了。”</p><p>有一个非常经典的回答是这么说的：“很多中国的普通投资者有种奇怪的理念，做投资一方面要保本不能有风险，另一方面又要高利息回报，并且短期还得见到钱——这几个一相加，正好是 P2P 所体现的样子。”</p><p>确实，这些说法都没错，在 P2P 这件事上，我们可以看到社会的问题、人性的弱点等等。但是这里面，有一个我认为最本质的问题，很多人没有看到，就是<b>我们并没有理解什么是风险</b>。</p><p> </p><p>也正是因为对风险缺乏准确的认识，我们才会糊里糊涂地把钱亏掉。这一讲，我们就来说说这个问题。</p></p>
+      </div>
+                <div class="text">
+       <p><p>我相信“风险”这个词，订阅了这门课的同学没有没听说过的。但你有没有发现，你好像很难准确给“风险”下一个定义。</p><p>比如我们一说“收益”，大家都能达成共识，就是投资之后挣到的利润，没有什么歧义。但是一说“风险”，每个人的想法可能都有所不同——</p><p>有的人觉得，风险是亏损概率的高低；有的人觉得是资产价格波动范围的大小；有些人指的是“黑天鹅事件发生的可能性”。</p><p>这些说法好像都有道理，但又都有点不一样。</p><p>这种概念上的模糊性会导致什么结果呢？结果就是，<font color="#e8731f">风险很难被度量</font>。</p><p>还是同样的例子：对于“收益”这个东西，我们可以非常清晰地量化。比如一年收益是3%，还是10%，还是50%，可以算得清清楚楚；但你说，风险是10%、30%，好像没有这个说法。</p><p>甚至你再往前想一步，会觉得更加困惑。如果你说：这个投资产品风险有点高啊，估计80%得亏钱。这个“80%”是什么意思呢？是说这个产品如果投资10次会有8次失败？还是说这个产品卖出10份得有8个人亏损？还是历史上类似的项目10个里面有8个都倒闭了？好像都不是。</p><p>另外，这个“亏钱”是亏多少？是20%，还是一半，还是都亏没？<span style="font-size: 16px;">好像这些都很难说清楚。</span></p><p> </p><p>回到开头那个问题，为什么很多人会买 P2P呢 ？一个核心原因就是，虽然各种人、各种平台都会提示 P2P 是高风险的、是风险等级高的，但是由于我们脑子里对风险的定义模糊，又没法精确地量化它，所以我们也意识不到它的问题，总觉得风险是有，但是好像也没事儿，应该不会发生在我身上。</p></p>
+      </div>
+                <div class="text">
+       <p><p>你不要以为只有业余投资者这么想，由于风险这个东西看不见、摸不着、难以感知，连最顶级的学者和专业人士也会在这上面吃亏。</p><p>最好的例子，就是长期资本管理公司破产的故事。这家公司成立于1994年，创始人是华尔街一代枭雄约翰·梅利韦瑟（John Meriwether），曾经是投资银行所罗门兄弟的领军人物。</p><p>他在成立这个基金的时候，作了一个野心非常大的决定，就是要把“风险”这个难以捉摸的东西测量出来，然后在最合理和安全的范围内投资，这样一定稳赚不亏。</p><p>梅利韦瑟知道想要做到这件事，一定要网罗世界上最聪明的脑袋。所以他找来了两位金融学泰斗级的人物罗伯特·默顿（Robert Merton）和梅隆·肖尔斯（Myron Scholes）。这两个人不但是诺贝尔经济学奖的获得者，更是现代金融学的奠基人。</p><p>除了这两位，团队里还有美联储前副主席，无数顶级学府的教授、博士，等等等等。当时《财富》杂志评论说：长期资本管理公司拥有全世界最高的智商密度，简直不是在做基金，而是搞智力军备竞赛。</p><p>有这样的天才阵容，长期资本管理公司一上来募资，就达到了12.5亿美元的规模，是全世界有史以来最大的对冲基金。</p><p>当时，基金核心的策略就是用数学的方法来预测和度量风险。比如长期资本就是最先引入了如今在业界主流的风险测量指标VaR，还进行各种所谓的“压力测试”来测试极端情况下基金的表现，比如东京十级地震，或者美国股市一天暴跌30%等等。</p><p>当时他们的算法之严谨和先进，让《经济学人》杂志称赞说：长期资本终于将风险控制从拍脑袋发展成了一门科学。</p><p>那么这种靠量化风险进行套利的投资策略表现怎么样呢？一开始相当不错。这么说吧，长期资本前10个月里就赚了20%；1995年赚了43%；1996年的回报是41%。而且更关键的是，他们不但业绩好，基金波动也很小——当时他们亏损最高的一个月也只亏了2.9%。可见他们的数学公式真的挺管用的。</p><p>但市场从来不是完美的数学模型。</p><p>1998年8月17日，俄罗斯总理公开宣布卢布贬值。与此同时，他还宣布了另外一件所有人都无法想象的事情：暂停国债市场交易，并且不再支付国债利息。换句话说就是欠的钱不打算还了。</p><p>当时的长期资本有大量卢布和美元互换的产品，而且为了放大回报，还有几十倍的杠杆。消息一出基金立刻暴跌，仅仅一个礼拜之后，长期资本从最成功的对冲基金走到了破产边缘。</p><p>据他们自己的测算，这种事情的发生，在统计学上叫做“六到七个西格玛之外的事件”——也就是这种事想要发生，整个宇宙的寿命都不够用。但它就是这么实实在在地发生了。</p><p> </p><p>所以后来著名的投资者巴菲特和霍华德·马克斯都说过：</p><p>用数学的方式计算风险是很荒谬的，学者们这么做主要是因为他们需要一个可计算的、客观的、能够查明来龙去脉的数字。否则研究就没法做了。</p></p>
+      </div>
+                <div class="text">
+       <p><p>所以通过长期资本管理公司的失败，我们能学到什么呢？</p><p>其实你看，我们人类面对任何一个自己看不见摸不着，又对自己生活有很大影响的东西的时候，都会试图使用各种方法来接近它、理解它、测量它。这是我们的天性。</p><p>比如对于顶级的金融专家和数学家来说，他们就用复杂的数学模型来感知和衡量风险，而对于普通人来说，我们会干什么呢？我们会用各种周边和侧面的信息来评估它——</p><p><ul><li>比如我们会看，谁在给这个东西背书。就像某个 P2P 平台是不是国企运营的，是不是拿了著名机构的投资，甚至是不是有明星代言？</li><li>还比如这个东西的声势有多大，就像有没有街边广告，是不是有知名媒体的报道，老板是不是上过杂志封面？</li><li>甚至，周边的人是不是推荐？就像亲戚也买了这个 P2P，老同学赚钱了我也想赚，金融行业的朋友买了，所以肯定没问题，等等等等。</li></ul></p><p> </p><p>但事实证明，所有这些方法，<b>不管是完美的数学公式，还是我们获取的这些周边信息，都不能作为我们评估风险的依据。</b>一旦你仅仅靠这些信息去作投资决策的话，离血本无归就不远了。</p></p>
+      </div>
+                <div class="text">
+       <p><p>说到这里，最重要的问题来了：<b>风险如此不可捉摸，我们应该怎么做呢？</b></p><p>答案也很简单：<font color="#e8731f">作为普通投资者，我们不要去想象风险的概念，而是直接去衡量风险的结果。</font>说白了就是，我们少去想到底会不会亏钱，多去想，如果亏损就是真实地发生了，我们应该怎么办。</p><p>换个角度说，我们在买入任何金融产品之前都可以问自己这么一个问题：</p><p><b>如果接下来它的价格跌了一半，我能理解到底发生了什么情况么？我有应对的方法么？如果回答不了这个问题，那这笔投资最好就不要做了。</b></p><p>举个例子。比如现在我可能想买中国的沪深300指数基金，那么在买入之前我就要回答两个问题：第一，如果它之后下跌50%，可能是什么情况导致的？第二是如果真的下跌50%，我应该怎么办？也许美国股市跌了一半之后我应该再多买一点儿，这也是一种应对方式。但只有我们能搞清楚这两个问题，才算是真正衡量了风险的结果。</p><p> <p></p></p><p>有些同学可能好奇为什么是跌了一半，不是40%或者60%之类的数字。这里的“一半”，当然不是一个精确的说法，而是一个经验性的数字。</p><p>因为如果你去观察整个投资历史就会发现，某种资产在一定的时间内，没什么理由就跌掉40%、50%，是非常正常的，很常见。不管是股票、公司债券、房地产，还是各种理财产品、P2P……都屡见不鲜。</p><p>所以这种事发生到我们头上也非常正常。那么最重要的，就是不要抱侥幸心理，认为风险不会发生，而是在事前就做好最坏结果的打算。</p></p>
+      </div>
+                
+      <figure>
+       <img src="https://piccdn.igetget.com/img/201905/08/201905081528142019689562.jpg">
+      </figure>
+                
+      <figure>
+       <img src="https://piccdn.igetget.com/img/201905/08/201905081517519018891767.jpg">
+      </figure>
+        
+     </div> 
+    </article> 
+   </main> 
+  </div>  
+ </body>
+</html>
+
+</div>
+<p style="color: #b1b1b1;text-align: center;"></p>
+
+
+
+<!-- <div style="height: 80px;"></div> -->
+
+
+<style>
+    .weui-tab {
+        height: 54px !important;
+    }
+    .ycolor {
+        color: #ffa42f;
+    }
+</style>
+
+
+
+
+
+
+     <script type="text/javascript">
+        $('body').watermark({
+            texts : ["普罗米修斯用户：zuiputi", ], //水印文字
+            textColor : "#F5F5F5", //文字颜色
+            textFont : '25px 微软雅黑', //字体
+            width : 500, //水印文字的水平间距
+            height : 500,  //水印文字的高度间距（低于文字高度会被替代）
+            textRotate : -30 //-90到0， 负数值，不包含-90
+        })
+     </script>
+<script type="text/javascript" src="http://list-1252895662.coscd.myqcloud.com/CSS/main.js"></script>
+</head>
+</html>
