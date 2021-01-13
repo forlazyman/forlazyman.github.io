@@ -135,8 +135,7 @@
 [30-自我突破：怎么收放自如地找到管理的节奏？.html](https://forlazyman.github.io/汤君健-给中层的管理课30讲/31.30-自我突破：怎么收放自如地找到管理的节奏？.html)
 
 
-
-Process finished with exit code 0
+## [返回分类目录](#分类目录)
 
 
 ***
